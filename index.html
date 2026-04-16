@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MAXIMUM | Tecnología Automotriz de Clase Mundial</title>
+  <meta name="description" content="MAXIMUM: Especialistas en refrigerantes, grasas, productos de taller y carcare automotriz con tecnología de vanguardia.">
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header id="main-header">
+    <div class="container header-container">
+      <div class="logo">
+        <!-- Text fallback since we don't know if the SVG exists directly, will update if we have one -->
+        <a href="#hero">
+          <span class="logo-text">MAXI<span class="text-red">MUM</span></span>
+        </a>
+      </div>
+      
+      <nav class="desktop-nav">
+        <ul>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#categorias">Categorías</a></li>
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="#distribuidores">Distribuidores</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <!-- We use the target _blank for file download logic later -->
+        <a href="#catalogo-descarga" class="btn btn-primary"><i class="fa-solid fa-download"></i> Catálogo</a>
+        <button class="mobile-menu-btn" id="mobile-menu-btn"><i class="fa-solid fa-bars"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-menu-overlay" id="mobile-menu-overlay">
+    <nav class="mobile-nav">
+      <button class="close-menu-btn" id="close-menu-btn"><i class="fa-solid fa-xmark"></i></button>
+      <ul>
+        <li><a href="#nosotros" class="mobile-link">Nosotros</a></li>
+        <li><a href="#categorias" class="mobile-link">Categorías</a></li>
+        <li><a href="#productos" class="mobile-link">Productos</a></li>
+        <li><a href="#distribuidores" class="mobile-link">Distribuidores</a></li>
+        <li><a href="#contacto" class="mobile-link">Contacto</a></li>
+      </ul>
+      <a href="#catalogo-descarga" class="btn btn-primary mobile-link mt-4"><i class="fa-solid fa-download"></i> Catálogo 2025</a>
+    </nav>
+  </div>
+
+  <!-- ================= HERO SECTION ================= -->
+  <section id="hero" class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <h1 class="hero-title">POTENCIA Y RENDIMIENTO EN CADA GOTA</h1>
+      <p class="hero-subtitle">Soluciones de alta tecnología para el cuidado automotriz e industrial. Rendimiento comprobado en las condiciones más extremas.</p>
+      <div class="hero-buttons">
+        <a href="#productos" class="btn btn-primary btn-large">Ver Líneas de Producto</a>
+        <a href="#nosotros" class="btn btn-outline btn-large">Conocer Más</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= QUIÉNES SOMOS ================= -->
+  <section id="nosotros" class="about-section pt-100 pb-100">
+    <div class="container section-grid-2">
+      <div class="about-text">
+        <h3 class="section-badge">La Marca</h3>
+        <h2 class="section-title">Tecnología de última generación para tu motor</h2>
+        <div class="title-divider"></div>
+        <p>En <strong>MAXIMUM</strong>, desarrollamos y distribuimos insumos automotrices e industriales bajo los más estrictos estándares de calidad. Nuestro portafolio está diseñado para brindar mayor durabilidad, protección y máxima eficiencia en vehículos y maquinaria de alta exigencia.</p>
+        <p>Nos enorgullece ser la elección de talleres y conductores que buscan una marca sólida, confiable y que respalde su inversión.</p>
+        
+        <ul class="about-features">
+          <li><i class="fa-solid fa-check-circle text-red"></i> Insumos testeados en alta exigencia.</li>
+          <li><i class="fa-solid fa-check-circle text-red"></i> Larga duración y protección del motor.</li>
+          <li><i class="fa-solid fa-check-circle text-red"></i> Variedad de presentaciones comerciales.</li>
+        </ul>
+      </div>
+      <div class="about-image">
+        <!-- We will use a placeholder from extracted products that looks general or just a grid setup -->
+        <div class="about-img-box">
+          <img src="assets/products/p0_i0.jpeg" alt="Tecnología Automotriz Maximum" id="about-img-1" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CATEGORÍAS ================= -->
+  <section id="categorias" class="categories-section bg-gray pt-100 pb-100">
+    <div class="container">
+      <div class="text-center mb-50">
+        <h3 class="section-badge">Nuestras Líneas</h3>
+        <h2 class="section-title">Soluciones Completas MAXIMUM</h2>
+      </div>
+      
+      <div class="category-grid">
+        <!-- Cat 1 -->
+        <a href="#productos-refrigerantes" class="category-card">
+          <div class="cat-img-wrapper">
+             <img src="assets/products/p1_i3.jpeg" alt="Refrigerantes Maximum" loading="lazy">
+          </div>
+          <div class="cat-content">
+            <h3>Refrigerantes</h3>
+            <p>Concentraciones y composiciones exactas para proteger su radiador en cualquier condición climática.</p>
+            <span class="cat-link">Ver línea <i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+        </a>
+        
+        <!-- Cat 2 -->
+        <a href="#productos-grasas" class="category-card">
+          <div class="cat-img-wrapper">
+             <img src="assets/products/p8_i0.jpeg" alt="Grasas Maximum" loading="lazy">
+          </div>
+          <div class="cat-content">
+            <h3>Grasas y Lubricantes</h3>
+            <p>Fórmulas de litio y alta temperatura (EP2) para equipos pesados y extrema fricción.</p>
+            <span class="cat-link">Ver línea <i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+        </a>
+
+        <!-- Cat 3 -->
+        <a href="#productos-taller" class="category-card">
+          <div class="cat-img-wrapper">
+             <img src="assets/products/p9_i0.jpeg" alt="Productos para Taller" loading="lazy">
+          </div>
+          <div class="cat-content">
+            <h3>Línea Taller</h3>
+            <p>Productos técnicos químicos: limpia inyectores, frenos, siliconas herméticas y más, para mantenimiento profesional.</p>
+            <span class="cat-link">Ver línea <i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+        </a>
+
+        <!-- Cat 4 -->
+        <a href="#productos-carcare" class="category-card">
+          <div class="cat-img-wrapper">
+             <img src="assets/products/p10_i0.jpeg" alt="Carcare Maximum" loading="lazy">
+          </div>
+          <div class="cat-content">
+            <h3>Carcare (Estética)</h3>
+            <p>Cuidado exterior e interior Premium: siliconas, shampoos high efficiency, antiempañantes y limpieza profunda.</p>
+            <span class="cat-link">Ver línea <i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PRODUCTOS DESTACADOS ================= -->
+  <section id="productos" class="products-section pt-100 pb-100">
+    <div class="container">
+      <div class="section-header space-between mb-50">
+        <div>
+          <h3 class="section-badge">Catálogo Exclusivo</h3>
+          <h2 class="section-title">Productos Destacados</h2>
+        </div>
+        <div class="product-filters">
+          <button class="filter-btn active" data-filter="all">Todos</button>
+          <button class="filter-btn" data-filter="refrigerantes">Refrigerantes</button>
+          <button class="filter-btn" data-filter="grasas">Grasas</button>
+          <button class="filter-btn" data-filter="taller">Taller</button>
+          <button class="filter-btn" data-filter="carcare">Carcare</button>
+        </div>
+      </div>
+
+      <div class="products-grid">
+        <!-- Item 1: Refrigerante -->
+        <div class="product-card" data-category="refrigerantes">
+          <div class="product-tag highlight">NUEVO</div>
+          <div class="product-img">
+            <img src="assets/products/p1_i3.jpeg" alt="Verde Reflex 50%" loading="lazy">
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Refrigerantes</span>
+            <h4 class="product-name">Verde Reflex 50%</h4>
+            <p class="product-size">Presentaciones: 1/4 Gal - 1 Gal - 5 Gal</p>
+          </div>
+        </div>
+
+        <!-- Item 2: Refrigerante -->
+        <div class="product-card" data-category="refrigerantes">
+          <div class="product-img">
+            <img src="assets/products/p3_i0.jpeg" alt="Motor Cool Diésel 55%" loading="lazy">
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Refrigerantes</span>
+            <h4 class="product-name">Motor Cool Diésel 55%</h4>
+            <p class="product-size">Presentaciones: 1 Gal - 5 Gal</p>
+          </div>
+        </div>
+
+        <!-- Item 3: Grasa -->
+        <div class="product-card" data-category="grasas">
+          <div class="product-tag">H3 260°C</div>
+          <div class="product-img">
+            <img src="assets/products/p8_i0.jpeg" alt="Grasa Lithium Alta Temp" loading="lazy">
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Grasas</span>
+            <h4 class="product-name">Grasa Lithium Alta Temperatura</h4>
+            <p class="product-size">Resistencia térmica Extrema.</p>
+          </div>
+        </div>
+
+        <!-- Item 4: Grasa -->
+        <div class="product-card" data-category="grasas">
+          <div class="product-tag">EP2</div>
+          <div class="product-img">
+            <img src="assets/products/p8_i3.jpeg" alt="Grasa Multiproposito EP2" loading="lazy">
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Grasas</span>
+            <h4 class="product-name">Grasa de Lithium Multipropósito</h4>
+            <p class="product-size">Grafito y Molibdeno / 200°C</p>
+          </div>
+        </div>
+
+        <!-- Item 5: Taller -->
+        <div class="product-card" data-category="taller">
+          <div class="product-img">
+            <img src="assets/products/p9_i0.jpeg" alt="Injector Cleaner" loading="lazy">
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Línea Taller</span>
+            <h4 class="product-name">Injector Cleaner Gasolina</h4>
+            <p class="product-size">Presentación: 354 ML</p>
+          </div>
+        </div>
+
+        <!-- Item 6: Taller -->
+        <div class="product-card" data-category="taller">
+          <div class="product-tag premium">PREMIUM</div>
+          <div class="product-img">
+            <img src="assets/products/p9_i13.jpeg" alt="Brake Cleaner" loading="lazy">
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Línea Taller</span>
+            <h4 class="product-name">Brake Cleaner</h4>
+            <p class="product-size">Limpiador para Sistema de Frenos 500 ML</p>
+          </div>
+        </div>
+
+        <!-- Item 7: Carcare -->
+        <div class="product-card" data-category="carcare">
+          <div class="product-img">
+            <img src="assets/products/p10_i0.jpeg" alt="Antifog" loading="lazy">
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Carcare</span>
+            <h4 class="product-name">Antifog Antiempañante</h4>
+            <p class="product-size">Presentación: 120 ML</p>
+          </div>
+        </div>
+
+        <!-- Item 8: Carcare -->
+        <div class="product-card" data-category="carcare">
+          <div class="product-img">
+            <img src="assets/products/p10_i10.jpeg" alt="Shampoo High Efficency" loading="lazy">
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Carcare</span>
+            <h4 class="product-name">Shampoo Brillo High Efficiency</h4>
+            <p class="product-size">Presentación: 1 Litro</p>
+          </div>
+        </div>
+
+      </div>
+      
+      <div class="text-center mt-50">
+        <a href="#catalogo-descarga" class="btn btn-outline text-bold"><i class="fa-solid fa-book-open"></i> Ver Catálogo Completo</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PROPUESTA DE VALOR ================= -->
+  <section id="valor" class="features-section bg-dark text-white pt-100 pb-100">
+    <div class="container">
+      <div class="text-center mb-50">
+        <h2 class="section-title text-white">¿Por qué MAXIMUM?</h2>
+        <div class="title-divider center-div"></div>
+        <p class="text-gray-light">Soluciones de alto rendimiento enfocadas en la rentabilidad y calidad operacional.</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-box">
+          <div class="icon-box"><i class="fa-solid fa-microchip"></i></div>
+          <h4 class="feature-title">Tecnología de Vanguardia</h4>
+          <p>Nuestras formulaciones avanzadas aseguran compatibilidad con motores de última generación (gasolina y diésel).</p>
+        </div>
+        <div class="feature-box">
+          <div class="icon-box"><i class="fa-solid fa-layer-group"></i></div>
+          <h4 class="feature-title">Variedad de Soluciones</h4>
+          <p>Un extenso portafolio que cubre todas las necesidades de taller, desde limpieza de contactos hasta grasas EP2.</p>
+        </div>
+        <div class="feature-box">
+          <div class="icon-box"><i class="fa-solid fa-shield-halved"></i></div>
+          <h4 class="feature-title">Protección Prolongada</h4>
+          <p>Aditivos anti-fricción y anticorrosión que incrementan dramáticamente la vida útil del radiador y el motor.</p>
+        </div>
+        <div class="feature-box">
+          <div class="icon-box"><i class="fa-solid fa-handshake-angle"></i></div>
+          <h4 class="feature-title">Respaldo Comercial</h4>
+          <p>Soporte directo a clientes corporativos y de distribución. Inventario estable y acompañamiento de servicio.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SECCIÓN COMERCIAL / CTA ================= -->
+  <section id="distribuidores" class="cta-banner pt-80 pb-80">
+    <div class="container text-center">
+      <h2>¿Buscas ser Distribuidor MAXIMUM?</h2>
+      <p>Únete a nuestra amplia red de centros de servicio técnico, lubricentros y talleres. Gran margen de rentabilidad y calidad garantizada.</p>
+      <div class="cta-buttons mt-30">
+        <a href="#contacto" class="btn btn-primary btn-large">Solicitar Información Comercial</a>
+        <a href="#" class="btn btn-dark btn-large"><i class="fa-brands fa-whatsapp"></i> Chat Directo</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= DESCARGA DE CATÁLOGO ================= -->
+  <section id="catalogo-descarga" class="download-section pt-100 pb-100 bg-gray">
+    <div class="container section-grid-2">
+      <div class="download-img-wrapper">
+         <!-- Image representing PDF cover or catalog -->
+         <img src="assets/products/p0_i1.jpeg" alt="Catálogo General MAXIMUM 2025" loading="lazy" class="shadow-lg">
+      </div>
+      <div class="download-content">
+        <h3 class="section-badge">Recurso Oficial</h3>
+        <h2 class="section-title">Catálogo Completo 2025</h2>
+        <p>Acceda a toda la gama técnica de fluidos, sprays de mantenimiento, sistema de refrigeración y embellecimiento automotriz con todos los detalles de presentación e instrucciones.</p>
+        
+        <ul class="catalog-features">
+          <li>✓ Más de 100 SKUs automotrices</li>
+          <li>✓ Fichas descriptivas y especificaciones GHS</li>
+          <li>✓ Códigos de presentación y características</li>
+        </ul>
+
+        <a href="CATALOGO MAXIMUM 2025 - RESUMIDO222.pdf" target="_blank" class="btn btn-primary btn-large mt-30">
+          <i class="fa-solid fa-file-pdf"></i> Descargar Catálogo PDF
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACTO ================= -->
+  <section id="contacto" class="contact-section pt-100 pb-100">
+    <div class="container section-grid-2">
+      <div class="contact-info">
+        <h3 class="section-badge">Atención al Cliente</h3>
+        <h2 class="section-title">Comunícate con Nosotros</h2>
+        <p>Nuestro equipo de asesores técnicos y comerciales está listo para ofrecerte soluciones personalizadas para tu flota o negocio automotriz.</p>
+        
+        <div class="contact-methods mt-30">
+          <div class="method-item">
+            <i class="fa-solid fa-map-location-dot"></i>
+            <div>
+              <h5>Sede Central</h5>
+              <p>Av. Industrial #123, Zona Comercial</p>
+            </div>
+          </div>
+          <div class="method-item">
+            <i class="fa-brands fa-whatsapp text-red"></i>
+            <div>
+              <h5>Ventas y Distribución</h5>
+              <p>+51 900 000 000</p>
+            </div>
+          </div>
+          <div class="method-item">
+            <i class="fa-solid fa-envelope"></i>
+            <div>
+              <h5>Correo Corporativo</h5>
+              <p>ventas@maximum.com.pe</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form-wrapper">
+        <form id="contactForm" class="contact-form">
+          <div class="form-group row">
+            <div class="col-6">
+              <label>Nombre Completo</label>
+              <input type="text" placeholder="Ej: Juan Pérez" required>
+            </div>
+            <div class="col-6">
+              <label>Empresa / Taller</label>
+              <input type="text" placeholder="Ej: AutoMotors SAC">
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="col-6">
+              <label>Teléfono</label>
+              <input type="tel" placeholder="+51">
+            </div>
+            <div class="col-6">
+              <label>Correo Electrónico</label>
+              <input type="email" placeholder="correo@empresa.com" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Asunto / Interés</label>
+            <select>
+              <option value="distribucion">Quiero ser distribuidor</option>
+              <option value="mayorista">Compras al por mayor</option>
+              <option value="informacion">Información técnica de producto</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Mensaje Adicional</label>
+            <textarea rows="4" placeholder="Cuentanos tus requerimientos específicos..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Enviar Solicitud</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="main-footer pt-80">
+    <div class="container footer-grid">
+      <div class="footer-col brand-col">
+        <div class="footer-logo">
+          <span class="logo-text text-white">MAXI<span class="text-red">MUM</span></span>
+        </div>
+        <p class="footer-desc mt-20">El estándar en cuidado automotriz, lubricantes y mantenimiento corporativo.</p>
+        <div class="social-links mt-20">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      
+      <div class="footer-col">
+        <h4>Productos</h4>
+        <ul>
+          <li><a href="#productos-refrigerantes">Refrigerantes</a></li>
+          <li><a href="#productos-grasas">Grasas de Litio</a></li>
+          <li><a href="#productos-taller">Línea Taller Químicos</a></li>
+          <li><a href="#productos-carcare">Soluciones Carcare</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Empresa</h4>
+        <ul>
+          <li><a href="#nosotros">Nuestra Historia</a></li>
+          <li><a href="#distribuidores">Red de Distribuidores</a></li>
+          <li><a href="#catalogo-descarga">Catálogo 2025</a></li>
+          <li><a href="#">Términos y Condiciones</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Boletín Técnico</h4>
+        <p>Regístrate para recibir novedades y fichas técnicas actualizadas.</p>
+        <div class="newsletter-form mt-10">
+          <input type="email" placeholder="Tu Email">
+          <button type="button" class="btn btn-primary"><i class="fa-solid fa-paper-plane"></i></button>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom mt-50">
+      <div class="container">
+        <p>&copy; 2025 MAXIMUM. Todos los derechos reservados. Desarrollado con excelencia.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
