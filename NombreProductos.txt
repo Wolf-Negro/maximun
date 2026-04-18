@@ -1,0 +1,356 @@
+1)
+Nombre original: Motor Cool 60%
+ Nombre para la web: Refrigerante Motor Cool 60% para GNV/GLP
+2)
+Nombre original: Motor Cool HD Heavy Duty Vehículos Europeos
+ Nombre para la web: Refrigerante Motor Cool HD 55% para Vehículos Europeos
+3)
+Nombre original: Antifreeze & Coolant 50%
+ Nombre para la web: Refrigerante Antifreeze & Coolant 50% para Vehículos Asiáticos
+4)
+Nombre original: Trion
+ Nombre para la web: Silicona Premium Trion 343°C
+5)
+Nombre original: Agua Químicamente Pura
+ Nombre para la web: Agua Químicamente Pura Desionizada
+6)
+Nombre original: Grasa de Cadena Multipropósito
+ Nombre para la web: Grasa de Cadena Multipropósito con Lithium Grease
+7)
+Nombre original: Gralimax Complejo de Litio
+ Nombre para la web: Grasa Gralimax Complejo de Litio NLGI 3 EP3
+8)
+Nombre original: Xtrem 5.0
+ Nombre para la web: Refrigerante Xtrem 5.0 para Motos
+9)
+Nombre original: Stop Frenomax DOT4
+ Nombre para la web: Líquido para Frenos Frenomax DOT 4
+10)
+Nombre original: Ultra Black / Grey Force
+ Nombre para la web: Silicona para Empaquetadura Ultra Black / Grey Force
+11)
+Nombre original: Antifreeze & Coolant 33%
+ Nombre para la web: Refrigerante Antifreeze & Coolant 33% Verde
+12)
+Nombre original: Gralimax Grasa de Lithium EP2
+ Nombre para la web: Grasa Gralimax de Litio Multipropósito 200°C
+13)
+Nombre original: Estado Zero
+ Nombre para la web: Limpia Contactos Electrónicos Estado Zero
+14)
+Nombre original: Antifreeze & Coolant 33%
+ Nombre para la web: Refrigerante Antifreeze & Coolant 33% Rojo
+15)
+Nombre original: Gralimax Grasa de Lithium Multipropósito
+ Nombre para la web: Grasa Gralimax de Litio Multipropósito 200°C
+16)
+Nombre original: Carbuchock Cleaner
+ Nombre para la web: Limpiador de Carburador Carbuchock Cleaner
+17)
+Nombre original: Refrigerante para Radiador Ice Blue
+ Nombre para la web: Refrigerante para Radiador Ice Blue para Motos
+18)
+Nombre original: Nano Coating
+ Nombre para la web: Nano Coating Protección Total
+19)
+Nombre original: Stop DOT4 Ultra
+ Nombre para la web: Líquido de Frenos Stop DOT 4 Ultra
+20)
+Nombre original: Motor HD Cool Heavy Duty Diésel
+ Nombre para la web: Refrigerante Motor Cool HD Diésel 55%
+
+21)
+Nombre original: Shampoo High Eficiency
+ Nombre para la web: Shampoo para Auto High Eficiency 1 Lt
+22)
+Nombre original: Motor Cool GNV/GLP
+ Nombre para la web: Refrigerante Motor Cool para GNV/GLP 60%
+23)
+Nombre original: Refrigerante para Radiador Ice Blue
+ Nombre para la web: Refrigerante para Radiador Ice Blue 1 Galón
+24)
+Nombre original: Car Wax Scratch Out
+ Nombre para la web: Removedor de Rayones Car Wax Scratch Out
+25)
+Nombre original: Agua Químicamente Pura
+ Nombre para la web: Agua Químicamente Pura Desionizada y Desmineralizada
+26)
+Nombre original: Limpia Parabrisas
+ Nombre para la web: Limpia Parabrisas Concentrado 1:100
+27)
+Nombre original: Antifreeze & Coolant 50%
+ Nombre para la web: Refrigerante Antifreeze & Coolant 50% Rojo
+28)
+Nombre original: Gralimax Grasa de Lithium EP2
+ Nombre para la web: Grasa Gralimax de Litio EP2 con Molibdeno y Grafito 200°C
+29)
+Nombre original: Motor HD Cool Heavy Duty Vehículos Europeos Violet
+ Nombre para la web: Refrigerante Motor Cool HD Vehículos Europeos Violet 55%
+30)
+Nombre original: Gralimax Grasa de Lithium H3
+ Nombre para la web: Grasa Gralimax de Litio H3 200°C
+31)
+Nombre original: Potencia Estable
+ Nombre para la web: Creativo Potencia Estable Antifreeze & Coolant 50%
+32)
+Nombre original: Ice Green Taxi Fresh
+ Nombre para la web: Refrigerante para Radiador Ice Green Taxi Fresh 1 Galón
+33)
+Nombre original: Motor Cool 60%
+ Nombre para la web: Refrigerante Motor Cool 60% para GNV/GLP 1 QT
+34)
+Nombre original: Motor HD Cool Heavy Duty Vehículos Multimarca Amarillo
+ Nombre para la web: Refrigerante Motor HD Cool Heavy Duty Vehículos Multimarca Amarillo 55%
+35)
+Nombre original: Gralimax Grasa de Lithium EP2
+ Nombre para la web: Grasa Gralimax de Litio EP2 NLGI 2 Multipropósito 200°C
+36)
+Nombre original: Motor Cool 60%
+ Nombre para la web: Refrigerante Motor Cool 60% para GNV/GLP 1 Galón
+37)
+Nombre original: Gralimax Grasa de Lithium H3
+ Nombre para la web: Grasa Gralimax de Litio H3 260°C
+38)
+Nombre original: Shampoo Super Concentrado Brillo Cerámico
+ Nombre para la web: Shampoo Super Concentrado Brillo Cerámico 5 Galones
+39)
+Nombre original: Antifreeze & Coolant 33%
+ Nombre para la web: Refrigerante Antifreeze & Coolant 33% Rojo 1 Galón
+40)
+Nombre original: Ice Orange
+ Nombre para la web: Refrigerante para Radiador Ice Orange 1 Galón
+41)
+Nombre original: Speedy Klean Limpiador Magnético de Ventana
+ Nombre para la web: Limpiador Magnético de Ventana Speedy Klean
+42)
+Nombre original: Motor HD Cool Heavy Duty Vehículos Europeos Pink
+ Nombre para la web: Refrigerante Motor HD Cool Heavy Duty Vehículos Europeos Pink 55%
+43)
+Nombre original: Gralimax Grasa de Lithium H3
+ Nombre para la web: Grasa Gralimax de Litio H3 260°C
+44)
+Nombre original: Antifreeze & Coolant 50%
+ Nombre para la web: Refrigerante Antifreeze & Coolant 50% Verde 1 Galón
+45)
+Nombre original: Speedy Klean Mopa Centrífuga 360
+ Nombre para la web: Mopa Centrífuga 360 Speedy Klean
+46)
+Nombre original: Ice Dark
+ Nombre para la web: Refrigerante para Radiador Ice Dark 1 Galón
+47)
+Nombre original: Gralimax Grasa de Lithium EP2 Molibdeno Grafito
+ Nombre para la web: Grasa Gralimax de Litio EP2 con Molibdeno y Grafito 200°C
+48)
+Nombre original: Ice Violet
+ Nombre para la web: Refrigerante para Radiador Ice Violet 1 Galón
+49)
+Nombre original: Antifreeze & Coolant 50% Balde
+ Nombre para la web: Refrigerante Antifreeze & Coolant 50% Verde Balde 5 Galones
+50)
+Nombre original: Motor HD Cool Heavy Duty Vehículos Americanos Orange
+ Nombre para la web: Refrigerante Motor HD Cool Heavy Duty Vehículos Americanos Orange 55%
+51)
+Nombre original: Carbu Chock Cleaner Limpiador de Carburador
+ Nombre para la web: Limpiador de Carburador Carbu Chock Cleaner aroma a limón
+52)
+Nombre original: Antifreeze & Coolant 17%
+ Nombre para la web: Refrigerante Antifreeze & Coolant 17% Verde 1 Galón
+53)
+Nombre original: Plastic & Leather Renewer
+ Nombre para la web: Renovador de Plástico y Cuero Plastic & Leather Renewer
+54)
+Nombre original: Máxima Protección
+ Nombre para la web: Creativo Máxima Protección Antifreeze & Coolant 33%
+55)
+Nombre original: EGA964 Etilenglicol Aditivado
+ Nombre para la web: Refrigerante Concentrado EGA964 Etilenglicol Aditivado Rojo Reflex
+56)
+Nombre original: Trion Premium
+ Nombre para la web: Silicona Premium Trion 343°C
+57)
+Nombre original: Motor HD Cool Heavy Duty Vehículos Asiáticos Green
+ Nombre para la web: Refrigerante Motor HD Cool Heavy Duty Vehículos Asiáticos Green 55%
+58)
+Nombre original: Protector Total Mate
+ Nombre para la web: Protector Total Mate para interior y exterior
+59)
+Nombre original: Ice Pink
+ Nombre para la web: Refrigerante para Radiador Ice Pink 1 Galón
+60)
+Nombre original: Gralimax Grasa de Lithium EP2 NLGI2 200°C
+ Nombre para la web: Grasa Gralimax de Litio EP2 NLGI2 200°C
+61)
+Nombre original: Motor HD Cool Heavy Duty Vehículos Asiáticos Blue
+ Nombre para la web: Refrigerante Motor HD Cool Heavy Duty Vehículos Asiáticos Blue 55%
+62)
+Nombre original: Agua Químicamente Pura
+ Nombre para la web: Agua Químicamente Pura desionizada y desmineralizada 1 Galón / 5 Litros
+63)
+Nombre original: Ice Blue 5 Galones
+ Nombre para la web: Refrigerante para Radiador Ice Blue 5 Galones
+64)
+Nombre original: Agua Químicamente Pura AQP-1QG
+ Nombre para la web: Agua Químicamente Pura AQP-1QG 1 Cuarto de Galón
+65)
+Nombre original: Ice Yellow
+ Nombre para la web: Refrigerante para Radiador Ice Yellow 1 Galón
+66)
+Nombre original: Stop Líquido de Frenos DOT5.1
+ Nombre para la web: Líquido de Frenos Stop DOT5.1 Ultra 354 ml
+67)
+Nombre original: Motor HD Cool Heavy Duty Vehículos Multimarca Rojo
+ Nombre para la web: Refrigerante Motor HD Cool Heavy Duty Vehículos Multimarca Rojo 55%
+68)
+Nombre original: Motor Cool 5 Galones GLP/GNV
+ Nombre para la web: Refrigerante Motor Cool GLP/GNV 60% 5 Galones
+69)
+Nombre original: Injector Cleaner Gasolina
+ Nombre para la web: Limpiador de Inyectores Injector Cleaner Gasolina
+70)
+Nombre original: Gralimax Grasa de Lithium EP2 NLGI2 200°C
+ Nombre para la web: Grasa Gralimax de Litio EP2 NLGI2 200°C
+71)
+Nombre original: Gralimax Grasa de Lithium H3
+ Nombre para la web: Grasa Gralimax de Litio H3 260°C
+72)
+Nombre original: Gralimax Grasa de Lithium H3 Balde
+ Nombre para la web: Grasa Gralimax de Litio H3 NLGI2 260°C Balde
+73)
+Nombre original: Creativo Ice Aditivados
+ Nombre para la web: Creativo Línea Ice Aditivados Ecológicos
+74)
+Nombre original: Ice Red
+ Nombre para la web: Refrigerante para Radiador Ice Red 1 Galón
+75)
+Nombre original: Gralimax Grasa de Lithium H3 Amarillo
+ Nombre para la web: Grasa Gralimax de Litio H3 260°C
+76)
+Nombre original: Gralimax Grasa de Lithium H3 Balde Azul
+ Nombre para la web: Grasa Gralimax de Litio H3 NLGI2 260°C Balde
+77)
+Nombre original: Tambor Maximum
+ Nombre para la web: Tambor Maximum Tecnología Automotriz
+78)
+Nombre original: Motor HD Cool Heavy Duty Diesel 5 Galones
+ Nombre para la web: Refrigerante Motor HD Cool Heavy Duty Diesel 55% 5 Galones
+79)
+Nombre original: Gralimax Grasa de Lithium Multipropósito Amarillo
+ Nombre para la web: Grasa Gralimax de Litio Multipropósito 200°C
+80)
+Nombre original: Gralimax Grasa de Lithium Multipropósito Amarillo
+ Nombre para la web: Grasa Gralimax de Litio Multipropósito 200°C
+81)
+Nombre original: Gralimax Grasa de Lithium H3
+ Nombre para la web: Grasa Gralimax de Litio H3 260°C
+82)
+Nombre original: Gralimax Grasa de Lithium Multipropósito Roja
+ Nombre para la web: Grasa Gralimax de Litio Multipropósito 200°C
+83)
+Nombre original: Gralimax Grasa de Lithium Multipropósito Balde Amarillo
+ Nombre para la web: Grasa Gralimax de Litio Multipropósito EP2 NLGI2 200°C Balde
+84)
+Nombre original: Gralimax Grasa de Lithium H3 Cartucho
+ Nombre para la web: Cartucho de Grasa Gralimax de Litio H3 260°C
+85)
+Nombre original: Gralimax Grasa de Lithium Multipropósito Cartucho
+ Nombre para la web: Cartucho de Grasa Gralimax de Litio Multipropósito 200°C
+86)
+Nombre original: Creativo Vehículos Asiáticos Verde OAT
+ Nombre para la web: Creativo Refrigerante Verde OAT para Vehículos Asiáticos
+87)
+Nombre original: Agua Químicamente Pura
+ Nombre para la web: Agua Químicamente Pura Maximum 5 Litros
+88)
+Nombre original: Foam Cleaner Multipurpose
+ Nombre para la web: Espuma Limpiadora Multipropósito Foam Cleaner 600 ml
+89)
+Nombre original: Grey Force
+ Nombre para la web: Silicona para Empaquetadura Grey Force 343°C 85 gr
+90)
+Nombre original: Ultra Black
+ Nombre para la web: Silicona para Empaquetadura Ultra Black 343°C 85 gr
+91)
+Nombre original: Stop DOT4 Ultra
+ Nombre para la web: Líquido de Frenos DOT4 Ultra 230°C 354 ml
+92)
+Nombre original: Estado Zero
+ Nombre para la web: Limpiacontactos Electrónicos Estado Zero Aroma Limón
+93)
+Nombre original: Injector Cleaner Diesel Turbo Cargado
+ Nombre para la web: Limpiador de Inyectores Diesel Turbo Cargado 354 ml
+94)
+Nombre original: Kristal Clean
+ Nombre para la web: Limpia Parabrisas Kristal Clean 1 Galón
+95)
+Nombre original: Kristal Clean foto real
+ Nombre para la web: Limpia Parabrisas Kristal Clean 1 Qt
+96)
+Nombre original: Agua Químicamente Pura foto real
+ Nombre para la web: Agua Químicamente Pura Maximum 1 Qt
+97)
+Nombre original: Kristal Home
+ Nombre para la web: Limpiavidrios Kristal Home 650 ml
+98)
+Nombre original: Shampoo Brillo Cerámico
+ Nombre para la web: Shampoo Súper Concentrado Brillo Cerámico 350 ml
+99)
+Nombre original: Exhibidor de plumillas
+ Nombre para la web: Exhibidor de Plumillas Maximum para Punto de Venta
+100)
+Nombre original: Agua Químicamente Pura AQP-1QG
+ Nombre para la web: Agua Químicamente Pura AQP-1QG 1/4 de Galón
+101)
+Nombre original: Antifreeze & Coolant 1QT
+ Nombre para la web: Refrigerante Anticongelante Antifreeze & Coolant 50% 1 Qt
+102)
+Nombre original: Antifreeze & Coolant balde
+ Nombre para la web: Refrigerante Anticongelante Antifreeze & Coolant 50% 5 Galones
+103)
+Nombre original: Plumillas traseras
+ Nombre para la web: Plumillas Traseras Maximum
+104)
+Nombre original: Silicona Premium colores
+ Nombre para la web: Silicona Premium para Empaquetadura 75 g
+105)
+Nombre original: MX-40D Anti Rust Oil
+ Nombre para la web: Aceite Aflojatodo MX-40D Anti Rust Oil
+106)
+Nombre original: Motor Cool 1 galón
+ Nombre para la web: Motor Cool Refrigerante y Anticongelante 60% 1 Galón
+107)
+Nombre original: Repelente de Agua
+ Nombre para la web: Repelente de Agua para Parabrisas
+108)
+Nombre original: Tyre Shine
+ Nombre para la web: Renovador de Llantas Tyre Shine 500 ml
+110)
+Nombre original: Engine Surface Cleaner
+ Nombre para la web: Engine Surface Cleaner Desengrasante para Motor 395 ml
+111)
+Nombre original: Creativo Motor Cool 55%
+ Nombre para la web: Creativo Motor Cool 55% Aditivado para Todo Tipo de Vehículo
+112)
+Nombre original: Agua Químicamente Pura 1 galón
+ Nombre para la web: Agua Químicamente Pura AQP 1 Galón
+113)
+Nombre original: Antiempañante
+ Nombre para la web: Spray Antiempañante para Vidrios y Espejos
+114)
+Nombre original: Creativo DOT4
+ Nombre para la web: Creativo Líquido de Frenos DOT4 Ultra 230°C
+115)
+Nombre original: Agua para baterías y radiadores
+ Nombre para la web: Agua Desionizada y Desmineralizada para Baterías y Radiadores
+116)
+Nombre original: DOT3
+ Nombre para la web: Líquido de Frenos DOT3 Ultra 354 ml
+117)
+Nombre original: Brake Cleaner
+ Nombre para la web: Brake Cleaner Limpiador Profesional para Sistema de Frenos 500 ml
+118)
+Nombre original: Creativo Ultra Black y Grey Force
+ Nombre para la web: Creativo Silicona para Empaquetadura Ultra Black y Grey Force 85 g
+119)
+Nombre original: Agua Químicamente Pura batería/radiador
+ Nombre para la web: Agua Químicamente Pura para Baterías, Radiadores y Uso Industrial
+

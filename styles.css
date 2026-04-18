@@ -101,6 +101,19 @@ ul {
 .bg-dark { background-color: var(--black-base); }
 .shadow-lg { box-shadow: 0 10px 30px rgba(0,0,0,0.15); }
 
+/* Utility Classes */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 /* Buttons */
 .btn {
   display: inline-flex;
@@ -324,16 +337,156 @@ ul {
 /* ================= HERO ================= */
 .hero-section {
   position: relative;
-  height: 100vh;
-  min-height: 600px;
-  display: flex;
-  align-items: center;
-  background: url('assets/products/p0_i1.jpeg') center/cover no-repeat;
-  background-attachment: fixed;
-  padding-top: var(--nav-height);
+  padding: calc(var(--nav-height) + 40px) 0 60px 0;
+  background: linear-gradient(180deg, #111 0%, #111 50%, var(--gray-light) 50%);
+  overflow: hidden;
 }
 
-.hero-overlay {
+/* ================= CAROUSEL BASE ================= */
+/* ================= CAROUSEL BASE ================= */
+.carousel-wrapper {
+  position: relative;
+  width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 25px 50px rgba(0,0,0,0.5);
+  aspect-ratio: 16 / 7; /* Cinematic standard for hero */
+  background-color: var(--black-base);
+}
+
+.carousel-track {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.65s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.carousel-slide {
+  flex: 0 0 100%;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* Premium Blurred Background Effect */
+.slide-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  filter: blur(25px) brightness(0.4);
+  transform: scale(1.1); /* Prevents blur fringes */
+  z-index: 1;
+  opacity: 0.8;
+}
+
+.carousel-slide img {
+  position: relative;
+  z-index: 2;
+  max-width: 95%; /* Safe margin */
+  max-height: 90%; /* Safe margin */
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  filter: drop-shadow(0 10px 20px rgba(0,0,0,0.4)); /* Added depth */
+}
+
+.carousel-controls {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 12px;
+  z-index: 100;
+}
+
+.carousel-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.carousel-dot.active {
+  background-color: var(--red-primary);
+  transform: scale(1.3);
+  border-color: var(--white);
+}
+
+.carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0,0,0,0.4);
+  color: var(--white);
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 100;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255,255,255,0.1);
+  font-size: 1.2rem;
+  backdrop-filter: blur(10px);
+}
+
+.carousel-arrow:hover {
+  background-color: var(--red-primary);
+  transform: translateY(-50%) scale(1.1);
+  box-shadow: 0 0 20px rgba(194, 14, 26, 0.4);
+}
+
+.carousel-arrow.prev { left: 30px; }
+.carousel-arrow.next { right: 30px; }
+
+@media (max-width: 1200px) {
+  .carousel-wrapper {
+    aspect-ratio: 16 / 8;
+  }
+}
+
+@media (max-width: 992px) {
+  .carousel-wrapper {
+    aspect-ratio: 16 / 9;
+    border-radius: 15px;
+  }
+  .carousel-arrow {
+    width: 45px;
+    height: 45px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding: calc(var(--nav-height) + 15px) 0 30px 0;
+  }
+  .carousel-wrapper {
+    aspect-ratio: 3 / 4; /* Portrait impact for mobile */
+    border-radius: 10px;
+  }
+  .carousel-arrow {
+    display: none; /* Mobile clean view */
+  }
+  .carousel-controls {
+    bottom: 15px;
+  }
+}
+
   position: absolute;
   top: 0;
   left: 0;
@@ -444,22 +597,26 @@ ul {
 }
 
 .cat-img-wrapper {
-  height: 200px;
+  height: 220px;
   overflow: hidden;
   position: relative;
-  background-color: var(--black-base);
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
 }
 
 .cat-img-wrapper img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
   transition: 0.5s ease;
+  filter: drop-shadow(0 10px 15px rgba(0,0,0,0.1));
 }
 
 .category-card:hover .cat-img-wrapper img {
-  transform: scale(1.1);
-  opacity: 0.8;
+  transform: scale(1.08);
 }
 
 .cat-content {
@@ -903,3 +1060,86 @@ ul {
     gap: 0;
   }
 }
+/* ================= CATALOG OVERHAUL CONTROLS ================= */
+.catalog-section {
+  position: relative;
+}
+
+.catalog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.catalog-controls {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.search-box {
+  position: relative;
+  min-width: 300px;
+}
+
+.search-box i {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  color: var(--gray-dark);
+  font-size: 1.1rem;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 12px 15px 12px 45px;
+  border: 1px solid var(--gray-medium);
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 0.95rem;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.search-box input:focus {
+  border-color: var(--red-primary);
+  box-shadow: 0 0 10px rgba(194,14,26,0.1);
+}
+
+.sort-box select {
+  padding: 12px 20px;
+  border: 1px solid var(--gray-medium);
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 0.95rem;
+  background-color: var(--white);
+  cursor: pointer;
+  outline: none;
+  min-width: 150px;
+}
+
+.sort-box select:focus {
+  border-color: var(--red-primary);
+}
+
+.catalog-counter {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .catalog-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .catalog-controls {
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
