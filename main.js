@@ -57,6 +57,25 @@ document.addEventListener('DOMContentLoaded', () => {
       tagHtml = '<div class="product-tag highlight">HOT</div>';
     }
 
+    let downloadHtml = '';
+    if (p.pdf) {
+      downloadHtml = `
+        <div class="product-action mt-15">
+          <a href="${p.pdf}" target="_blank" class="btn btn-outline btn-small w-100" style="display: flex; justify-content: center; align-items: center; gap: 8px;">
+            <i class="fa-solid fa-file-pdf"></i> Ver ficha técnica
+          </a>
+        </div>
+      `;
+    } else {
+      downloadHtml = `
+        <div class="product-action mt-15">
+          <button class="btn btn-outline btn-small w-100" style="display: flex; justify-content: center; align-items: center; gap: 8px; opacity: 0.55; cursor: not-allowed; border-color: #aaa; color: #555; background: #fafafa;" disabled title="No hay ficha técnica asignada online para esta variación. Consulte especificaciones con su asesor.">
+            <i class="fa-solid fa-circle-question"></i> Consultar ficha técnica
+          </button>
+        </div>
+      `;
+    }
+
     card.innerHTML = `
       ${tagHtml}
       <div class="product-img">
@@ -66,6 +85,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <span class="product-cat">${p.category}</span>
         <h4 class="product-name">${p.nombre}</h4>
         <p class="product-size">${p.descripcion ? p.descripcion.substring(0, 60) + (p.descripcion.length > 60 ? '...' : '') : 'Calidad MAXIMUM'}</p>
+        ${downloadHtml}
       </div>
     `;
     return card;

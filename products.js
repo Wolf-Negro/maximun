@@ -11,7 +11,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "refrigerante-motor-cool-60-para-gnvglp",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE 60_ MAXIMUM (4).pdf"
   },
   {
     "id": 2,
@@ -25,7 +26,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "refrigerante-motor-cool-hd-55-para-vehculos-europeos",
     "category": "Refrigerantes",
     "featured": true,
-    "orderPriority": 1
+    "orderPriority": 1,
+    "pdf": null
   },
   {
     "id": 3,
@@ -39,7 +41,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "refrigerante-antifreeze-coolant-50-para-vehculos-asiticos",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA COMPLETA DE 50_  11.pdf"
   },
   {
     "id": 4,
@@ -53,7 +56,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "silicona-premium-trion-343c",
     "category": "Químicos de Taller",
     "featured": true,
-    "orderPriority": 1
+    "orderPriority": 1,
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA Tecnica SILICONA PARA EMPAQUETADURA TRION MAXIMUM_17.pdf"
   },
   {
     "id": 5,
@@ -67,7 +71,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "agua-qumicamente-pura-desionizada",
     "category": "Agua Pura",
     "featured": true,
-    "orderPriority": 1
+    "orderPriority": 1,
+    "pdf": null
   },
   {
     "id": 6,
@@ -81,7 +86,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "grasa-de-cadena-multipropsito-con-lithium-grease",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA MULTIPROPOSITO (5).pdf"
   },
   {
     "id": 7,
@@ -95,7 +101,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "grasa-gralimax-complejo-de-litio-nlgi-3-ep3",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 8,
@@ -109,7 +116,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "refrigerante-xtrem-50-para-motos",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 9,
@@ -123,7 +131,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "lquido-para-frenos-frenomax-dot-4",
     "category": "Frenos",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 10,
@@ -137,7 +146,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "silicona-para-empaquetadura-ultra-black-grey-force",
     "category": "Químicos de Taller",
     "featured": true,
-    "orderPriority": 1
+    "orderPriority": 1,
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA SILICONA PARA EMPAQUETADURA, GREY FORCE - ULTRA BLACK. (6)"
   },
   {
     "id": 11,
@@ -151,7 +161,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "refrigerante-antifreeze-coolant-33-verde",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE 33_ MAXIMUM_1.pdf"
   },
   {
     "id": 12,
@@ -165,7 +176,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "grasa-gralimax-de-litio-multipropsito-200c",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA MULTIPROPOSITO (5).pdf"
   },
   {
     "id": 13,
@@ -179,7 +191,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "limpia-contactos-electrnicos-estado-zero",
     "category": "Químicos de Taller",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE LIMPIACONTACTOS ESTADO ZERO(8).pdf"
   },
   {
     "id": 14,
@@ -193,7 +206,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "refrigerante-antifreeze-coolant-33-rojo",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE 33_ MAXIMUM_1.pdf"
   },
   {
     "id": 15,
@@ -207,7 +221,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "grasa-gralimax-de-litio-multipropsito-200c",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA MULTIPROPOSITO (5).pdf"
   },
   {
     "id": 16,
@@ -221,7 +236,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "limpiador-de-carburador-carbuchock-cleaner",
     "category": "Químicos de Taller",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA LIMPIADOR DE CARBURADOR (12).pdf"
   },
   {
     "id": 17,
@@ -235,7 +251,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "refrigerante-para-radiador-ice-blue-para-motos",
     "category": "Refrigerantes",
     "featured": true,
-    "orderPriority": 1
+    "orderPriority": 1,
+    "pdf": "FICHAS TECNICAS MAXIMUM/ice blue ficha completa.pdf"
   },
   {
     "id": 18,
@@ -249,7 +266,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "nano-coating-proteccin-total",
     "category": "Otros",
     "featured": true,
-    "orderPriority": 1
+    "orderPriority": 1,
+    "pdf": null
   },
   {
     "id": 19,
@@ -263,7 +281,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "lquido-de-frenos-stop-dot-4-ultra",
     "category": "Frenos",
     "featured": true,
-    "orderPriority": 1
+    "orderPriority": 1,
+    "pdf": null
   },
   {
     "id": 20,
@@ -277,7 +296,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "refrigerante-motor-cool-hd-disel-55",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 21,
@@ -291,7 +311,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "shampoo-para-auto-high-eficiency-1-lt",
     "category": "Carcare",
     "featured": true,
-    "orderPriority": 1
+    "orderPriority": 1,
+    "pdf": null
   },
   {
     "id": 22,
@@ -305,7 +326,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "refrigerante-motor-cool-para-gnvglp-60",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 23,
@@ -319,7 +341,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "refrigerante-para-radiador-ice-blue-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": "FICHAS TECNICAS MAXIMUM/ice blue ficha completa.pdf"
   },
   {
     "id": 24,
@@ -333,7 +356,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "removedor-de-rayones-car-wax-scratch-out",
     "category": "Carcare",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 25,
@@ -347,7 +371,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "agua-qumicamente-pura-desionizada-y-desmineralizada",
     "category": "Agua Pura",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 26,
@@ -361,7 +386,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "limpia-parabrisas-concentrado-1100",
     "category": "Otros",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 27,
@@ -375,7 +401,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "refrigerante-antifreeze-coolant-50-rojo",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA COMPLETA DE 50_  11.pdf"
   },
   {
     "id": 28,
@@ -389,7 +416,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "grasa-gralimax-de-litio-ep2-con-molibdeno-y-grafito-200c",
     "category": "Grasas",
     "featured": true,
-    "orderPriority": 1
+    "orderPriority": 1,
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA GRAFITO (6).pdf"
   },
   {
     "id": 29,
@@ -403,7 +431,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "refrigerante-motor-cool-hd-vehculos-europeos-violet-55",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 30,
@@ -417,7 +446,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "grasa-gralimax-de-litio-h3-200c",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA H3(7).pdf"
   },
   {
     "id": 31,
@@ -431,7 +461,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "creativo-potencia-estable-antifreeze-coolant-50",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 32,
@@ -445,7 +476,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "refrigerante-para-radiador-ice-green-taxi-fresh-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 33,
@@ -459,7 +491,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "refrigerante-motor-cool-60-para-gnvglp-1-qt",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE 60_ MAXIMUM (4).pdf"
   },
   {
     "id": 34,
@@ -473,7 +506,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "refrigerante-motor-hd-cool-heavy-duty-vehculos-multimarca-amarillo-55",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 35,
@@ -487,7 +521,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "grasa-gralimax-de-litio-ep2-nlgi-2-multipropsito-200c",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 36,
@@ -501,7 +536,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "refrigerante-motor-cool-60-para-gnvglp-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE 60_ MAXIMUM (4).pdf"
   },
   {
     "id": 37,
@@ -515,7 +551,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "grasa-gralimax-de-litio-h3-260c",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA H3(7).pdf"
   },
   {
     "id": 38,
@@ -529,7 +566,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "shampoo-super-concentrado-brillo-cermico-5-galones",
     "category": "Carcare",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 39,
@@ -543,7 +581,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "refrigerante-antifreeze-coolant-33-rojo-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE 33_ MAXIMUM_1.pdf"
   },
   {
     "id": 40,
@@ -557,7 +596,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "refrigerante-para-radiador-ice-orange-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 41,
@@ -571,7 +611,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "limpiador-magntico-de-ventana-speedy-klean",
     "category": "Químicos de Taller",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 42,
@@ -585,7 +626,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "refrigerante-motor-hd-cool-heavy-duty-vehculos-europeos-pink-55",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 43,
@@ -599,7 +641,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "grasa-gralimax-de-litio-h3-260c",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA H3(7).pdf"
   },
   {
     "id": 44,
@@ -613,7 +656,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "refrigerante-antifreeze-coolant-50-verde-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA COMPLETA DE 50_  11.pdf"
   },
   {
     "id": 45,
@@ -627,7 +671,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "mopa-centrfuga-360-speedy-klean",
     "category": "Accesorios",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 46,
@@ -641,7 +686,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "refrigerante-para-radiador-ice-dark-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 47,
@@ -655,7 +701,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "grasa-gralimax-de-litio-ep2-con-molibdeno-y-grafito-200c",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA GRAFITO (6).pdf"
   },
   {
     "id": 48,
@@ -669,7 +716,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "refrigerante-para-radiador-ice-violet-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 49,
@@ -683,7 +731,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "refrigerante-antifreeze-coolant-50-verde-balde-5-galones",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA COMPLETA DE 50_  11.pdf"
   },
   {
     "id": 50,
@@ -697,7 +746,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "refrigerante-motor-hd-cool-heavy-duty-vehculos-americanos-orange-55",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 51,
@@ -711,7 +761,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "limpiador-de-carburador-carbu-chock-cleaner-aroma-a-limn",
     "category": "Químicos de Taller",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA LIMPIADOR DE CARBURADOR (12).pdf"
   },
   {
     "id": 52,
@@ -725,7 +776,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "refrigerante-antifreeze-coolant-17-verde-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE 17_ MAXIMUM_1.pdf"
   },
   {
     "id": 53,
@@ -739,7 +791,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "renovador-de-plstico-y-cuero-plastic-leather-renewer",
     "category": "Carcare",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 54,
@@ -753,7 +806,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "creativo-mxima-proteccin-antifreeze-coolant-33",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 55,
@@ -767,7 +821,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "refrigerante-concentrado-ega964-etilenglicol-aditivado-rojo-reflex",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 56,
@@ -781,7 +836,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "silicona-premium-trion-343c",
     "category": "Químicos de Taller",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA Tecnica SILICONA PARA EMPAQUETADURA TRION MAXIMUM_17.pdf"
   },
   {
     "id": 57,
@@ -795,7 +851,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "refrigerante-motor-hd-cool-heavy-duty-vehculos-asiticos-green-55",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 58,
@@ -809,7 +866,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "protector-total-mate-para-interior-y-exterior",
     "category": "Otros",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 59,
@@ -823,7 +881,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "refrigerante-para-radiador-ice-pink-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 60,
@@ -837,7 +896,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "grasa-gralimax-de-litio-ep2-nlgi2-200c",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 61,
@@ -851,7 +911,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "refrigerante-motor-hd-cool-heavy-duty-vehculos-asiticos-blue-55",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 62,
@@ -865,7 +926,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "agua-qumicamente-pura-desionizada-y-desmineralizada-1-galn-5-litros",
     "category": "Agua Pura",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 63,
@@ -879,7 +941,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "refrigerante-para-radiador-ice-blue-5-galones",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": "FICHAS TECNICAS MAXIMUM/ice blue ficha completa.pdf"
   },
   {
     "id": 64,
@@ -893,7 +956,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "agua-qumicamente-pura-aqp-1qg-1-cuarto-de-galn",
     "category": "Agua Pura",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 65,
@@ -907,7 +971,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "refrigerante-para-radiador-ice-yellow-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 66,
@@ -921,7 +986,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "lquido-de-frenos-stop-dot51-ultra-354-ml",
     "category": "Frenos",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 67,
@@ -935,7 +1001,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "refrigerante-motor-hd-cool-heavy-duty-vehculos-multimarca-rojo-55",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 68,
@@ -949,7 +1016,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "refrigerante-motor-cool-glpgnv-60-5-galones",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 69,
@@ -963,7 +1031,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "limpiador-de-inyectores-injector-cleaner-gasolina",
     "category": "Químicos de Taller",
     "featured": true,
-    "orderPriority": 1
+    "orderPriority": 1,
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA COMPLETA INYECTORES3.pdf"
   },
   {
     "id": 70,
@@ -977,7 +1046,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "grasa-gralimax-de-litio-ep2-nlgi2-200c",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 71,
@@ -991,7 +1061,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "grasa-gralimax-de-litio-h3-260c",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA H3(7).pdf"
   },
   {
     "id": 72,
@@ -1005,7 +1076,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "grasa-gralimax-de-litio-h3-nlgi2-260c-balde",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA H3(7).pdf"
   },
   {
     "id": 73,
@@ -1019,7 +1091,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "creativo-lnea-ice-aditivados-ecolgicos",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 74,
@@ -1033,7 +1106,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "refrigerante-para-radiador-ice-red-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 75,
@@ -1047,7 +1121,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "grasa-gralimax-de-litio-h3-260c",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA H3(7).pdf"
   },
   {
     "id": 76,
@@ -1061,7 +1136,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "grasa-gralimax-de-litio-h3-nlgi2-260c-balde",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA H3(7).pdf"
   },
   {
     "id": 77,
@@ -1075,7 +1151,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "tambor-maximum-tecnologa-automotriz",
     "category": "Otros",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 78,
@@ -1089,7 +1166,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "refrigerante-motor-hd-cool-heavy-duty-diesel-55-5-galones",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 79,
@@ -1103,7 +1181,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "grasa-gralimax-de-litio-multipropsito-200c",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA MULTIPROPOSITO (5).pdf"
   },
   {
     "id": 80,
@@ -1117,7 +1196,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "grasa-gralimax-de-litio-multipropsito-200c",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA MULTIPROPOSITO (5).pdf"
   },
   {
     "id": 81,
@@ -1131,7 +1211,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "grasa-gralimax-de-litio-h3-260c",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA H3(7).pdf"
   },
   {
     "id": 82,
@@ -1145,7 +1226,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "grasa-gralimax-de-litio-multipropsito-200c",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA MULTIPROPOSITO (5).pdf"
   },
   {
     "id": 83,
@@ -1159,7 +1241,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "grasa-gralimax-de-litio-multipropsito-ep2-nlgi2-200c-balde",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 84,
@@ -1173,7 +1256,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "cartucho-de-grasa-gralimax-de-litio-h3-260c",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA H3(7).pdf"
   },
   {
     "id": 85,
@@ -1187,7 +1271,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "cartucho-de-grasa-gralimax-de-litio-multipropsito-200c",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA MULTIPROPOSITO (5).pdf"
   },
   {
     "id": 86,
@@ -1201,7 +1286,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "creativo-refrigerante-verde-oat-para-vehculos-asiticos",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 87,
@@ -1215,7 +1301,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "agua-qumicamente-pura-maximum-5-litros",
     "category": "Agua Pura",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 88,
@@ -1229,7 +1316,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "espuma-limpiadora-multipropsito-foam-cleaner-600-ml",
     "category": "Químicos de Taller",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 89,
@@ -1243,7 +1331,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "silicona-para-empaquetadura-grey-force-343c-85-gr",
     "category": "Químicos de Taller",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA SILICONA PARA EMPAQUETADURA, GREY FORCE - ULTRA BLACK. (6)"
   },
   {
     "id": 90,
@@ -1257,7 +1346,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "silicona-para-empaquetadura-ultra-black-343c-85-gr",
     "category": "Químicos de Taller",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA SILICONA PARA EMPAQUETADURA, GREY FORCE - ULTRA BLACK. (6)"
   },
   {
     "id": 91,
@@ -1271,7 +1361,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "lquido-de-frenos-dot4-ultra-230c-354-ml",
     "category": "Frenos",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 92,
@@ -1285,7 +1376,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "limpiacontactos-electrnicos-estado-zero-aroma-limn",
     "category": "Químicos de Taller",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 93,
@@ -1299,7 +1391,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "limpiador-de-inyectores-diesel-turbo-cargado-354-ml",
     "category": "Químicos de Taller",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 94,
@@ -1313,7 +1406,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "limpia-parabrisas-kristal-clean-1-galn",
     "category": "Otros",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 95,
@@ -1327,7 +1421,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "limpia-parabrisas-kristal-clean-1-qt",
     "category": "Otros",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 96,
@@ -1341,7 +1436,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "agua-qumicamente-pura-maximum-1-qt",
     "category": "Agua Pura",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 97,
@@ -1355,7 +1451,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "limpiavidrios-kristal-home-650-ml",
     "category": "Otros",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 98,
@@ -1369,7 +1466,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "shampoo-sper-concentrado-brillo-cermico-350-ml",
     "category": "Carcare",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 99,
@@ -1383,7 +1481,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "exhibidor-de-plumillas-maximum-para-punto-de-venta",
     "category": "Accesorios",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 100,
@@ -1397,7 +1496,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "agua-qumicamente-pura-aqp-1qg-14-de-galn",
     "category": "Agua Pura",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 101,
@@ -1411,7 +1511,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "refrigerante-anticongelante-antifreeze-coolant-50-1-qt",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 102,
@@ -1425,7 +1526,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "refrigerante-anticongelante-antifreeze-coolant-50-5-galones",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 103,
@@ -1439,7 +1541,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "plumillas-traseras-maximum",
     "category": "Accesorios",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 104,
@@ -1453,7 +1556,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "silicona-premium-para-empaquetadura-75-g",
     "category": "Químicos de Taller",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 105,
@@ -1467,7 +1571,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "aceite-aflojatodo-mx-40d-anti-rust-oil",
     "category": "Químicos de Taller",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 106,
@@ -1481,7 +1586,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "motor-cool-refrigerante-y-anticongelante-60-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 107,
@@ -1495,7 +1601,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "repelente-de-agua-para-parabrisas",
     "category": "Agua Pura",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 108,
@@ -1509,7 +1616,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "renovador-de-llantas-tyre-shine-500-ml",
     "category": "Carcare",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 110,
@@ -1523,7 +1631,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "engine-surface-cleaner-desengrasante-para-motor-395-ml",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 111,
@@ -1537,7 +1646,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "creativo-motor-cool-55-aditivado-para-todo-tipo-de-vehculo",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 112,
@@ -1551,7 +1661,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "agua-qumicamente-pura-aqp-1-galn",
     "category": "Agua Pura",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 113,
@@ -1565,7 +1676,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "spray-antiempaante-para-vidrios-y-espejos",
     "category": "Otros",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 114,
@@ -1579,7 +1691,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "creativo-lquido-de-frenos-dot4-ultra-230c",
     "category": "Frenos",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 115,
@@ -1593,7 +1706,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "agua-desionizada-y-desmineralizada-para-bateras-y-radiadores",
     "category": "Agua Pura",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 116,
@@ -1607,7 +1721,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "lquido-de-frenos-dot3-ultra-354-ml",
     "category": "Frenos",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 117,
@@ -1621,7 +1736,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "brake-cleaner-limpiador-profesional-para-sistema-de-frenos-500-ml",
     "category": "Frenos",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   },
   {
     "id": 118,
@@ -1635,7 +1751,8 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "creativo-silicona-para-empaquetadura-ultra-black-y-grey-force-85-g",
     "category": "Químicos de Taller",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA SILICONA PARA EMPAQUETADURA, GREY FORCE - ULTRA BLACK. (6)"
   },
   {
     "id": 119,
@@ -1649,6 +1766,7 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "agua-qumicamente-pura-para-bateras-radiadores-y-uso-industrial",
     "category": "Agua Pura",
     "featured": false,
-    "orderPriority": 2
+    "orderPriority": 2,
+    "pdf": null
   }
 ];

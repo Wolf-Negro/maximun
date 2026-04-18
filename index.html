@@ -30,14 +30,21 @@
           <li><a href="#nosotros">Nosotros</a></li>
           <li><a href="#categorias">Categorías</a></li>
           <li><a href="#productos">Productos</a></li>
-          <li><a href="#distribuidores">Distribuidores</a></li>
           <li><a href="#contacto">Contacto</a></li>
         </ul>
       </nav>
 
-      <div class="header-actions">
-        <!-- We use the target _blank for file download logic later -->
-        <a href="#catalogo-descarga" class="btn btn-primary"><i class="fa-solid fa-download"></i> Catálogo</a>
+      <div class="header-actions" style="gap: 15px;">
+        <!-- Distributor Strong CTA -->
+        <a href="#distribuidores" class="btn btn-dark hidden-mobile"
+          style="border: 1px solid var(--yellow-accent); color: var(--yellow-accent); font-weight: 700; text-transform: uppercase; font-size: 0.9rem; padding: 8px 18px;">
+          <i class="fa-solid fa-handshake"></i> Hazte Distribuidor Oficial
+        </a>
+        <!-- Updated Catalog CTA matching premium reference -->
+        <a href="#catalogo-descarga" class="btn btn-primary"
+          style="display: flex; align-items: center; gap: 8px; font-weight: 700; font-size: 0.9rem; padding: 8px 18px; text-transform: uppercase;">
+          <i class="fa-solid fa-download" style="font-size: 1.1em;"></i> Ver Catálogo 2026
+        </a>
         <button class="mobile-menu-btn" id="mobile-menu-btn"><i class="fa-solid fa-bars"></i></button>
       </div>
     </div>
@@ -51,11 +58,17 @@
         <li><a href="#nosotros" class="mobile-link">Nosotros</a></li>
         <li><a href="#categorias" class="mobile-link">Categorías</a></li>
         <li><a href="#productos" class="mobile-link">Productos</a></li>
-        <li><a href="#distribuidores" class="mobile-link">Distribuidores</a></li>
         <li><a href="#contacto" class="mobile-link">Contacto</a></li>
       </ul>
-      <a href="#catalogo-descarga" class="btn btn-primary mobile-link mt-4"><i class="fa-solid fa-download"></i>
-        Catálogo 2025</a>
+      <div style="display: flex; flex-direction: column; gap: 15px; margin-top: 30px;">
+        <a href="#distribuidores" class="btn btn-dark mobile-link"
+          style="border: 1px solid var(--yellow-accent); color: var(--yellow-accent); padding: 12px 20px; font-size: 1.1rem;">
+          <i class="fa-solid fa-handshake"></i> Hazte Distribuidor
+        </a>
+        <a href="#catalogo-descarga" class="btn btn-primary mobile-link" style="padding: 12px 20px; font-size: 1.1rem;">
+          <i class="fa-solid fa-download"></i> Ver Catálogo 2026
+        </a>
+      </div>
     </nav>
   </div>
 
@@ -80,7 +93,8 @@
           </div>
           <!-- Slide 3 -->
           <div class="carousel-slide">
-            <div class="slide-bg" style="background-image: url('Cavecerascarrosel/Slide_3_catalog_optimized.png');"></div>
+            <div class="slide-bg" style="background-image: url('Cavecerascarrosel/Slide_3_catalog_optimized.png');">
+            </div>
             <img src="Cavecerascarrosel/Slide_3_catalog_optimized.png" alt="Slide 3">
             <div class="visually-hidden">
               <h2 class="hero-title">TECNOLOGÍA AUTOMOTRIZ</h2>
@@ -116,6 +130,26 @@
           <span class="carousel-dot" data-index="4"></span>
           <span class="carousel-dot" data-index="5"></span>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TOP DISTRIBUIDORES HIGHLIGHT ================= -->
+  <section class="distributors-top-bar bg-dark text-white pt-20 pb-20"
+    style="border-bottom: 2px solid var(--red-primary);">
+    <div class="container space-between" style="align-items: center; flex-wrap: wrap; gap: 15px;">
+      <div class="bar-text" style="display: flex; align-items: center; gap: 15px;">
+        <span class="text-red text-bold" style="text-transform: uppercase; font-size: 1.1rem; letter-spacing: 1px;">
+          <i class="fa-solid fa-handshake"></i> Canal Distribuidores
+        </span>
+        <span class="text-gray-light" style="font-size: 0.95rem;">
+          Únete a la red MAXIMUM y potencia la rentabilidad de tu negocio.
+        </span>
+      </div>
+      <div>
+        <a href="#contacto" class="btn btn-primary" style="padding: 8px 18px; font-size: 0.95rem;">
+          Afiliarme Ahora <i class="fa-solid fa-arrow-right"></i>
+        </a>
       </div>
     </div>
   </section>
@@ -158,7 +192,8 @@
 
       <div class="category-grid">
         <!-- Cat 1 -->
-        <a href="#productos" class="category-card" onclick="document.querySelector('[data-filter=\'refrigerantes\']').click()">
+        <a href="#productos" class="category-card"
+          onclick="document.querySelector('[data-filter=\'refrigerantes\']').click()">
           <div class="cat-img-wrapper">
             <img src="imgproductos/creativo_1.jpeg" alt="Refrigerantes Maximum" loading="lazy">
           </div>
@@ -188,19 +223,22 @@
           </div>
           <div class="cat-content">
             <h3>Línea Taller</h3>
-            <p>Productos técnicos químicos: limpia inyectores, frenos, siliconas herméticas y más, para mantenimiento profesional.</p>
+            <p>Productos técnicos químicos: limpia inyectores, frenos, siliconas herméticas y más, para mantenimiento
+              profesional.</p>
             <span class="cat-link">Ver línea <i class="fa-solid fa-arrow-right"></i></span>
           </div>
         </a>
 
         <!-- Cat 4 -->
-        <a href="#productos" class="category-card" onclick="document.querySelector('[data-filter=\'carcare\']').click()">
+        <a href="#productos" class="category-card"
+          onclick="document.querySelector('[data-filter=\'carcare\']').click()">
           <div class="cat-img-wrapper">
             <img src="imgproductos/creativo_21.png" alt="Carcare Maximum" loading="lazy">
           </div>
           <div class="cat-content">
             <h3>Carcare (Estética)</h3>
-            <p>Cuidado exterior e interior Premium: siliconas, shampoos high efficiency, antiempañantes y limpieza profunda.</p>
+            <p>Cuidado exterior e interior Premium: siliconas, shampoos high efficiency, antiempañantes y limpieza
+              profunda.</p>
             <span class="cat-link">Ver línea <i class="fa-solid fa-arrow-right"></i></span>
           </div>
         </a>
@@ -231,20 +269,20 @@
         </div>
         <div class="catalog-controls">
           <div class="search-box">
-             <i class="fa-solid fa-search"></i>
-             <input type="text" id="catalog-search" placeholder="Buscar producto o palabra clave...">
+            <i class="fa-solid fa-search"></i>
+            <input type="text" id="catalog-search" placeholder="Buscar producto o palabra clave...">
           </div>
           <div class="sort-box">
-             <select id="catalog-sort">
-               <option value="default">Recomendados</option>
-               <option value="az">A - Z</option>
-               <option value="za">Z - A</option>
-               <option value="category">Por Categoría</option>
-             </select>
+            <select id="catalog-sort">
+              <option value="default">Recomendados</option>
+              <option value="az">A - Z</option>
+              <option value="za">Z - A</option>
+              <option value="category">Por Categoría</option>
+            </select>
           </div>
         </div>
       </div>
-      
+
       <!-- Filters list dynamically generated in JS -->
       <div class="product-filters mb-40" id="catalog-filters">
         <button class="filter-btn active" data-filter="all">Todos</button>
@@ -254,10 +292,11 @@
       <div class="products-grid" id="main-products-grid">
         <!-- Progressive loading products here -->
       </div>
-      
+
       <div class="load-more-section text-center mt-50">
-         <p id="catalog-counter" class="catalog-counter mb-20 text-bold text-gray-dark">Mostrando 0 de 0 productos</p>
-         <button id="load-more-btn" class="btn btn-outline btn-large">Ver más productos <i class="fa-solid fa-chevron-down"></i></button>
+        <p id="catalog-counter" class="catalog-counter mb-20 text-bold text-gray-dark">Mostrando 0 de 0 productos</p>
+        <button id="load-more-btn" class="btn btn-outline btn-large">Ver más productos <i
+            class="fa-solid fa-chevron-down"></i></button>
       </div>
     </div>
   </section>
@@ -319,11 +358,11 @@
     <div class="container section-grid-2">
       <div class="download-img-wrapper">
         <!-- Image representing PDF cover or catalog -->
-        <img src="assets/products/p0_i1.jpeg" alt="Catálogo General MAXIMUM 2025" loading="lazy" class="shadow-lg">
+        <img src="assets/products/p0_i1.jpeg" alt="Catálogo General MAXIMUM 2026" loading="lazy" class="shadow-lg">
       </div>
       <div class="download-content">
         <h3 class="section-badge">Recurso Oficial</h3>
-        <h2 class="section-title">Catálogo Completo 2025</h2>
+        <h2 class="section-title">Catálogo Completo 2026</h2>
         <p>Acceda a toda la gama técnica de fluidos, sprays de mantenimiento, sistema de refrigeración y embellecimiento
           automotriz con todos los detalles de presentación e instrucciones.</p>
 
@@ -340,35 +379,34 @@
     </div>
   </section>
 
-  <!-- ================= CONTACTO ================= -->
+  <!-- ================= CONTACTO DISTRIBUIDORES ================= -->
   <section id="contacto" class="contact-section pt-100 pb-100">
     <div class="container section-grid-2">
       <div class="contact-info">
-        <h3 class="section-badge">Atención al Cliente</h3>
-        <h2 class="section-title">Comunícate con Nosotros</h2>
-        <p>Nuestro equipo de asesores técnicos y comerciales está listo para ofrecerte soluciones personalizadas para tu
-          flota o negocio automotriz.</p>
+        <h3 class="section-badge">Ventas Mayoristas y Distribución</h3>
+        <h2 class="section-title">Súmate a nuestra red de distribuidores</h2>
+        <p>Garantiza alta rentabilidad comercializando soluciones de cuidado automotriz con tecnología de clase mundial. Brindamos a nuestros socios corporativos márgenes agresivos, abastecimiento continuo y soporte técnico especializado.</p>
 
         <div class="contact-methods mt-30">
           <div class="method-item">
             <i class="fa-solid fa-map-location-dot"></i>
             <div>
-              <h5>Sede Central</h5>
+              <h5>Sede Logística Central</h5>
               <p>Av. Industrial #123, Zona Comercial</p>
             </div>
           </div>
           <div class="method-item">
             <i class="fa-brands fa-whatsapp text-red"></i>
             <div>
-              <h5>Ventas y Distribución</h5>
+              <h5>Canal Corporativo (WhatsApp)</h5>
               <p>+51 900 000 000</p>
             </div>
           </div>
           <div class="method-item">
             <i class="fa-solid fa-envelope"></i>
             <div>
-              <h5>Correo Corporativo</h5>
-              <p>ventas@maximum.com.pe</p>
+              <h5>División Ventas B2B</h5>
+              <p>distribuidores@maximum.com.pe</p>
             </div>
           </div>
         </div>
@@ -378,37 +416,37 @@
         <form id="contactForm" class="contact-form">
           <div class="form-group row">
             <div class="col-6">
-              <label>Nombre Completo</label>
-              <input type="text" placeholder="Ej: Juan Pérez" required>
+              <label>Nombre del Contacto</label>
+              <input type="text" placeholder="Ej: Gerente Comercial" required>
             </div>
             <div class="col-6">
-              <label>Empresa / Taller</label>
-              <input type="text" placeholder="Ej: AutoMotors SAC">
+              <label>Razón Social / Negocio</label>
+              <input type="text" placeholder="Ej: Importaciones Auto SAC" required>
             </div>
           </div>
           <div class="form-group row">
             <div class="col-6">
-              <label>Teléfono</label>
+              <label>Teléfono Móvil</label>
               <input type="tel" placeholder="+51">
             </div>
             <div class="col-6">
               <label>Correo Electrónico</label>
-              <input type="email" placeholder="correo@empresa.com" required>
+              <input type="email" placeholder="ventas@tuempresa.com" required>
             </div>
           </div>
           <div class="form-group">
-            <label>Asunto / Interés</label>
+            <label>Tipo de Alianza</label>
             <select>
-              <option value="distribucion">Quiero ser distribuidor</option>
-              <option value="mayorista">Compras al por mayor</option>
-              <option value="informacion">Información técnica de producto</option>
+              <option value="distribuidor-oficial">Quiero ser Distribuidor Autorizado</option>
+              <option value="abastecimiento-mayorista">Cotización de Volumen Mayorista</option>
+              <option value="flotas-corporativas">Soluciones para Flotas Corporativas</option>
             </select>
           </div>
           <div class="form-group">
-            <label>Mensaje Adicional</label>
-            <textarea rows="4" placeholder="Cuentanos tus requerimientos específicos..."></textarea>
+            <label>Contexto Comercial</label>
+            <textarea rows="4" placeholder="Coméntanos sobre tu capacidad de distribución, zona de influencia o volumen proyectado..."></textarea>
           </div>
-          <button type="submit" class="btn btn-primary btn-block">Enviar Solicitud</button>
+          <button type="submit" class="btn btn-primary btn-block" style="font-size: 1.1rem; padding: 16px;">Solicitar Distribución Oficial</button>
         </form>
       </div>
     </div>
