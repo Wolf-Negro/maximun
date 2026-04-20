@@ -212,16 +212,15 @@ ul {
   left: 0;
   width: 100%;
   height: var(--nav-height);
-  background-color: rgba(0, 0, 0, 0.95);
+  background-color: var(--red-primary);
   box-shadow: 0 2px 10px rgba(0,0,0,0.5);
   z-index: 1000;
   transition: all 0.3s ease;
-  border-bottom: 2px solid var(--red-primary);
 }
 
 /* For JS scroll switch */
 #main-header.scrolled {
-  background-color: rgba(0, 0, 0, 1);
+  background-color: var(--red-primary);
   padding: 0;
 }
 
