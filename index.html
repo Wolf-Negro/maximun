@@ -5,11 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MAXIMUM | Tecnología Automotriz de Clase Mundial</title>
-  <meta name="description"
-    content="MAXIMUM: Especialistas en refrigerantes, grasas, productos de taller y carcare automotriz con tecnología de vanguardia.">
+  <meta name="description" content="MAXIMUM: Especialistas en refrigerantes, grasas, productos de taller y Kärcher con tecnología de vanguardia para el sector automotriz.">
   <link rel="stylesheet" href="styles.css">
-
-  <!-- Font Awesome for Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
@@ -17,11 +14,10 @@
 
   <!-- ================= HEADER ================= -->
   <header id="main-header">
-    <div class="container header-container">
+    <div class="header-inner">
       <div class="logo">
-        <!-- Text fallback since we don't know if the SVG exists directly, will update if we have one -->
-        <a href="#hero">
-          <span class="logo-text">MAXIMUM</span>
+        <a href="index.html" class="logo-link">
+          <img src="Barra superior/Logo Blanco .png" alt="Maximum" class="header-logo-img">
         </a>
       </div>
 
@@ -34,16 +30,12 @@
         </ul>
       </nav>
 
-      <div class="header-actions" style="gap: 15px;">
-        <!-- Distributor Strong CTA -->
-        <a href="#distribuidores" class="btn btn-dark hidden-mobile"
-          style="border: 1px solid var(--yellow-accent); color: var(--yellow-accent); font-weight: 700; text-transform: uppercase; font-size: 0.9rem; padding: 8px 18px;">
-          <i class="fa-solid fa-handshake"></i> Hazte Distribuidor Oficial
+      <div class="header-actions">
+        <a href="#distribuidores" class="header-cat-link hidden-mobile">
+          <img src="Barra superior/Haste distribuidor oficial.png" alt="Hazte Distribuidor Oficial" class="header-dist-img">
         </a>
-        <!-- Updated Catalog CTA matching premium reference -->
-        <a href="#catalogo-descarga" class="btn btn-primary"
-          style="display: flex; align-items: center; gap: 8px; font-weight: 700; font-size: 0.9rem; padding: 8px 18px; text-transform: uppercase;">
-          <i class="fa-solid fa-download" style="font-size: 1.1em;"></i> Ver Catálogo 2026
+        <a href="#catalogo-descarga" class="header-cat-link">
+          <img src="Barra superior/Ver catalogo 2026.png" alt="Catálogo 2026" class="header-cat-img">
         </a>
         <button class="mobile-menu-btn" id="mobile-menu-btn"><i class="fa-solid fa-bars"></i></button>
       </div>
@@ -60,212 +52,170 @@
         <li><a href="#productos" class="mobile-link">Productos</a></li>
         <li><a href="#contacto" class="mobile-link">Contacto</a></li>
       </ul>
-      <div style="display: flex; flex-direction: column; gap: 15px; margin-top: 30px;">
-        <a href="#distribuidores" class="btn btn-dark mobile-link"
-          style="border: 1px solid var(--yellow-accent); color: var(--yellow-accent); padding: 12px 20px; font-size: 1.1rem;">
+      <div class="mobile-ctas">
+        <a href="#distribuidores" class="btn btn-outline-white mobile-link">
           <i class="fa-solid fa-handshake"></i> Hazte Distribuidor
         </a>
-        <a href="#catalogo-descarga" class="btn btn-primary mobile-link" style="padding: 12px 20px; font-size: 1.1rem;">
+        <a href="#catalogo-descarga" class="btn btn-primary mobile-link">
           <i class="fa-solid fa-download"></i> Ver Catálogo 2026
         </a>
       </div>
     </nav>
   </div>
 
-  <!-- ================= HERO SECTION ================= -->
-  <section id="hero" class="hero-section pb-80">
-    <div class="container">
-      <div class="carousel-wrapper" id="hero-carousel">
-        <div class="carousel-track" id="carousel-track">
-          <!-- Slide 1 -->
-          <div class="carousel-slide">
-            <div class="slide-bg" style="background-image: url('Cavecerascarrosel/Carrusel cabecera.jpg');"></div>
-            <img src="Cavecerascarrosel/Carrusel cabecera.jpg" alt="Slide 1">
-            <div class="visually-hidden">
-              <h1 class="hero-title">POTENCIA Y RENDIMIENTO EN CADA GOTA</h1>
-              <p class="hero-subtitle">Soluciones de alta tecnología para el cuidado automotriz e industrial.</p>
-            </div>
-          </div>
-          <!-- Slide 2 -->
-          <div class="carousel-slide">
-            <div class="slide-bg" style="background-image: url('Cavecerascarrosel/Carrusel cabecera 2.jpg');"></div>
-            <img src="Cavecerascarrosel/Carrusel cabecera 2.jpg" alt="Slide 2">
-          </div>
-          <!-- Slide 3 -->
-          <div class="carousel-slide">
-            <div class="slide-bg" style="background-image: url('Cavecerascarrosel/Slide_3_catalog_optimized.png');">
-            </div>
-            <img src="Cavecerascarrosel/Slide_3_catalog_optimized.png" alt="Slide 3">
-            <div class="visually-hidden">
-              <h2 class="hero-title">TECNOLOGÍA AUTOMOTRIZ</h2>
-            </div>
-          </div>
-          <!-- Slide 4 -->
-          <div class="carousel-slide">
-            <div class="slide-bg" style="background-image: url('Cavecerascarrosel/Cabecera 3.jpeg');"></div>
-            <img src="Cavecerascarrosel/Cabecera 3.jpeg" alt="Slide 4">
-          </div>
-          <!-- Slide 5 -->
-          <div class="carousel-slide">
-            <div class="slide-bg" style="background-image: url('Cavecerascarrosel/Cabecera 4.jpeg');"></div>
-            <img src="Cavecerascarrosel/Cabecera 4.jpeg" alt="Slide 5">
-          </div>
-          <!-- Slide 6 -->
-          <div class="carousel-slide">
-            <div class="slide-bg" style="background-image: url('Cavecerascarrosel/cabecera 5.jpeg');"></div>
-            <img src="Cavecerascarrosel/cabecera 5.jpeg" alt="Slide 6">
-          </div>
+  <!-- ================= HERO / SLIDER ================= -->
+  <section id="hero" class="hero-section">
+    <div class="hero-slider-wrap">
+      <div class="carousel-track" id="carousel-track">
+        <!-- Slide 1 -->
+        <div class="carousel-slide">
+          <img src="Cavecerascarrosel/Carrusel cabecera.jpg" alt="MAXIMUM – Tecnología Automotriz">
         </div>
-
-        <!-- Arrow Controls -->
-        <button class="carousel-arrow prev" id="prevSlide"><i class="fa-solid fa-chevron-left"></i></button>
-        <button class="carousel-arrow next" id="nextSlide"><i class="fa-solid fa-chevron-right"></i></button>
-
-        <!-- Dots Indicators -->
-        <div class="carousel-controls" id="carousel-dots">
-          <span class="carousel-dot active" data-index="0"></span>
-          <span class="carousel-dot" data-index="1"></span>
-          <span class="carousel-dot" data-index="2"></span>
-          <span class="carousel-dot" data-index="3"></span>
-          <span class="carousel-dot" data-index="4"></span>
-          <span class="carousel-dot" data-index="5"></span>
+        <!-- Slide 2 -->
+        <div class="carousel-slide">
+          <img src="Cavecerascarrosel/Carrusel cabecera 2.jpg" alt="MAXIMUM – Refrigerantes Premium">
         </div>
+        <!-- Slide 3 -->
+        <div class="carousel-slide">
+          <img src="Cavecerascarrosel/Slide_3_catalog_optimized.png" alt="MAXIMUM – Catálogo 2026">
+        </div>
+        <!-- Slide 4 -->
+        <div class="carousel-slide">
+          <img src="Cavecerascarrosel/Cabecera 3.jpeg" alt="MAXIMUM – Línea Taller">
+        </div>
+        <!-- Slide 5 -->
+        <div class="carousel-slide">
+          <img src="Cavecerascarrosel/Cabecera 4.jpeg" alt="MAXIMUM – Grasas Industriales">
+        </div>
+        <!-- Slide 6 -->
+        <div class="carousel-slide">
+          <img src="Cavecerascarrosel/cabecera 5.jpeg" alt="MAXIMUM – Soluciones Completas">
+        </div>
+      </div>
+
+      <!-- Arrow Controls -->
+      <button class="carousel-arrow prev" id="prevSlide"><i class="fa-solid fa-chevron-left"></i></button>
+      <button class="carousel-arrow next" id="nextSlide"><i class="fa-solid fa-chevron-right"></i></button>
+
+      <!-- Dots -->
+      <div class="carousel-dots" id="carousel-dots">
+        <span class="carousel-dot active" data-index="0"></span>
+        <span class="carousel-dot" data-index="1"></span>
+        <span class="carousel-dot" data-index="2"></span>
+        <span class="carousel-dot" data-index="3"></span>
+        <span class="carousel-dot" data-index="4"></span>
+        <span class="carousel-dot" data-index="5"></span>
       </div>
     </div>
   </section>
 
-  <!-- ================= TOP DISTRIBUIDORES HIGHLIGHT ================= -->
-  <section class="distributors-top-bar bg-dark text-white pt-20 pb-20"
-    style="border-bottom: 2px solid var(--red-primary);">
-    <div class="container space-between" style="align-items: center; flex-wrap: wrap; gap: 15px;">
-      <div class="bar-text" style="display: flex; align-items: center; gap: 15px;">
-        <span class="text-red text-bold" style="text-transform: uppercase; font-size: 1.1rem; letter-spacing: 1px;">
-          <i class="fa-solid fa-handshake"></i> Canal Distribuidores
-        </span>
-        <span class="text-gray-light" style="font-size: 0.95rem;">
-          Únete a la red MAXIMUM y potencia la rentabilidad de tu negocio.
-        </span>
+  <!-- ================= DISTRIBUTOR BAR ================= -->
+  <section class="dist-bar">
+    <div class="wide-container dist-bar-inner">
+      <div class="dist-bar-text">
+        <span class="dist-bar-label"><i class="fa-solid fa-handshake"></i> Canal Distribuidores</span>
+        <span class="dist-bar-desc">Únete a la red MAXIMUM y potencia la rentabilidad de tu negocio.</span>
       </div>
-      <div>
-        <a href="#contacto" class="btn btn-primary" style="padding: 8px 18px; font-size: 0.95rem;">
-          Afiliarme Ahora <i class="fa-solid fa-arrow-right"></i>
-        </a>
-      </div>
+      <a href="#contacto" class="btn btn-primary">Afiliarme Ahora <i class="fa-solid fa-arrow-right"></i></a>
     </div>
   </section>
 
-  <!-- ================= QUIÉNES SOMOS ================= -->
-  <section id="nosotros" class="about-section pt-100 pb-100">
-    <div class="container section-grid-2">
-      <div class="about-text">
-        <h3 class="section-badge">La Marca</h3>
-        <h2 class="section-title">Tecnología de última generación para tu motor</h2>
-        <div class="title-divider"></div>
-        <p>En <strong>MAXIMUM</strong>, desarrollamos y distribuimos insumos automotrices e industriales bajo los más
-          estrictos estándares de calidad. Nuestro portafolio está diseñado para brindar mayor durabilidad, protección y
-          máxima eficiencia en vehículos y maquinaria de alta exigencia.</p>
-        <p>Nos enorgullece ser la elección de talleres y conductores que buscan una marca sólida, confiable y que
-          respalde su inversión.</p>
-
-        <ul class="about-features">
-          <li><i class="fa-solid fa-check-circle text-red"></i> Insumos testeados en alta exigencia.</li>
-          <li><i class="fa-solid fa-check-circle text-red"></i> Larga duración y protección del motor.</li>
-          <li><i class="fa-solid fa-check-circle text-red"></i> Variedad de presentaciones comerciales.</li>
+  <!-- ================= TECNOLOGÍA AUTOMOTRIZ ================= -->
+  <section id="nosotros" class="tech-section">
+    <div class="wide-container tech-grid">
+      <div class="tech-text">
+        <span class="tech-badge">LA MARCA</span>
+        <img src="Logo Bloque la marca/logosinfondo.png" alt="Tecnología Automotriz" class="tech-logo-img">
+        <p>En <strong>MAXIMUM</strong>, desarrollamos y distribuimos insumos automotrices e industriales bajo los más estrictos estándares de calidad. Nuestro portafolio está diseñado para brindar mayor durabilidad, protección y máxima eficiencia en vehículos y maquinaria de alta exigencia.</p>
+        <p>Nos enorgullece ser la elección de talleres y conductores que buscan una marca sólida, confiable y que respalde su inversión.</p>
+        <ul class="tech-features">
+          <li><i class="fa-solid fa-caret-right text-red"></i> Insumos testeados en alta exigencia.</li>
+          <li><i class="fa-solid fa-caret-right text-red"></i> Larga duración y protección del motor.</li>
+          <li><i class="fa-solid fa-caret-right text-red"></i> Variedad de presentaciones comerciales.</li>
         </ul>
       </div>
-      <div class="about-image">
-        <!-- We will use a placeholder from extracted products that looks general or just a grid setup -->
-        <div class="about-img-box">
-          <img src="assets/products/p0_i0.jpeg" alt="Tecnología Automotriz Maximum" id="about-img-1" loading="lazy">
+      <div class="tech-image-side">
+        <div class="tech-img-frame">
+          <img src="Logo Bloque la marca/Imagenladoderecho.jpg" alt="Tecnología Automotriz Maximum" loading="lazy">
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ================= CATEGORÍAS ================= -->
-  <section id="categorias" class="categories-section bg-gray pt-100 pb-100">
-    <div class="container">
-      <div class="text-center mb-50">
-        <h3 class="section-badge">Nuestras Líneas</h3>
-        <h2 class="section-title">Soluciones Completas MAXIMUM</h2>
+  <!-- ================= CATEGORÍAS / LÍNEAS ================= -->
+  <section id="categorias" class="categories-section">
+    <div class="wide-container">
+      <div class="cat-section-header text-center">
+        <span class="cat-eyebrow">NUESTRAS LÍNEAS</span>
+        <h2 class="cat-main-title">SOLUCIONES COMPLETAS MAXIMUM</h2>
       </div>
 
       <div class="category-grid">
-        <!-- Cat 1 -->
-        <a href="#productos" class="category-card"
-          onclick="document.querySelector('[data-filter=\'refrigerantes\']').click()">
-          <div class="cat-img-wrapper">
-            <img src="imgproductos/creativo_1.jpeg" alt="Refrigerantes Maximum" loading="lazy">
+        <!-- Cat 1: Refrigerantes -->
+        <a href="#productos" class="category-card" onclick="document.querySelector('[data-filter=\'refrigerantes\']').click()">
+          <div class="cat-img-wrap">
+            <img src="Imagenes de Solucion completa maximun/Refrigerantes.png" alt="Refrigerantes Maximum" loading="lazy">
           </div>
-          <div class="cat-content">
-            <h3>Refrigerantes</h3>
-            <p>Concentraciones y composiciones exactas para proteger su radiador en cualquier condición climática.</p>
-            <span class="cat-link">Ver línea <i class="fa-solid fa-arrow-right"></i></span>
+          <div class="cat-info">
+            <h3 class="cat-title">REFRIGERANTES</h3>
+            <span class="cat-cta">Ver línea <i class="fa-solid fa-arrow-right"></i></span>
           </div>
         </a>
 
-        <!-- Cat 2 -->
+        <!-- Cat 2: Grasas -->
         <a href="#productos" class="category-card" onclick="document.querySelector('[data-filter=\'grasas\']').click()">
-          <div class="cat-img-wrapper">
-            <img src="imgproductos/creativo_7.jpeg" alt="Grasas Maximum" loading="lazy">
+          <div class="cat-img-wrap">
+            <img src="Imagenes de Solucion completa maximun/Grasas.png" alt="Grasas Maximum" loading="lazy">
           </div>
-          <div class="cat-content">
-            <h3>Grasas y Lubricantes</h3>
-            <p>Fórmulas de litio y alta temperatura (EP2) para equipos pesados y extrema fricción.</p>
-            <span class="cat-link">Ver línea <i class="fa-solid fa-arrow-right"></i></span>
+          <div class="cat-info">
+            <h3 class="cat-title">GRASAS</h3>
+            <span class="cat-cta">Ver línea <i class="fa-solid fa-arrow-right"></i></span>
           </div>
         </a>
 
-        <!-- Cat 3 -->
+        <!-- Cat 3: Taller -->
         <a href="#productos" class="category-card" onclick="document.querySelector('[data-filter=\'taller\']').click()">
-          <div class="cat-img-wrapper">
-            <img src="imgproductos/creativo_9.png" alt="Productos para Taller" loading="lazy">
+          <div class="cat-img-wrap">
+            <img src="Imagenes de Solucion completa maximun/Taller.jpg" alt="Línea Taller Maximum" loading="lazy">
           </div>
-          <div class="cat-content">
-            <h3>Línea Taller</h3>
-            <p>Productos técnicos químicos: limpia inyectores, frenos, siliconas herméticas y más, para mantenimiento
-              profesional.</p>
-            <span class="cat-link">Ver línea <i class="fa-solid fa-arrow-right"></i></span>
+          <div class="cat-info">
+            <h3 class="cat-title">TALLER</h3>
+            <span class="cat-cta">Ver línea <i class="fa-solid fa-arrow-right"></i></span>
           </div>
         </a>
 
-        <!-- Cat 4 -->
-        <a href="#productos" class="category-card"
-          onclick="document.querySelector('[data-filter=\'carcare\']').click()">
-          <div class="cat-img-wrapper">
-            <img src="imgproductos/creativo_21.png" alt="Carcare Maximum" loading="lazy">
+        <!-- Cat 4: Car Care -->
+        <a href="#productos" class="category-card" onclick="document.querySelector('[data-filter=\'carcare\']').click()">
+          <div class="cat-img-wrap">
+            <img src="Imagenes de Solucion completa maximun/Car Care.jpg" alt="Car Care Maximum" loading="lazy">
           </div>
-          <div class="cat-content">
-            <h3>Carcare (Estética)</h3>
-            <p>Cuidado exterior e interior Premium: siliconas, shampoos high efficiency, antiempañantes y limpieza
-              profunda.</p>
-            <span class="cat-link">Ver línea <i class="fa-solid fa-arrow-right"></i></span>
+          <div class="cat-info">
+            <h3 class="cat-title">CAR CARE</h3>
+            <span class="cat-cta">Ver línea <i class="fa-solid fa-arrow-right"></i></span>
           </div>
         </a>
       </div>
     </div>
   </section>
 
-  <!-- ================= PRODUCTOS DESTACADOS / FEATURED ================= -->
+  <!-- ================= PRODUCTOS DESTACADOS ================= -->
   <section id="destacados" class="products-section pt-100 pb-50">
-    <div class="container">
-      <div class="text-center mb-50">
-        <h3 class="section-badge">Exclusivo</h3>
-        <h2 class="section-title">Productos Destacados</h2>
+    <div class="wide-container">
+      <div class="section-header text-center mb-50">
+        <span class="section-badge">Exclusivo</span>
+        <h2 class="section-title">PRODUCTOS DESTACADOS</h2>
       </div>
-      <div class="products-grid" id="featured-products-grid">
-        <!-- Featured products will be dynamically injected here -->
-      </div>
+      <div class="products-grid" id="featured-products-grid"></div>
     </div>
   </section>
 
   <!-- ================= CATÁLOGO COMPLETO ================= -->
   <section id="productos" class="catalog-section bg-gray pt-80 pb-100">
-    <div class="container">
+    <div class="wide-container">
       <div class="catalog-header mb-40 space-between">
         <div>
-          <h3 class="section-badge">Portafolio</h3>
-          <h2 class="section-title">Catálogo Completo</h2>
+          <span class="section-badge">Portafolio</span>
+          <h2 class="section-title">CATÁLOGO COMPLETO</h2>
         </div>
         <div class="catalog-controls">
           <div class="search-box">
@@ -283,95 +233,79 @@
         </div>
       </div>
 
-      <!-- Filters list dynamically generated in JS -->
       <div class="product-filters mb-40" id="catalog-filters">
         <button class="filter-btn active" data-filter="all">Todos</button>
-        <!-- Categories injected here -->
       </div>
 
-      <div class="products-grid" id="main-products-grid">
-        <!-- Progressive loading products here -->
-      </div>
+      <div class="products-grid" id="main-products-grid"></div>
 
       <div class="load-more-section text-center mt-50">
-        <p id="catalog-counter" class="catalog-counter mb-20 text-bold text-gray-dark">Mostrando 0 de 0 productos</p>
-        <button id="load-more-btn" class="btn btn-outline btn-large">Ver más productos <i
-            class="fa-solid fa-chevron-down"></i></button>
+        <p id="catalog-counter" class="catalog-counter mb-20 text-bold">Mostrando 0 de 0 productos</p>
+        <button id="load-more-btn" class="btn btn-outline btn-large">Ver más productos <i class="fa-solid fa-chevron-down"></i></button>
       </div>
     </div>
   </section>
 
   <!-- ================= PROPUESTA DE VALOR ================= -->
   <section id="valor" class="features-section bg-dark text-white pt-100 pb-100">
-    <div class="container">
-      <div class="text-center mb-50">
-        <h2 class="section-title text-white">¿Por qué MAXIMUM?</h2>
+    <div class="wide-container">
+      <div class="section-header text-center mb-50">
+        <h2 class="section-title text-white">¿POR QUÉ MAXIMUM?</h2>
         <div class="title-divider center-div"></div>
-        <p class="text-gray-light">Soluciones de alto rendimiento enfocadas en la rentabilidad y calidad operacional.
-        </p>
+        <p class="text-gray-light">Soluciones de alto rendimiento enfocadas en la rentabilidad y calidad operacional.</p>
       </div>
-
       <div class="features-grid">
         <div class="feature-box">
           <div class="icon-box"><i class="fa-solid fa-microchip"></i></div>
           <h4 class="feature-title">Tecnología de Vanguardia</h4>
-          <p>Nuestras formulaciones avanzadas aseguran compatibilidad con motores de última generación (gasolina y
-            diésel).</p>
+          <p>Formulaciones avanzadas compatibles con motores de última generación (gasolina y diésel).</p>
         </div>
         <div class="feature-box">
           <div class="icon-box"><i class="fa-solid fa-layer-group"></i></div>
           <h4 class="feature-title">Variedad de Soluciones</h4>
-          <p>Un extenso portafolio que cubre todas las necesidades de taller, desde limpieza de contactos hasta grasas
-            EP2.</p>
+          <p>Portafolio extenso que cubre todas las necesidades de taller, desde limpieza hasta grasas EP2.</p>
         </div>
         <div class="feature-box">
           <div class="icon-box"><i class="fa-solid fa-shield-halved"></i></div>
           <h4 class="feature-title">Protección Prolongada</h4>
-          <p>Aditivos anti-fricción y anticorrosión que incrementan dramáticamente la vida útil del radiador y el motor.
-          </p>
+          <p>Aditivos anti-fricción y anticorrosión que incrementan la vida útil del radiador y el motor.</p>
         </div>
         <div class="feature-box">
           <div class="icon-box"><i class="fa-solid fa-handshake-angle"></i></div>
           <h4 class="feature-title">Respaldo Comercial</h4>
-          <p>Soporte directo a clientes corporativos y de distribución. Inventario estable y acompañamiento de servicio.
-          </p>
+          <p>Soporte directo a clientes corporativos y distribución. Inventario estable y acompañamiento.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ================= SECCIÓN COMERCIAL / CTA ================= -->
+  <!-- ================= CTA DISTRIBUIDORES ================= -->
   <section id="distribuidores" class="cta-banner pt-80 pb-80">
-    <div class="container text-center">
+    <div class="wide-container text-center">
       <h2>¿BUSCAS SER DISTRIBUIDOR MAXIMUM?</h2>
-      <p>ÚNETE A NUESTRA AMPLIA RED DE CENTROS DE SERVICIO TÉCNICO, LUBRICENTROS Y TALLERES. GRAN MARGEN DE RENTABILIDAD
-        Y CALIDAD GARANTIZADA.</p>
+      <p>ÚNETE A NUESTRA AMPLIA RED DE CENTROS DE SERVICIO, LUBRICENTROS Y TALLERES. GRAN MARGEN DE RENTABILIDAD Y CALIDAD GARANTIZADA.</p>
       <div class="cta-buttons mt-30">
-        <a href="#contacto" class="btn btn-primary btn-large">Solicitar Información Comercial</a>
+        <a href="#contacto" class="btn btn-white btn-large">Solicitar Información Comercial</a>
         <a href="#" class="btn btn-dark btn-large"><i class="fa-brands fa-whatsapp"></i> Chat Directo</a>
       </div>
     </div>
   </section>
 
-  <!-- ================= DESCARGA DE CATÁLOGO ================= -->
+  <!-- ================= DESCARGA CATÁLOGO ================= -->
   <section id="catalogo-descarga" class="download-section pt-100 pb-100 bg-gray">
-    <div class="container section-grid-2">
+    <div class="wide-container section-grid-2">
       <div class="download-img-wrapper">
-        <!-- Image representing PDF cover or catalog -->
         <img src="assets/products/p0_i1.jpeg" alt="Catálogo General MAXIMUM 2026" loading="lazy" class="shadow-lg">
       </div>
       <div class="download-content">
-        <h3 class="section-badge">Recurso Oficial</h3>
-        <h2 class="section-title">Catálogo Completo 2026</h2>
-        <p>Acceda a toda la gama técnica de fluidos, sprays de mantenimiento, sistema de refrigeración y embellecimiento
-          automotriz con todos los detalles de presentación e instrucciones.</p>
-
-        <ul class="catalog-features">
+        <span class="section-badge">Recurso Oficial</span>
+        <h2 class="section-title">CATÁLOGO COMPLETO 2026</h2>
+        <p>Acceda a toda la gama técnica de fluidos, sprays de mantenimiento, sistema de refrigeración y embellecimiento automotriz con todos los detalles de presentación e instrucciones.</p>
+        <ul class="catalog-features mt-25">
           <li>✓ Más de 100 SKUs automotrices</li>
           <li>✓ Fichas descriptivas y especificaciones GHS</li>
           <li>✓ Códigos de presentación y características</li>
         </ul>
-
         <a href="CATALOGO MAXIMUM 2025 - RESUMIDO222.pdf" target="_blank" class="btn btn-primary btn-large mt-30">
           <i class="fa-solid fa-file-pdf"></i> Descargar Catálogo PDF
         </a>
@@ -379,14 +313,13 @@
     </div>
   </section>
 
-  <!-- ================= CONTACTO DISTRIBUIDORES ================= -->
+  <!-- ================= CONTACTO ================= -->
   <section id="contacto" class="contact-section pt-100 pb-100">
-    <div class="container section-grid-2">
+    <div class="wide-container section-grid-2">
       <div class="contact-info">
-        <h3 class="section-badge">Ventas Mayoristas y Distribución</h3>
-        <h2 class="section-title">Súmate a nuestra red de distribuidores</h2>
-        <p>Garantiza alta rentabilidad comercializando soluciones de cuidado automotriz con tecnología de clase mundial. Brindamos a nuestros socios corporativos márgenes agresivos, abastecimiento continuo y soporte técnico especializado.</p>
-
+        <span class="section-badge">Ventas Mayoristas y Distribución</span>
+        <h2 class="section-title">SÚMATE A NUESTRA RED</h2>
+        <p>Garantiza alta rentabilidad comercializando soluciones de cuidado automotriz con tecnología de clase mundial. Brindamos márgenes agresivos, abastecimiento continuo y soporte técnico especializado.</p>
         <div class="contact-methods mt-30">
           <div class="method-item">
             <i class="fa-solid fa-map-location-dot"></i>
@@ -454,7 +387,7 @@
 
   <!-- ================= FOOTER ================= -->
   <footer class="main-footer pt-80">
-    <div class="container footer-grid">
+    <div class="wide-container footer-grid">
       <div class="footer-col brand-col">
         <div class="footer-logo">
           <span class="logo-text text-white">MAXI<span class="text-red">MUM</span></span>
@@ -470,10 +403,10 @@
       <div class="footer-col">
         <h4>Productos</h4>
         <ul>
-          <li><a href="#productos-refrigerantes">Refrigerantes</a></li>
-          <li><a href="#productos-grasas">Grasas de Litio</a></li>
-          <li><a href="#productos-taller">Línea Taller Químicos</a></li>
-          <li><a href="#productos-carcare">Soluciones Carcare</a></li>
+          <li><a href="#productos">Refrigerantes</a></li>
+          <li><a href="#productos">Grasas de Litio</a></li>
+          <li><a href="#productos">Línea Taller</a></li>
+          <li><a href="#productos">Kärcher</a></li>
         </ul>
       </div>
 
@@ -482,7 +415,7 @@
         <ul>
           <li><a href="#nosotros">Nuestra Historia</a></li>
           <li><a href="#distribuidores">Red de Distribuidores</a></li>
-          <li><a href="#catalogo-descarga">Catálogo 2025</a></li>
+          <li><a href="#catalogo-descarga">Catálogo 2026</a></li>
           <li><a href="#">Términos y Condiciones</a></li>
         </ul>
       </div>
@@ -497,8 +430,8 @@
       </div>
     </div>
     <div class="footer-bottom mt-50">
-      <div class="container">
-        <p>&copy; 2025 MAXIMUM. Todos los derechos reservados. Desarrollado con excelencia.</p>
+      <div class="wide-container">
+        <p>© 2026 MAXIMUM. Todos los derechos reservados. Desarrollado con excelencia.</p>
       </div>
     </div>
   </footer>
