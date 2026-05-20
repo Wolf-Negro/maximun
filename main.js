@@ -21,15 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
     link.addEventListener('click', toggleMenu);
   });
 
-  // Sticky Header on Scroll
-  const header = document.getElementById('main-header');
-  window.addEventListener('scroll', () => {
-    if (window.scrollY > 50) {
-      header.classList.add('scrolled');
-    } else {
-      header.classList.remove('scrolled');
-    }
-  });
+
 
   // --- Product Rendering & Advanced Filtering Logic ---
   const featuredGrid = document.getElementById('featured-products-grid');
@@ -94,7 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function renderFeatured() {
     if (!featuredGrid) return;
     featuredGrid.innerHTML = '';
-    const featured = allProducts.filter(p => p.featured).slice(0, 12); // max 12
+    const featured = allProducts.filter(p => p.featured).slice(0, 4);
     featured.forEach(p => featuredGrid.appendChild(buildCard(p)));
   }
 
@@ -125,9 +117,22 @@ document.addEventListener('DOMContentLoaded', () => {
     const filterValue = activeFilterBtn ? activeFilterBtn.dataset.filter : 'all';
     const sortValue = sortSelect.value;
 
+    // Mapeo de filtro a categorías reales en la data
+    const categoryMap = {
+      taller: ['químicos de taller', 'accesorios', 'frenos', 'agua pura'],
+      otros:  ['otros'],
+    };
+
     filteredProducts = allProducts.filter(p => {
       const matchSearch = p.nombre.toLowerCase().includes(searchTerm) || p.descripcion.toLowerCase().includes(searchTerm);
-      const matchCategory = filterValue === 'all' || p.category.toLowerCase() === filterValue;
+      let matchCategory;
+      if (filterValue === 'all') {
+        matchCategory = true;
+      } else if (categoryMap[filterValue]) {
+        matchCategory = categoryMap[filterValue].includes(p.category.toLowerCase());
+      } else {
+        matchCategory = p.category.toLowerCase() === filterValue;
+      }
       return matchSearch && matchCategory;
     });
 
@@ -159,18 +164,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
       renderFeatured();
 
-      // Extract unique categories directly from data
-      const categories = [...new Set(allProducts.map(p => p.category))];
-      categories.sort();
-      
-      // Inject filters if missing
-      if (filtersContainer && filtersContainer.children.length === 1) { // Only "Todos" exists
-        categories.forEach(cat => {
-            const btn = document.createElement('button');
-            btn.className = 'filter-btn';
-            btn.setAttribute('data-filter', cat.toLowerCase());
-            btn.innerText = cat;
-            filtersContainer.appendChild(btn);
+      // Categorías fijas que el cliente quiere mostrar
+      const fixedFilters = [
+        { label: 'Refrigerantes', filter: 'refrigerantes' },
+        { label: 'Grasas',        filter: 'grasas' },
+        { label: 'Car Care',      filter: 'carcare' },
+        { label: 'Taller',        filter: 'taller' },
+        { label: 'Otros',         filter: 'otros' },
+      ];
+
+      if (filtersContainer && filtersContainer.children.length === 1) {
+        fixedFilters.forEach(({ label, filter }) => {
+          const btn = document.createElement('button');
+          btn.className = 'filter-btn';
+          btn.setAttribute('data-filter', filter);
+          btn.innerText = label;
+          filtersContainer.appendChild(btn);
         });
       }
 
@@ -278,4 +287,74 @@ document.addEventListener('DOMContentLoaded', () => {
     // Start autoplay
     startAutoPlay();
   }
+
+  // Mapa interactivo de Perú con amCharts 5
+  if (document.getElementById('peru-map-container') && typeof am5 !== 'undefined') {
+    initPeruMap();
+  }
 });
+
+function initPeruMap() {
+  const RED      = am5.color(0xC20E1A);
+  const RED_DARK = am5.color(0x9B0A13);
+  const GRAY     = am5.color(0xD8DDE6);
+  const GRAY_HOV = am5.color(0xBBC3CE);
+
+  // Departamentos con presencia MAXIMUM
+  const activeDepts = new Set([
+    'PE-PIU', // Piura (Chiclayo norte)
+    'PE-LAM', // Lambayeque (Chiclayo)
+    'PE-LAL', // La Libertad (Trujillo)
+    'PE-ARE', // Arequipa
+    'PE-CUS', // Cusco
+    'PE-PUN', // Puno
+    'PE-APU', // Apurímac
+    'PE-MDD', // Madre de Dios (Puerto Maldonado)
+    'PE-LOR', // Loreto (Iquitos)
+  ]);
+
+  const root = am5.Root.new('peru-map-container');
+  root._logo.dispose(); // quita el logo de amCharts
+
+  const chart = root.container.children.push(
+    am5map.MapChart.new(root, {
+      panX: 'none',
+      panY: 'none',
+      wheelX: 'none',
+      wheelY: 'none',
+      projection: am5map.geoMercator(),
+      background: am5.Rectangle.new(root, { fill: am5.color(0xffffff), fillOpacity: 0 })
+    })
+  );
+
+  const polygonSeries = chart.series.push(
+    am5map.MapPolygonSeries.new(root, {
+      geoJSON: am5geodata_peruLow
+    })
+  );
+
+  polygonSeries.mapPolygons.template.setAll({
+    strokeWidth: 1.2,
+    stroke: am5.color(0xffffff),
+    interactive: true,
+    tooltipText: '{name}'
+  });
+
+  // Color por departamento
+  polygonSeries.mapPolygons.template.adapters.add('fill', (_fill, target) => {
+    const id = target.dataItem && target.dataItem.get('id');
+    return activeDepts.has(id) ? RED : GRAY;
+  });
+
+  // Hover
+  polygonSeries.mapPolygons.template.events.on('pointerover', ev => {
+    const id = ev.target.dataItem && ev.target.dataItem.get('id');
+    ev.target.set('fill', activeDepts.has(id) ? RED_DARK : GRAY_HOV);
+  });
+  polygonSeries.mapPolygons.template.events.on('pointerout', ev => {
+    const id = ev.target.dataItem && ev.target.dataItem.get('id');
+    ev.target.set('fill', activeDepts.has(id) ? RED : GRAY);
+  });
+
+  chart.appear(800, 100);
+}

@@ -10,8 +10,8 @@
   --gray-light:  #F4F4F4;
   --gray-medium: #E0E0E0;
   --gray-dark:   #333333;
-  --nav-height:  100px; /* Spacious premium height */
-  --max-wide:    1440px;
+  --nav-height:  130px; /* Increased for a more premium, dominant feel */
+  --max-wide:    1600px; /* Wider container for full-width impact */
   --max-content: 1280px;
   --font-main:   'Geogrotesque', sans-serif;
 }
@@ -121,7 +121,7 @@ img { display:block; max-width:100%; }
    HEADER
    ============================================================ */
 #main-header {
-  position:fixed; top:0; left:0; width:100%;
+  position:relative; width:100%;
   height:var(--nav-height); background:var(--red-primary);
   box-shadow:0 2px 12px rgba(0,0,0,.45); z-index:1000;
   transition:all .3s ease;
@@ -129,11 +129,12 @@ img { display:block; max-width:100%; }
 
 .header-inner {
   display:flex; align-items:center; justify-content:space-between;
-  height:100%; max-width:var(--max-wide); margin:0 auto; padding:0 48px;
+  height:100%; max-width:var(--max-wide); margin:0 auto; padding:0 60px;
+  gap: 80px; /* Added explicit gap to ensure elements don't feel crowded */
 }
 
 .header-logo-img {
-  height: 58px; /* Prominent solid logo */
+  height: 80px; /* Larger, more dominant logo */
   width: auto;
   display: block;
 }
@@ -141,11 +142,11 @@ img { display:block; max-width:100%; }
 .header-actions {
   display: flex;
   align-items: center;
-  gap: 20px; /* More breathing room between CTAs */
+  gap: 32px; /* Rebalanced spacing between CTAs */
 }
 
 .header-cat-img, .header-dist-img {
-  height: 60px; /* Large, balanced buttons */
+  height: 96px;
   width: auto;
   display: block;
   transition: transform 0.3s ease;
@@ -159,10 +160,10 @@ img { display:block; max-width:100%; }
   transform: scale(1.05);
 }
 
-.desktop-nav ul { display:flex; gap:48px; } /* Improved horizontal spacing */
+.desktop-nav ul { display:flex; gap:54px; } /* Increased gap for better readability and rhythm */
 .desktop-nav a {
   color:#fff; font-weight:600; text-transform:uppercase;
-  font-size:1.05rem; letter-spacing:1px; position:relative; /* Improved typography */
+  font-size:1.15rem; letter-spacing:1.2px; position:relative; /* Larger font for better legibility */
 }
 .desktop-nav a::after {
   content:''; position:absolute; bottom:-6px; left:0;
@@ -202,7 +203,6 @@ img { display:block; max-width:100%; }
    HERO / SLIDER
    ============================================================ */
 .hero-section {
-  margin-top: var(--nav-height);
   width: 100%;
   background: #111;
   overflow: hidden;
@@ -322,57 +322,6 @@ img { display:block; max-width:100%; }
   font-weight:600; font-size:1.05rem; margin-bottom:12px;
 }
 
-/* Image frame with precise decorative lines */
-.tech-image-side {
-  position: relative;
-  /* Top and bottom padding for the horizontal lines. */
-  padding: 40px 0; 
-  z-index: 1;
-}
-
-/* Tramo superior: Top-Right segment */
-.tech-image-side::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 20px; /* Positioned BEHIND the image's right edge */
-  width: 55%;
-  height: 120px;
-  border-top: 3px solid var(--yellow);
-  border-right: 3px solid var(--yellow);
-  border-left: none;
-  border-bottom: none;
-  border-top-right-radius: 40px;
-  z-index: -1;
-}
-
-/* Tramo inferior: Bottom-Right segment */
-.tech-image-side::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  right: 20px; /* Positioned BEHIND the image's right edge */
-  width: 55%;
-  height: 120px;
-  border-bottom: 3px solid var(--yellow);
-  border-right: 3px solid var(--yellow);
-  border-left: none;
-  border-top: none;
-  border-bottom-right-radius: 40px;
-  z-index: -1;
-}
-
-.tech-img-frame {
-  position: relative; 
-  border-radius: 16px; 
-  /* Right blue line */
-  border-right: 6px solid #002855; 
-  overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-  z-index: 2;
-  background: #fff;
-}
-.tech-img-frame img { width:100%; object-fit:cover; display:block; }
 
 /* ============================================================
    CATEGORÍAS — white card reference style
@@ -544,10 +493,54 @@ img { display:block; max-width:100%; }
 .cta-banner {
   background:linear-gradient(135deg, var(--red-dark), var(--red-primary));
   color:#fff;
+  padding: 80px 0;
 }
 .cta-banner h2 { font-size:2.6rem; font-weight:700; margin-bottom:14px; }
 .cta-banner p  { font-size:1.05rem; max-width:680px; margin:0 auto; opacity:.9; }
 .cta-buttons   { display:flex; gap:18px; justify-content:center; flex-wrap:wrap; }
+
+/* CTA extra grande */
+.cta-banner-xl {
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+}
+.cta-banner-xl::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at center top, rgba(255,255,255,0.08) 0%, transparent 70%);
+  pointer-events: none;
+}
+.cta-inner-xl {
+  padding: 100px 48px;
+}
+.cta-icon-wrap {
+  font-size: 5.5rem;
+  color: rgba(255,255,255,0.92);
+  margin-bottom: 28px;
+  line-height: 1;
+  filter: drop-shadow(0 4px 16px rgba(0,0,0,0.25));
+}
+.cta-title-xl {
+  font-size: 3.2rem !important;
+  font-weight: 800 !important;
+  margin-bottom: 20px !important;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+.cta-desc-xl {
+  font-size: 1.2rem !important;
+  max-width: 700px;
+  margin: 0 auto;
+  opacity: 0.92;
+  line-height: 1.7;
+}
+.btn-xl {
+  padding: 18px 48px !important;
+  font-size: 1.15rem !important;
+  letter-spacing: 0.5px;
+}
 
 /* ============================================================
    DOWNLOAD
@@ -639,6 +632,10 @@ img { display:block; max-width:100%; }
 @media (max-width:1200px) {
   .wide-container { padding:0 30px; }
   .header-inner   { padding:0 30px; }
+  .header-logo-img { height: 65px; }
+  .desktop-nav ul { gap: 32px; }
+  .header-actions { gap: 20px; }
+  .header-cat-img, .header-dist-img { height: 60px; }
   .hero-slider-wrap { aspect-ratio:16/7; }
   .tech-title  { font-size:2.6rem; }
   .section-title { font-size:2.4rem; }
@@ -688,20 +685,6 @@ img { display:block; max-width:100%; }
   .form-group.row { flex-direction:column; gap:0; }
   .cta-buttons { flex-direction:column; align-items:center; }
   
-  /* Decorative lines adjustments for mobile */
-  .tech-image-side { padding: 24px 0; }
-  .tech-image-side::before { 
-    right: 16px; 
-    border-top-right-radius: 20px; 
-    width: 50%; 
-    height: 60px; 
-  }
-  .tech-image-side::after { 
-    right: 16px; 
-    border-bottom-right-radius: 20px; 
-    width: 50%; 
-    height: 60px; 
-  }
 }
 
 @media (max-width:480px) {
@@ -709,4 +692,152 @@ img { display:block; max-width:100%; }
   .category-grid    { grid-template-columns:1fr 1fr; gap:12px; }
   .products-grid    { grid-template-columns:1fr; }
   .tech-title       { font-size:1.7rem; }
+}
+
+/* ============================================================
+   MAPA INTERACTIVO DE PERÚ
+   ============================================================ */
+.peru-map-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.peru-map-header {
+  margin-bottom: 16px;
+}
+.peru-map-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--red-primary);
+  color: #fff;
+  font-size: .82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 6px 16px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+.peru-map-subtitle {
+  color: #777;
+  font-size: .9rem;
+  margin: 0;
+}
+.peru-map-container {
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 28px rgba(0,0,0,0.10);
+  background: #f7f8fa;
+}
+.peru-map-legend {
+  margin-top: 14px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: .88rem;
+  color: #555;
+}
+.active-legend .legend-dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 3px;
+  background: var(--red-primary);
+  flex-shrink: 0;
+}
+
+/* ============================================================
+   FEATURED PRODUCTS — 2×2 más vistoso
+   ============================================================ */
+#featured-products-grid {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 36px;
+}
+#featured-products-grid .product-card {
+  padding: 28px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+#featured-products-grid .product-img {
+  height: 220px;
+}
+#featured-products-grid .product-name {
+  font-size: 1.12rem;
+}
+
+/* ============================================================
+   FRANJA DISTRIBUIDORES
+   ============================================================ */
+.dist-logos-strip {
+  background: var(--black-base);
+  padding: 60px 0;
+  border-top: 3px solid var(--red-primary);
+}
+.dist-logos-label {
+  color: rgba(255,255,255,0.45);
+  font-size: .78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.dist-logos-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.dist-logo-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: 130px;
+  height: 80px;
+  border: 1.5px dashed rgba(255,255,255,0.2);
+  border-radius: 8px;
+  justify-content: center;
+  color: rgba(255,255,255,0.3);
+  font-size: .78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: border-color .3s ease, color .3s ease;
+}
+.dist-logo-placeholder i { font-size: 1.5rem; }
+.dist-logo-placeholder:hover {
+  border-color: var(--red-primary);
+  color: rgba(255,255,255,0.6);
+}
+.dist-logo-placeholder img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+  opacity: 0.7;
+}
+
+@media (max-width:992px) {
+  .header-cat-img, .header-dist-img { height: 56px; }
+  #featured-products-grid { grid-template-columns: repeat(2, 1fr); }
+  .cta-title-xl { font-size: 2.4rem !important; }
+  .cta-inner-xl { padding: 70px 24px; }
+}
+@media (max-width:768px) {
+  .header-cat-img, .header-dist-img { height: 46px; }
+  .peru-map-container { max-width: 100%; }
+  #featured-products-grid { grid-template-columns: 1fr 1fr; gap: 20px; }
+  .cta-title-xl { font-size: 1.9rem !important; }
+  .cta-icon-wrap { font-size: 4rem; }
+  .dist-logos-grid { gap: 20px; }
+  .dist-logo-placeholder { width: 110px; }
 }

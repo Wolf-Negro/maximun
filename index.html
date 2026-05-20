@@ -134,9 +134,16 @@
           <li><i class="fa-solid fa-caret-right text-red"></i> Variedad de presentaciones comerciales.</li>
         </ul>
       </div>
-      <div class="tech-image-side">
-        <div class="tech-img-frame">
-          <img src="Logo Bloque la marca/Imagenladoderecho.jpg" alt="Tecnología Automotriz Maximum" loading="lazy">
+      <div class="peru-map-wrapper">
+        <div class="peru-map-header">
+          <span class="peru-map-badge"><i class="fa-solid fa-location-dot"></i> Presencia Nacional</span>
+          <p class="peru-map-subtitle">Pasa el cursor sobre el mapa para ver nuestras zonas de cobertura</p>
+        </div>
+        <div class="peru-map-container">
+          <div id="peru-map-container" style="width:100%;height:480px;"></div>
+        </div>
+        <div class="peru-map-legend">
+          <span class="legend-item active-legend"><span class="legend-dot"></span> Zonas con presencia MAXIMUM</span>
         </div>
       </div>
     </div>
@@ -280,13 +287,16 @@
   </section>
 
   <!-- ================= CTA DISTRIBUIDORES ================= -->
-  <section id="distribuidores" class="cta-banner pt-80 pb-80">
-    <div class="wide-container text-center">
-      <h2>¿BUSCAS SER DISTRIBUIDOR MAXIMUM?</h2>
-      <p>ÚNETE A NUESTRA AMPLIA RED DE CENTROS DE SERVICIO, LUBRICENTROS Y TALLERES. GRAN MARGEN DE RENTABILIDAD Y CALIDAD GARANTIZADA.</p>
-      <div class="cta-buttons mt-30">
-        <a href="#contacto" class="btn btn-white btn-large">Solicitar Información Comercial</a>
-        <a href="#" class="btn btn-dark btn-large"><i class="fa-brands fa-whatsapp"></i> Chat Directo</a>
+  <section id="distribuidores" class="cta-banner cta-banner-xl">
+    <div class="wide-container cta-inner-xl text-center">
+      <div class="cta-icon-wrap">
+        <i class="fa-solid fa-handshake-simple"></i>
+      </div>
+      <h2 class="cta-title-xl">¿BUSCAS SER DISTRIBUIDOR MAXIMUM?</h2>
+      <p class="cta-desc-xl">ÚNETE A NUESTRA AMPLIA RED DE CENTROS DE SERVICIO, LUBRICENTROS Y TALLERES.<br>GRAN MARGEN DE RENTABILIDAD Y CALIDAD GARANTIZADA.</p>
+      <div class="cta-buttons mt-40">
+        <a href="#contacto" class="btn btn-white btn-xl">Solicitar Información Comercial</a>
+        <a href="https://wa.me/51983152034" target="_blank" class="btn btn-dark btn-xl"><i class="fa-brands fa-whatsapp"></i> Chat Directo</a>
       </div>
     </div>
   </section>
@@ -325,21 +335,21 @@
             <i class="fa-solid fa-map-location-dot"></i>
             <div>
               <h5>Sede Logística Central</h5>
-              <p>Av. Industrial #123, Zona Comercial</p>
+              <p>Jr Bartolomé Herrera 695, Lince</p>
             </div>
           </div>
           <div class="method-item">
             <i class="fa-brands fa-whatsapp text-red"></i>
             <div>
               <h5>Canal Corporativo (WhatsApp)</h5>
-              <p>+51 900 000 000</p>
+              <p>+51 983 152 034</p>
             </div>
           </div>
           <div class="method-item">
             <i class="fa-solid fa-envelope"></i>
             <div>
               <h5>División Ventas B2B</h5>
-              <p>distribuidores@maximum.com.pe</p>
+              <p>atencion@maximum.com</p>
             </div>
           </div>
         </div>
@@ -381,6 +391,21 @@
           </div>
           <button type="submit" class="btn btn-primary btn-block" style="font-size: 1.1rem; padding: 16px;">Solicitar Distribución Oficial</button>
         </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FRANJA DISTRIBUIDORES ================= -->
+  <section class="dist-logos-strip">
+    <div class="wide-container">
+      <p class="dist-logos-label">NUESTROS DISTRIBUIDORES OFICIALES</p>
+      <div class="dist-logos-grid" id="dist-logos-grid">
+        <div class="dist-logo-placeholder"><i class="fa-solid fa-store"></i><span>Distribuidor</span></div>
+        <div class="dist-logo-placeholder"><i class="fa-solid fa-store"></i><span>Distribuidor</span></div>
+        <div class="dist-logo-placeholder"><i class="fa-solid fa-store"></i><span>Distribuidor</span></div>
+        <div class="dist-logo-placeholder"><i class="fa-solid fa-store"></i><span>Distribuidor</span></div>
+        <div class="dist-logo-placeholder"><i class="fa-solid fa-store"></i><span>Distribuidor</span></div>
+        <div class="dist-logo-placeholder"><i class="fa-solid fa-store"></i><span>Distribuidor</span></div>
       </div>
     </div>
   </section>
@@ -436,6 +461,9 @@
     </div>
   </footer>
 
+  <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+  <script src="https://cdn.amcharts.com/lib/5/map.js"></script>
+  <script src="https://cdn.amcharts.com/lib/5/geodata/peruLow.js"></script>
   <script src="products.js"></script>
   <script src="main.js"></script>
 </body>
