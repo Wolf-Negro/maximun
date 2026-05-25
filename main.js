@@ -153,7 +153,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function initCatalog() {
     if (window.MAXIMUM_PRODUCTS) {
-      allProducts = window.MAXIMUM_PRODUCTS;
+      allProducts = window.MAXIMUM_PRODUCTS.filter(p => p.status === 'valid');
 
       // Ensure default sorting applies initially
       allProducts.sort((a, b) => {
