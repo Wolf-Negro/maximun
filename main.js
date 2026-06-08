@@ -358,3 +358,30 @@ function initPeruMap() {
 
   chart.appear(800, 100);
 }
+
+// --- Contact Form → WhatsApp ---
+const contactForm = document.getElementById('contactForm');
+if (contactForm) {
+  contactForm.addEventListener('submit', function (e) {
+    e.preventDefault();
+    const inputs = contactForm.querySelectorAll('input, select, textarea');
+    const nombre   = inputs[0].value.trim();
+    const negocio  = inputs[1].value.trim();
+    const telefono = inputs[2].value.trim();
+    const email    = inputs[3].value.trim();
+    const alianza  = inputs[4].options[inputs[4].selectedIndex].text;
+    const contexto = inputs[5].value.trim();
+
+    const msg = [
+      '¡Hola MAXIMUM! Me interesa unirme a su red.',
+      `*Nombre:* ${nombre}`,
+      `*Negocio:* ${negocio}`,
+      telefono ? `*Teléfono:* ${telefono}` : null,
+      `*Email:* ${email}`,
+      `*Tipo de alianza:* ${alianza}`,
+      contexto ? `*Comentario:* ${contexto}` : null,
+    ].filter(Boolean).join('\n');
+
+    window.open('https://wa.me/51983152034?text=' + encodeURIComponent(msg), '_blank');
+  });
+}

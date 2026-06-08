@@ -27,7 +27,7 @@
     "category": "Refrigerantes",
     "featured": true,
     "orderPriority": 1,
-    "pdf": null
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA COMPLETA DE 55_ NOAT - NITRITO MAXIMUM 3.pdf"
   },
   {
     "id": 3,
@@ -297,7 +297,7 @@
     "category": "Refrigerantes",
     "featured": false,
     "orderPriority": 2,
-    "pdf": null
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA COMPLETA DE 55_ NOAT - NITRITO MAXIMUM 3.pdf"
   },
   {
     "id": 21,
@@ -432,7 +432,7 @@
     "category": "Refrigerantes",
     "featured": false,
     "orderPriority": 2,
-    "pdf": null
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA COMPLETA DE 55_ NOAT - NITRITO MAXIMUM 3.pdf"
   },
   {
     "id": 30,
@@ -477,7 +477,7 @@
     "category": "Refrigerantes",
     "featured": false,
     "orderPriority": 2,
-    "pdf": null
+    "pdf": "FICHAS TECNICAS MAXIMUM/ice blue ficha completa.pdf"
   },
   {
     "id": 33,
@@ -507,7 +507,7 @@
     "category": "Refrigerantes",
     "featured": false,
     "orderPriority": 2,
-    "pdf": null
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA COMPLETA DE 55_ OEM , 2026.pdf"
   },
   {
     "id": 35,
@@ -522,7 +522,7 @@
     "category": "Grasas",
     "featured": false,
     "orderPriority": 2,
-    "pdf": null
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA MULTIPROPOSITO (5).pdf"
   },
   {
     "id": 36,
@@ -597,7 +597,7 @@
     "category": "Refrigerantes",
     "featured": false,
     "orderPriority": 2,
-    "pdf": null
+    "pdf": "FICHAS TECNICAS MAXIMUM/ice blue ficha completa.pdf"
   },
   {
     "id": 41,
@@ -627,7 +627,7 @@
     "category": "Refrigerantes",
     "featured": false,
     "orderPriority": 2,
-    "pdf": null
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA COMPLETA DE 55_ NOAT - NITRITO MAXIMUM 3.pdf"
   },
   {
     "id": 43,
@@ -687,7 +687,7 @@
     "category": "Refrigerantes",
     "featured": false,
     "orderPriority": 2,
-    "pdf": null
+    "pdf": "FICHAS TECNICAS MAXIMUM/ice blue ficha completa.pdf"
   },
   {
     "id": 47,
@@ -717,7 +717,7 @@
     "category": "Refrigerantes",
     "featured": false,
     "orderPriority": 2,
-    "pdf": null
+    "pdf": "FICHAS TECNICAS MAXIMUM/ice blue ficha completa.pdf"
   },
   {
     "id": 49,
@@ -747,7 +747,7 @@
     "category": "Refrigerantes",
     "featured": false,
     "orderPriority": 2,
-    "pdf": null
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA COMPLETA DE 55_ OEM , 2026.pdf"
   },
   {
     "id": 51,
@@ -852,7 +852,7 @@
     "category": "Refrigerantes",
     "featured": false,
     "orderPriority": 2,
-    "pdf": null
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA COMPLETA DE 55_ OEM , 2026.pdf"
   },
   {
     "id": 58,
@@ -882,7 +882,7 @@
     "category": "Refrigerantes",
     "featured": false,
     "orderPriority": 2,
-    "pdf": null
+    "pdf": "FICHAS TECNICAS MAXIMUM/ice blue ficha completa.pdf"
   },
   {
     "id": 60,
@@ -897,7 +897,7 @@
     "category": "Grasas",
     "featured": false,
     "orderPriority": 2,
-    "pdf": null
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA MULTIPROPOSITO (5).pdf"
   },
   {
     "id": 61,
@@ -912,7 +912,7 @@
     "category": "Refrigerantes",
     "featured": false,
     "orderPriority": 2,
-    "pdf": null
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA COMPLETA DE 55_ OEM , 2026.pdf"
   },
   {
     "id": 62,
@@ -972,7 +972,7 @@
     "category": "Refrigerantes",
     "featured": false,
     "orderPriority": 2,
-    "pdf": null
+    "pdf": "FICHAS TECNICAS MAXIMUM/ice blue ficha completa.pdf"
   },
   {
     "id": 66,
@@ -987,7 +987,7 @@
     "category": "Frenos",
     "featured": false,
     "orderPriority": 2,
-    "pdf": null
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA LIQUIDO DE FRENOS (11).pdf"
   },
   {
     "id": 67,
@@ -1002,7 +1002,7 @@
     "category": "Refrigerantes",
     "featured": false,
     "orderPriority": 2,
-    "pdf": null
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA COMPLETA DE 55_ OEM , 2026.pdf"
   },
   {
     "id": 68,
@@ -1017,7 +1017,7 @@
     "category": "Refrigerantes",
     "featured": false,
     "orderPriority": 2,
-    "pdf": null
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE 60_ MAXIMUM (4).pdf"
   },
   {
     "id": 69,
@@ -1107,7 +1107,7 @@
     "category": "Refrigerantes",
     "featured": false,
     "orderPriority": 2,
-    "pdf": null
+    "pdf": "FICHAS TECNICAS MAXIMUM/ice blue ficha completa.pdf"
   },
   {
     "id": 75,
@@ -1167,7 +1167,7 @@
     "category": "Refrigerantes",
     "featured": false,
     "orderPriority": 2,
-    "pdf": null
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA COMPLETA DE 55_ NOAT - NITRITO MAXIMUM 3.pdf"
   },
   {
     "id": 79,
@@ -1362,7 +1362,7 @@
     "category": "Frenos",
     "featured": false,
     "orderPriority": 2,
-    "pdf": null
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA LIQUIDO DE FRENOS (11).pdf"
   },
   {
     "id": 92,
@@ -1377,7 +1377,7 @@
     "category": "Químicos de Taller",
     "featured": false,
     "orderPriority": 2,
-    "pdf": null
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE LIMPIACONTACTOS ESTADO ZERO(8).pdf"
   },
   {
     "id": 93,
@@ -1512,7 +1512,7 @@
     "category": "Refrigerantes",
     "featured": false,
     "orderPriority": 2,
-    "pdf": null
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA COMPLETA DE 50_  11.pdf"
   },
   {
     "id": 102,
@@ -1587,7 +1587,7 @@
     "category": "Refrigerantes",
     "featured": false,
     "orderPriority": 2,
-    "pdf": null
+    "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE 60_ MAXIMUM (4).pdf"
   },
   {
     "id": 107,
