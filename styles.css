@@ -370,7 +370,8 @@ img { display:block; max-width:100%; }
   background: var(--red-primary);
   padding: 18px 30px;
   border-radius: 8px;
-  display: inline-block;
+  display: block;
+  width: fit-content;
   margin-bottom: 24px;
 }
 .tech-brand-lockup img {
