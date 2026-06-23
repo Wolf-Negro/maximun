@@ -117,6 +117,14 @@ img { display:block; max-width:100%; }
 .center-div { margin-left:auto; margin-right:auto; }
 .section-header { margin-bottom:50px; }
 
+.brand-mark {
+  display: inline-block;
+  background: var(--red-primary);
+  color: #fff;
+  padding: 2px 10px;
+  border-radius: 4px;
+}
+
 /* ============================================================
    HEADER
    ============================================================ */
@@ -133,9 +141,19 @@ img { display:block; max-width:100%; }
   gap: 80px; /* Added explicit gap to ensure elements don't feel crowded */
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  width: auto;
+  max-width: none;
+  flex-shrink: 0;
+}
+
 .header-logo-img {
   height: 80px; /* Larger, more dominant logo */
-  width: auto;
+  width: auto !important;
+  max-width: none;
+  object-fit: contain;
   display: block;
 }
 
@@ -167,9 +185,9 @@ img { display:block; max-width:100%; }
 .header-btn-gold {
   background: linear-gradient(135deg, #F0C75E 0%, #D4A82E 55%, #B6871A 100%);
   color: #3a2a05;
-  box-shadow: 0 4px 14px rgba(180,130,20,.35);
+  box-shadow: 0 4px 14px rgba(0,0,0,.35);
 }
-.header-btn-gold:hover { box-shadow: 0 8px 20px rgba(180,130,20,.5); }
+.header-btn-gold:hover { box-shadow: 0 8px 20px rgba(0,0,0,.5); }
 
 .header-btn-dark {
   background: linear-gradient(135deg, #E2222F 0%, var(--red-primary) 55%, #7D0A12 100%);
@@ -199,10 +217,10 @@ img { display:block; max-width:100%; }
 }
 .header-social a:hover { background: rgba(255,255,255,.35); }
 
-.desktop-nav ul { display:flex; gap:54px; } /* Increased gap for better readability and rhythm */
+.desktop-nav ul { display:flex; gap:42px; } /* Adjusted to balance larger link font size */
 .desktop-nav a {
   color:#fff; font-weight:600; text-transform:uppercase;
-  font-size:1.15rem; letter-spacing:1.2px; position:relative; /* Larger font for better legibility */
+  font-size:1.3rem; letter-spacing:1.2px; position:relative; /* Larger font for better legibility */
 }
 .desktop-nav a::after {
   content:''; position:absolute; bottom:-6px; left:0;
@@ -344,9 +362,20 @@ img { display:block; max-width:100%; }
   align-items:center;
 }
 .tech-badge {
-  display:inline-block; color:var(--red-primary); font-size:.85rem;
+  display:inline-block; color:var(--red-primary); font-size:1.3rem;
   text-transform:uppercase; letter-spacing:4px; font-weight:700;
   margin-bottom:18px;
+}
+.tech-brand-lockup {
+  background: var(--red-primary);
+  padding: 18px 30px;
+  border-radius: 8px;
+  display: inline-block;
+  margin-bottom: 24px;
+}
+.tech-brand-lockup img {
+  height: 50px;
+  display: block;
 }
 .tech-logo-img {
   max-width: 420px;
@@ -377,7 +406,7 @@ img { display:block; max-width:100%; }
 .cat-eyebrow {
   display: block;
   color: var(--red-primary);
-  font-size: .8rem;
+  font-size: 1.1rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -395,7 +424,7 @@ img { display:block; max-width:100%; }
 .category-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 32px;
+  gap: 40px;
 }
 
 /* Card — borderless, floats on section bg */
@@ -451,7 +480,7 @@ img { display:block; max-width:100%; }
   border: none;
 }
 .cat-title {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-weight: 700;
   color: var(--black-base);
   text-transform: uppercase;
@@ -497,7 +526,7 @@ img { display:block; max-width:100%; }
 .product-tag.premium   { background:var(--yellow); color:var(--black-base); }
 
 .product-img {
-  text-align:center; margin-bottom:18px; height:200px;
+  text-align:center; margin-bottom:18px; height:230px;
   display:flex; align-items:center; justify-content:center;
 }
 .product-img img { width:100%; height:100%; object-fit:contain; display:block; }
@@ -517,12 +546,41 @@ img { display:block; max-width:100%; }
 .features-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:28px; }
 
 .feature-box {
-  background:rgba(255,255,255,.05); padding:38px 28px;
-  border-radius:8px; text-align:center; transition:transform .3s ease;
+  background:rgba(255,255,255,.05); padding:0 28px 38px;
+  border-radius:8px; text-align:center; overflow:hidden;
+  transition:transform .3s ease, box-shadow .3s ease;
   border:1px solid rgba(255,255,255,.08);
 }
-.feature-box:hover { transform:translateY(-8px); border-color:var(--red-primary); }
-.feature-box .icon-box { font-size:2.8rem; color:var(--yellow); margin-bottom:18px; }
+.feature-box:hover {
+  transform:translateY(-8px);
+  border-color:var(--red-primary);
+  box-shadow: 0 16px 40px rgba(194,14,26,.25);
+}
+.feature-media {
+  width: 100%;
+  height: 160px;
+  margin: 0 0 24px;
+  border-radius: 8px 8px 0 0;
+  overflow: hidden;
+}
+.feature-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.feature-media-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: rgba(255,255,255,.06);
+  color: #777;
+}
+.feature-media-placeholder i { font-size: 2rem; }
+.feature-media-placeholder span { font-size: .82rem; text-transform: uppercase; letter-spacing: 1px; }
+.feature-box .icon-box { font-size:2.8rem; color:var(--yellow); margin:28px 0 18px; }
 .feature-title { font-size:1.2rem; margin-bottom:12px; font-weight:600; color:#fff; }
 .feature-box p { color:#999; font-size:.92rem; }
 
@@ -560,9 +618,15 @@ img { display:block; max-width:100%; }
   margin-bottom: 28px;
   line-height: 1;
   filter: drop-shadow(0 4px 16px rgba(0,0,0,0.25));
+  animation: pulse-cta 2.5s ease-in-out infinite;
+}
+@keyframes pulse-cta {
+  0%   { transform: scale(1);     filter: drop-shadow(0 4px 16px rgba(0,0,0,0.25)); }
+  50%  { transform: scale(1.08);  filter: drop-shadow(0 8px 24px rgba(0,0,0,0.35)); }
+  100% { transform: scale(1);     filter: drop-shadow(0 4px 16px rgba(0,0,0,0.25)); }
 }
 .cta-title-xl {
-  font-size: 3.2rem !important;
+  font-size: 3.8rem !important;
   font-weight: 800 !important;
   margin-bottom: 20px !important;
   letter-spacing: 1px;
@@ -579,6 +643,12 @@ img { display:block; max-width:100%; }
   padding: 18px 48px !important;
   font-size: 1.15rem !important;
   letter-spacing: 0.5px;
+  box-shadow: 0 8px 24px rgba(0,0,0,.25);
+  transition: all .3s ease;
+}
+.cta-buttons .btn-xl:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(0,0,0,.35);
 }
 
 /* ============================================================
@@ -715,7 +785,7 @@ img { display:block; max-width:100%; }
   .cat-title  { font-size:1.1rem; }
   .products-grid { grid-template-columns:repeat(2,1fr); gap:12px; }
   .product-card  { padding:14px; }
-  .product-img   { height:145px; margin-bottom:12px; }
+  .product-img   { height:165px; margin-bottom:12px; }
   .product-name  { font-size:.95rem; }
   .features-grid { grid-template-columns:1fr; }
   .footer-grid   { grid-template-columns:1fr; }
@@ -732,7 +802,7 @@ img { display:block; max-width:100%; }
   .category-grid    { grid-template-columns:1fr 1fr; gap:12px; }
   .products-grid    { grid-template-columns:repeat(2,1fr); gap:10px; }
   .product-card     { padding:10px; }
-  .product-img      { height:115px; margin-bottom:8px; }
+  .product-img      { height:130px; margin-bottom:8px; }
   .product-name     { font-size:.85rem; margin-bottom:5px; }
   .product-cat      { font-size:.7rem; margin-bottom:3px; }
   .product-size     { display:none; }
@@ -776,7 +846,7 @@ img { display:block; max-width:100%; }
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 8px 28px rgba(0,0,0,0.10);
-  background: #f7f8fa;
+  background: linear-gradient(135deg, #f7f8fa, #eef0f4);
 }
 .peru-map-legend {
   margin-top: 14px;
@@ -804,25 +874,39 @@ img { display:block; max-width:100%; }
    FEATURED PRODUCTS — 2×2 más vistoso
    ============================================================ */
 #featured-products-grid {
-  grid-template-columns: repeat(2, 1fr);
-  gap: 36px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
 }
 #featured-products-grid .product-card {
-  padding: 28px;
+  padding: 24px;
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  text-align: center;
 }
 #featured-products-grid .product-img {
-  height: 240px;
+  height: 260px;
+  margin-bottom: 14px;
 }
 #featured-products-grid .product-name {
-  font-size: 1.12rem;
+  font-size: 1.18rem;
+  margin-bottom: 0;
+}
+/* Solo imagen y título: ocultar categoría, descripción, tag premium y botón de ficha técnica */
+#featured-products-grid .product-cat,
+#featured-products-grid .product-size,
+#featured-products-grid .product-tag.premium,
+#featured-products-grid .product-action {
+  display: none;
+}
+
+.destacados-badge {
+  font-size: 1.3rem;
 }
 
 
 @media (max-width:992px) {
   #featured-products-grid { grid-template-columns: repeat(2, 1fr); }
-  .cta-title-xl { font-size: 2.4rem !important; }
+  .cta-title-xl { font-size: 2.8rem !important; }
   .cta-inner-xl { padding: 70px 24px; }
 }
 @media (max-width:768px) {
@@ -833,7 +917,7 @@ img { display:block; max-width:100%; }
   #featured-products-grid { grid-template-columns: 1fr 1fr; gap: 14px; }
   #featured-products-grid .product-card { padding: 16px; }
   #featured-products-grid .product-img  { height: 160px; }
-  .cta-title-xl { font-size: 1.9rem !important; }
+  .cta-title-xl { font-size: 2.2rem !important; }
   .cta-icon-wrap { font-size: 4rem; }
 }
 @media (max-width:480px) {
@@ -841,4 +925,135 @@ img { display:block; max-width:100%; }
   #featured-products-grid .product-card { padding: 12px; }
   #featured-products-grid .product-img  { height: 120px; }
   #featured-products-grid .product-name { font-size: .9rem; }
+}
+
+/* ============================================================
+   MODAL DISTRIBUIDORES LIMA
+   ============================================================ */
+.lima-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  z-index: 1100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.lima-modal-box {
+  background: #fff;
+  border-radius: 14px;
+  max-width: 480px;
+  width: 100%;
+  max-height: 80vh;
+  overflow-y: auto;
+  padding: 36px 28px 28px;
+  position: relative;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+}
+.lima-modal-close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  background: #f2f2f2;
+  border: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  font-size: 1rem;
+  color: #333;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background .2s ease;
+}
+.lima-modal-close:hover { background: #e2e2e2; }
+.lima-modal-title {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+  color: var(--red-primary, #C20E1A);
+}
+.lima-distributors-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.lima-distributors-list li {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 14px;
+}
+.lima-distributors-list li:last-child { border-bottom: none; padding-bottom: 0; }
+.lima-distributors-list li i {
+  font-size: 1.3rem;
+  color: #bbb;
+  margin-top: 3px;
+}
+.lima-distributors-list .dist-name {
+  font-weight: 600;
+  color: #999;
+  margin: 0 0 4px;
+}
+.lima-distributors-list .dist-meta {
+  font-size: .85rem;
+  color: #bbb;
+  margin: 0;
+}
+
+/* ============================================================
+   BOTÓN FLOTANTE WHATSAPP
+   ============================================================ */
+.whatsapp-float {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  z-index: 999;
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  background: #25D366;
+  color: #fff;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 20px rgba(0,0,0,.3);
+  text-decoration: none;
+  transition: transform .25s ease;
+}
+.whatsapp-float:hover { transform: scale(1.08); }
+.whatsapp-float::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 3px solid #25D366;
+  animation: whatsapp-pulse 2s infinite;
+  pointer-events: none;
+}
+@keyframes whatsapp-pulse {
+  0%   { transform: scale(1);   opacity: 0.6; }
+  100% { transform: scale(1.8); opacity: 0; }
+}
+@media (max-width:480px) {
+  .whatsapp-float { width: 54px; height: 54px; font-size: 1.7rem; bottom: 20px; right: 20px; }
+}
+
+/* ============================================================
+   SCROLL REVEAL GENÉRICO
+   ============================================================ */
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity .7s ease, transform .7s ease;
+}
+.reveal-on-scroll.revealed {
+  opacity: 1;
+  transform: translateY(0);
 }

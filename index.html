@@ -118,6 +118,9 @@
     <div class="wide-container tech-grid">
       <div class="tech-text">
         <span class="tech-badge">LA MARCA</span>
+        <div class="tech-brand-lockup">
+          <img src="Barra Superior/Logo Blanco .png" alt="MAXIMUM" loading="lazy">
+        </div>
         <img src="Logo Bloque la marca/logosinfondo.png" alt="Tecnología Automotriz" class="tech-logo-img">
         <p>En <strong>MAXIMUM</strong>, desarrollamos y distribuimos insumos automotrices e industriales bajo los más estrictos estándares de calidad. Nuestro portafolio está diseñado para brindar mayor durabilidad, protección y máxima eficiencia en vehículos y maquinaria de alta exigencia.</p>
         <p>Nos enorgullece ser la elección de talleres y conductores que buscan una marca sólida, confiable y que respalde su inversión.</p>
@@ -147,12 +150,12 @@
     <div class="wide-container">
       <div class="cat-section-header text-center">
         <span class="cat-eyebrow">NUESTRAS LÍNEAS</span>
-        <h2 class="cat-main-title">SOLUCIONES COMPLETAS MAXIMUM</h2>
+        <h2 class="cat-main-title">SOLUCIONES INTEGRALES <span class="brand-mark">MAXIMUM</span></h2>
       </div>
 
       <div class="category-grid">
         <!-- Cat 1: Refrigerantes -->
-        <a href="#productos" class="category-card" onclick="document.querySelector('[data-filter=\'refrigerantes\']').click()">
+        <a href="#productos" class="category-card reveal-on-scroll" onclick="document.querySelector('[data-filter=\'refrigerantes\']').click()">
           <div class="cat-img-wrap">
             <img src="Imagenes de Solucion completa maximun/Refrigerantes.png" alt="Refrigerantes Maximum" loading="lazy">
           </div>
@@ -163,7 +166,7 @@
         </a>
 
         <!-- Cat 2: Grasas -->
-        <a href="#productos" class="category-card" onclick="document.querySelector('[data-filter=\'grasas\']').click()">
+        <a href="#productos" class="category-card reveal-on-scroll" onclick="document.querySelector('[data-filter=\'grasas\']').click()">
           <div class="cat-img-wrap">
             <img src="Imagenes de Solucion completa maximun/Grasas.png" alt="Grasas Maximum" loading="lazy">
           </div>
@@ -174,7 +177,7 @@
         </a>
 
         <!-- Cat 3: Taller -->
-        <a href="#productos" class="category-card" onclick="document.querySelector('[data-filter=\'taller\']').click()">
+        <a href="#productos" class="category-card reveal-on-scroll" onclick="document.querySelector('[data-filter=\'taller\']').click()">
           <div class="cat-img-wrap">
             <img src="Imagenes de Solucion completa maximun/Taller.jpg" alt="Línea Taller Maximum" loading="lazy">
           </div>
@@ -185,7 +188,7 @@
         </a>
 
         <!-- Cat 4: Car Care -->
-        <a href="#productos" class="category-card" onclick="document.querySelector('[data-filter=\'carcare\']').click()">
+        <a href="#productos" class="category-card reveal-on-scroll" onclick="document.querySelector('[data-filter=\'carcare\']').click()">
           <div class="cat-img-wrap">
             <img src="Imagenes de Solucion completa maximun/Car Care.jpg" alt="Car Care Maximum" loading="lazy">
           </div>
@@ -202,7 +205,7 @@
   <section id="destacados" class="products-section pt-100 pb-50">
     <div class="wide-container">
       <div class="section-header text-center mb-50">
-        <span class="section-badge">Exclusivo</span>
+        <span class="section-badge destacados-badge">Novedades</span>
         <h2 class="section-title">PRODUCTOS DESTACADOS</h2>
       </div>
       <div class="products-grid" id="featured-products-grid"></div>
@@ -214,7 +217,7 @@
     <div class="wide-container">
       <div class="catalog-header mb-40 space-between">
         <div>
-          <span class="section-badge">Portafolio</span>
+          <span class="section-badge">Nuestro Portafolio</span>
           <h2 class="section-title">CATÁLOGO COMPLETO</h2>
         </div>
         <div class="catalog-controls">
@@ -250,27 +253,35 @@
   <section id="valor" class="features-section bg-dark text-white pt-100 pb-100">
     <div class="wide-container">
       <div class="section-header text-center mb-50">
-        <h2 class="section-title text-white">¿POR QUÉ MAXIMUM?</h2>
+        <h2 class="section-title text-white">¿POR QUÉ <span class="brand-mark">MAXIMUM</span>?</h2>
         <div class="title-divider center-div"></div>
         <p class="text-gray-light">Soluciones de alto rendimiento enfocadas en la rentabilidad y calidad operacional.</p>
       </div>
       <div class="features-grid">
-        <div class="feature-box">
+        <div class="feature-box reveal-on-scroll">
+          <!-- TODO: reemplazar por imagen/video real que enviará el cliente -->
+          <div class="feature-media feature-media-placeholder"><i class="fa-solid fa-image"></i><span>Imagen próximamente</span></div>
           <div class="icon-box"><i class="fa-solid fa-microchip"></i></div>
           <h4 class="feature-title">Tecnología de Vanguardia</h4>
           <p>Formulaciones avanzadas compatibles con motores de última generación (gasolina y diésel).</p>
         </div>
-        <div class="feature-box">
+        <div class="feature-box reveal-on-scroll">
+          <!-- TODO: reemplazar por imagen/video real que enviará el cliente -->
+          <div class="feature-media feature-media-placeholder"><i class="fa-solid fa-image"></i><span>Imagen próximamente</span></div>
           <div class="icon-box"><i class="fa-solid fa-layer-group"></i></div>
           <h4 class="feature-title">Variedad de Soluciones</h4>
           <p>Portafolio extenso que cubre todas las necesidades de taller, desde limpieza hasta grasas EP2.</p>
         </div>
-        <div class="feature-box">
+        <div class="feature-box reveal-on-scroll">
+          <!-- TODO: reemplazar por imagen/video real que enviará el cliente -->
+          <div class="feature-media feature-media-placeholder"><i class="fa-solid fa-image"></i><span>Imagen próximamente</span></div>
           <div class="icon-box"><i class="fa-solid fa-shield-halved"></i></div>
           <h4 class="feature-title">Protección Prolongada</h4>
           <p>Aditivos anti-fricción y anticorrosión que incrementan la vida útil del radiador y el motor.</p>
         </div>
-        <div class="feature-box">
+        <div class="feature-box reveal-on-scroll">
+          <!-- TODO: reemplazar por imagen/video real que enviará el cliente -->
+          <div class="feature-media feature-media-placeholder"><i class="fa-solid fa-image"></i><span>Imagen próximamente</span></div>
           <div class="icon-box"><i class="fa-solid fa-handshake-angle"></i></div>
           <h4 class="feature-title">Respaldo Comercial</h4>
           <p>Soporte directo a clientes corporativos y distribución. Inventario estable y acompañamiento.</p>
@@ -280,12 +291,12 @@
   </section>
 
   <!-- ================= CTA DISTRIBUIDORES ================= -->
-  <section id="distribuidores" class="cta-banner cta-banner-xl">
+  <section id="distribuidores" class="cta-banner cta-banner-xl reveal-on-scroll">
     <div class="wide-container cta-inner-xl text-center">
       <div class="cta-icon-wrap">
         <i class="fa-solid fa-handshake-simple"></i>
       </div>
-      <h2 class="cta-title-xl">¿BUSCAS SER DISTRIBUIDOR MAXIMUM?</h2>
+      <h2 class="cta-title-xl">¿BUSCAS SER DISTRIBUIDOR <span class="brand-mark">MAXIMUM</span>?</h2>
       <p class="cta-desc-xl">ÚNETE A NUESTRA AMPLIA RED DE CENTROS DE SERVICIO, LUBRICENTROS Y TALLERES.<br>GRAN MARGEN DE RENTABILIDAD Y CALIDAD GARANTIZADA.</p>
       <div class="cta-buttons mt-40">
         <a href="#contacto" class="btn btn-white btn-xl">Solicitar Información Comercial</a>
@@ -302,7 +313,7 @@
       </div>
       <div class="download-content">
         <span class="section-badge">Recurso Oficial</span>
-        <h2 class="section-title">CATÁLOGO COMPLETO 2026</h2>
+        <h2 class="section-title">NUESTRO CATÁLOGO 2026</h2>
         <p>Acceda a toda la gama técnica de fluidos, sprays de mantenimiento, sistema de refrigeración y embellecimiento automotriz con todos los detalles de presentación e instrucciones.</p>
         <ul class="catalog-features mt-25">
           <li>✓ Más de 100 SKUs automotrices</li>
@@ -439,6 +450,44 @@
       </div>
     </div>
   </footer>
+
+  <!-- ================= MODAL DISTRIBUIDORES LIMA ================= -->
+  <div id="lima-distributors-modal" class="lima-modal-overlay" style="display:none;">
+    <div class="lima-modal-box">
+      <button id="lima-modal-close" class="lima-modal-close" aria-label="Cerrar"><i class="fa-solid fa-xmark"></i></button>
+      <h3 class="lima-modal-title">Distribuidores en Lima</h3>
+      <ul id="lima-distributors-list" class="lima-distributors-list">
+        <!-- TODO: el cliente enviará la lista real de distribuidores de Lima (nombre, dirección, teléfono) — reemplazar este placeholder -->
+        <li>
+          <i class="fa-solid fa-store"></i>
+          <div>
+            <p class="dist-name">Nombre del distribuidor (próximamente)</p>
+            <p class="dist-meta">Dirección por confirmar</p>
+            <p class="dist-meta">Teléfono por confirmar</p>
+          </div>
+        </li>
+        <li>
+          <i class="fa-solid fa-store"></i>
+          <div>
+            <p class="dist-name">Nombre del distribuidor (próximamente)</p>
+            <p class="dist-meta">Dirección por confirmar</p>
+            <p class="dist-meta">Teléfono por confirmar</p>
+          </div>
+        </li>
+        <li>
+          <i class="fa-solid fa-store"></i>
+          <div>
+            <p class="dist-name">Nombre del distribuidor (próximamente)</p>
+            <p class="dist-meta">Dirección por confirmar</p>
+            <p class="dist-meta">Teléfono por confirmar</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ================= BOTÓN FLOTANTE WHATSAPP ================= -->
+  <a href="https://wa.me/51983152034" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Chatea con nosotros por WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
 
   <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
   <script src="https://cdn.amcharts.com/lib/5/map.js"></script>

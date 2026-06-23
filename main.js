@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function buildCard(p) {
     const card = document.createElement('div');
-    card.className = 'product-card';
+    card.className = 'product-card reveal-on-scroll';
     card.setAttribute('data-category', p.category.toLowerCase());
     
     let tagHtml = '';
@@ -86,8 +86,9 @@ document.addEventListener('DOMContentLoaded', () => {
   function renderFeatured() {
     if (!featuredGrid) return;
     featuredGrid.innerHTML = '';
-    const featured = allProducts.filter(p => p.featured).slice(0, 4);
+    const featured = allProducts.filter(p => p.featured).slice(0, 5);
     featured.forEach(p => featuredGrid.appendChild(buildCard(p)));
+    initScrollReveal();
   }
 
   function updateCatalogUI() {
@@ -109,6 +110,8 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
       loadMoreBtn.style.display = 'inline-flex';
     }
+
+    initScrollReveal();
   }
 
   function applyFiltersAndSort() {
@@ -210,6 +213,17 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   initCatalog();
+  initScrollReveal();
+
+  // Lima distributors modal: cierre con botón "X" y al hacer click fuera de la caja blanca
+  const limaModal = document.getElementById('lima-distributors-modal');
+  const limaModalClose = document.getElementById('lima-modal-close');
+  if (limaModal && limaModalClose) {
+    limaModalClose.addEventListener('click', closeLimaDistributorsModal);
+    limaModal.addEventListener('click', (e) => {
+      if (e.target === limaModal) closeLimaDistributorsModal();
+    });
+  }
 
   // Smooth Scrolling for anchor links (if browser doesn't support css smooth scroll fully)
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -311,6 +325,11 @@ function initPeruMap() {
     'PE-APU', // Apurímac
     'PE-MDD', // Madre de Dios (Puerto Maldonado)
     'PE-LOR', // Loreto (Iquitos)
+    'PE-MOQ', // Moquegua
+    'PE-TAC', // Tacna
+    'PE-LIM', // Lima
+    'PE-CAJ', // Cajamarca
+    'PE-TUM', // Tumbes
   ]);
 
   const root = am5.Root.new('peru-map-container');
@@ -356,7 +375,91 @@ function initPeruMap() {
     ev.target.set('fill', activeDepts.has(id) ? RED : GRAY);
   });
 
+  // Click en Lima: abre modal con lista de distribuidores
+  polygonSeries.mapPolygons.template.events.on('click', ev => {
+    const id = ev.target.dataItem && ev.target.dataItem.get('id');
+    if (id === 'PE-LIM') {
+      openLimaDistributorsModal();
+    }
+  });
+
+  // --- Capa de "pulso" sutil sobre las zonas activas (modernización visual) ---
+  // Segundo MapPolygonSeries que solo dibuja contornos de los departamentos activos,
+  // sin relleno propio, animando su strokeWidth en loop para dar sensación de movimiento
+  // sin tocar la proyección de los polígonos base (evita romper el mapa).
+  const pulseSeries = chart.series.push(
+    am5map.MapPolygonSeries.new(root, {
+      geoJSON: am5geodata_peruLow
+    })
+  );
+
+  pulseSeries.mapPolygons.template.setAll({
+    fillOpacity: 0,
+    stroke: RED,
+    strokeWidth: 1.5,
+    strokeOpacity: 0.85,
+    interactive: false
+  });
+
+  // Solo mostrar el contorno pulsante en los departamentos activos
+  pulseSeries.mapPolygons.template.adapters.add('strokeOpacity', (_op, target) => {
+    const id = target.dataItem && target.dataItem.get('id');
+    return activeDepts.has(id) ? 0.85 : 0;
+  });
+
+  pulseSeries.mapPolygons.template.events.on('datavalidated', ev => {
+    const target = ev.target;
+    const id = target.dataItem && target.dataItem.get('id');
+    if (activeDepts.has(id)) {
+      target.animate({
+        key: 'strokeWidth',
+        to: 3,
+        from: 1.2,
+        duration: 1400,
+        loops: Infinity,
+        easing: am5.ease.inOut(am5.ease.sin)
+      });
+    }
+  });
+
   chart.appear(800, 100);
+}
+// TODO: Cliente solicitó además un mapa mundial (amCharts tiene am5geodata_worldLow disponible) para mostrar presencia en países donde también operan. Pendiente de definir qué países destacar antes de implementar.
+
+function openLimaDistributorsModal() {
+  const modal = document.getElementById('lima-distributors-modal');
+  if (!modal) return;
+  modal.style.display = 'flex';
+  document.body.style.overflow = 'hidden';
+}
+
+function closeLimaDistributorsModal() {
+  const modal = document.getElementById('lima-distributors-modal');
+  if (!modal) return;
+  modal.style.display = 'none';
+  document.body.style.overflow = 'auto';
+}
+
+// --- Scroll Reveal genérico (animaciones de scroll en toda la web) ---
+function initScrollReveal() {
+  const elements = document.querySelectorAll('.reveal-on-scroll:not(.revealed)');
+  if (!elements.length) return;
+
+  if (!('IntersectionObserver' in window)) {
+    elements.forEach(el => el.classList.add('revealed'));
+    return;
+  }
+
+  const observer = new IntersectionObserver((entries, obs) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('revealed');
+        obs.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+
+  elements.forEach(el => observer.observe(el));
 }
 
 // --- Contact Form → WhatsApp ---

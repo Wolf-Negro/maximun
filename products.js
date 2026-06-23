@@ -25,7 +25,7 @@
     "status": "valid",
     "slug": "refrigerante-motor-cool-hd-55-para-vehculos-europeos",
     "category": "Refrigerantes",
-    "featured": true,
+    "featured": false,
     "orderPriority": 1,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA COMPLETA DE 55_ NOAT - NITRITO MAXIMUM 3.pdf"
   },
@@ -55,7 +55,7 @@
     "status": "valid",
     "slug": "silicona-premium-trion-343c",
     "category": "Químicos de Taller",
-    "featured": true,
+    "featured": false,
     "orderPriority": 1,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA Tecnica SILICONA PARA EMPAQUETADURA TRION MAXIMUM_17.pdf"
   },
@@ -70,7 +70,7 @@
     "status": "hidden",
     "slug": "agua-qumicamente-pura-desionizada",
     "category": "Agua Pura",
-    "featured": true,
+    "featured": false,
     "orderPriority": 1,
     "pdf": null
   },
@@ -145,7 +145,7 @@
     "status": "hidden",
     "slug": "silicona-para-empaquetadura-ultra-black-grey-force",
     "category": "Químicos de Taller",
-    "featured": true,
+    "featured": false,
     "orderPriority": 1,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA SILICONA PARA EMPAQUETADURA, GREY FORCE - ULTRA BLACK. (6)"
   },
@@ -250,7 +250,7 @@
     "status": "valid",
     "slug": "refrigerante-para-radiador-ice-blue-para-motos",
     "category": "Refrigerantes",
-    "featured": true,
+    "featured": false,
     "orderPriority": 1,
     "pdf": "FICHAS TECNICAS MAXIMUM/ice blue ficha completa.pdf"
   },
@@ -265,7 +265,7 @@
     "status": "valid",
     "slug": "nano-coating-proteccin-total",
     "category": "Otros",
-    "featured": true,
+    "featured": false,
     "orderPriority": 1,
     "pdf": null
   },
@@ -280,7 +280,7 @@
     "status": "hidden",
     "slug": "lquido-de-frenos-stop-dot-4-ultra",
     "category": "Frenos",
-    "featured": true,
+    "featured": false,
     "orderPriority": 1,
     "pdf": null
   },
@@ -310,7 +310,7 @@
     "status": "valid",
     "slug": "shampoo-para-auto-high-eficiency-1-lt",
     "category": "Carcare",
-    "featured": true,
+    "featured": false,
     "orderPriority": 1,
     "pdf": null
   },
@@ -415,7 +415,7 @@
     "status": "valid",
     "slug": "grasa-gralimax-de-litio-ep2-con-molibdeno-y-grafito-200c",
     "category": "Grasas",
-    "featured": true,
+    "featured": false,
     "orderPriority": 1,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA GRAFITO (6).pdf"
   },
@@ -1030,7 +1030,7 @@
     "status": "valid",
     "slug": "limpiador-de-inyectores-injector-cleaner-gasolina",
     "category": "Químicos de Taller",
-    "featured": true,
+    "featured": false,
     "orderPriority": 1,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA COMPLETA INYECTORES3.pdf"
   },
@@ -1132,10 +1132,10 @@
     "descripcion": "",
     "image": "imgproductos/creativo_76.png",
     "alt": "Grasa Gralimax de Litio H3 NLGI2 260°C Balde",
-    "status": "hidden",
+    "status": "valid",
     "slug": "grasa-gralimax-de-litio-h3-nlgi2-260c-balde",
     "category": "Grasas",
-    "featured": false,
+    "featured": true,
     "orderPriority": 2,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA H3(7).pdf"
   },
@@ -1540,7 +1540,7 @@
     "status": "valid",
     "slug": "plumillas-traseras-maximum",
     "category": "Accesorios",
-    "featured": false,
+    "featured": true,
     "orderPriority": 2,
     "pdf": null
   },
@@ -1570,7 +1570,7 @@
     "status": "valid",
     "slug": "aceite-aflojatodo-mx-40d-anti-rust-oil",
     "category": "Químicos de Taller",
-    "featured": false,
+    "featured": true,
     "orderPriority": 2,
     "pdf": null
   },
@@ -1780,7 +1780,7 @@
     "status": "valid",
     "slug": "siliconax-auto-brillo-silicon-restaurador-285-gr",
     "category": "Carcare",
-    "featured": false,
+    "featured": true,
     "orderPriority": 2,
     "pdf": null
   },
@@ -1870,7 +1870,7 @@
     "status": "valid",
     "slug": "siliconax-excelencia-premium-350-ml",
     "category": "Carcare",
-    "featured": false,
+    "featured": true,
     "orderPriority": 2,
     "pdf": null
   },
