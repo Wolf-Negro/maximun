@@ -117,11 +117,11 @@ img { display:block; max-width:100%; }
 .center-div { margin-left:auto; margin-right:auto; }
 .section-header { margin-bottom:50px; }
 
-.brand-mark {
+.brand-mark-img {
   display: inline-block;
-  background: var(--red-primary);
-  color: #fff;
-  padding: 2px 10px;
+  height: .8em;
+  width: auto;
+  vertical-align: baseline;
   border-radius: 4px;
 }
 
@@ -367,15 +367,15 @@ img { display:block; max-width:100%; }
   margin-bottom:18px;
 }
 .tech-brand-lockup {
-  background: var(--red-primary);
-  padding: 18px 30px;
-  border-radius: 8px;
   display: block;
   width: fit-content;
   margin-bottom: 24px;
+  border-radius: 8px;
+  overflow: hidden;
 }
 .tech-brand-lockup img {
-  height: 50px;
+  height: 64px;
+  width: auto;
   display: block;
 }
 .tech-logo-img {
@@ -488,6 +488,14 @@ img { display:block; max-width:100%; }
   letter-spacing: 1.5px;
   margin: 0;
   line-height: 1.2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.cat-title-icon {
+  font-size: .85rem;
+  color: var(--red-primary);
 }
 /* Hide CTA — not in reference */
 .cat-cta { display: none; }
@@ -875,7 +883,7 @@ img { display:block; max-width:100%; }
    FEATURED PRODUCTS — 2×2 más vistoso
    ============================================================ */
 #featured-products-grid {
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 32px;
 }
 #featured-products-grid .product-card {

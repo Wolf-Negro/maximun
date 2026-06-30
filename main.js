@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function renderFeatured() {
     if (!featuredGrid) return;
     featuredGrid.innerHTML = '';
-    const featured = allProducts.filter(p => p.featured).slice(0, 5);
+    const featured = allProducts.filter(p => p.featured).slice(0, 4);
     featured.forEach(p => featuredGrid.appendChild(buildCard(p)));
     initScrollReveal();
   }
