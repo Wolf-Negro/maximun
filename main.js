@@ -1,3 +1,8 @@
+// Sticky header shrink on scroll
+window.addEventListener('scroll', () => {
+  document.getElementById('main-header').classList.toggle('header-scrolled', window.scrollY > 55);
+}, { passive: true });
+
 document.addEventListener('DOMContentLoaded', () => {
   // Mobile Menu Toggle
   const mobileMenuBtn = document.getElementById('mobile-menu-btn');
