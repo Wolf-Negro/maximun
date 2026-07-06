@@ -29,7 +29,7 @@
    ============================================================ */
 *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
 html { scroll-behavior:smooth; font-size:16px; }
-body { font-family:var(--font-main); background:#fff; color:var(--gray-dark); line-height:1.6; }
+body { font-family:var(--font-main); background:#fff; color:var(--gray-dark); line-height:1.6; overflow-x:hidden; }
 a { text-decoration:none; color:inherit; transition:all .3s ease; }
 ul { list-style:none; }
 img { display:block; max-width:100%; }
@@ -367,23 +367,25 @@ img { display:block; max-width:100%; }
   margin-bottom:18px;
 }
 .tech-brand-lockup {
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: 20px;
   width: fit-content;
   margin-bottom: 24px;
-  border-radius: 8px;
-  overflow: hidden;
+  border-radius: 0;
+  overflow: visible;
 }
 .tech-brand-lockup img {
   height: 64px;
   width: auto;
   display: block;
 }
-.tech-logo-img {
-  max-width: 420px;
-  width: 100%;
-  margin-bottom: 24px;
+.tech-logo-inline {
+  height: 44px;
+  width: auto;
   display: block;
 }
+.tech-logo-img { display: none; }
 .tech-text p { color:#555; margin-bottom:14px; font-size:1.05rem; line-height:1.7; }
 .tech-features { margin-top:25px; }
 .tech-features li {
@@ -535,7 +537,7 @@ img { display:block; max-width:100%; }
 .product-tag.premium   { background:var(--yellow); color:var(--black-base); }
 
 .product-img {
-  text-align:center; margin-bottom:18px; height:230px;
+  text-align:center; margin-bottom:18px; height:280px;
   display:flex; align-items:center; justify-content:center;
 }
 .product-img img { width:100%; height:100%; object-fit:contain; display:block; }
@@ -635,11 +637,12 @@ img { display:block; max-width:100%; }
   100% { transform: scale(1);     filter: drop-shadow(0 4px 16px rgba(0,0,0,0.25)); }
 }
 .cta-title-xl {
-  font-size: 3.8rem !important;
+  font-size: 5.8rem !important;
   font-weight: 800 !important;
   margin-bottom: 20px !important;
   letter-spacing: 1px;
   text-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  line-height: 1.05;
 }
 .cta-desc-xl {
   font-size: 1.2rem !important;
@@ -794,7 +797,7 @@ img { display:block; max-width:100%; }
   .cat-title  { font-size:1.1rem; }
   .products-grid { grid-template-columns:repeat(2,1fr); gap:12px; }
   .product-card  { padding:14px; }
-  .product-img   { height:165px; margin-bottom:12px; }
+  .product-img   { height:200px; margin-bottom:12px; }
   .product-name  { font-size:.95rem; }
   .features-grid { grid-template-columns:1fr; }
   .footer-grid   { grid-template-columns:1fr; }
@@ -811,7 +814,7 @@ img { display:block; max-width:100%; }
   .category-grid    { grid-template-columns:1fr 1fr; gap:12px; }
   .products-grid    { grid-template-columns:repeat(2,1fr); gap:10px; }
   .product-card     { padding:10px; }
-  .product-img      { height:130px; margin-bottom:8px; }
+  .product-img      { height:160px; margin-bottom:8px; }
   .product-name     { font-size:.85rem; margin-bottom:5px; }
   .product-cat      { font-size:.7rem; margin-bottom:3px; }
   .product-size     { display:none; }
@@ -915,7 +918,7 @@ img { display:block; max-width:100%; }
 
 @media (max-width:992px) {
   #featured-products-grid { grid-template-columns: repeat(2, 1fr); }
-  .cta-title-xl { font-size: 2.8rem !important; }
+  .cta-title-xl { font-size: 3.8rem !important; }
   .cta-inner-xl { padding: 70px 24px; }
 }
 @media (max-width:768px) {
@@ -926,7 +929,7 @@ img { display:block; max-width:100%; }
   #featured-products-grid { grid-template-columns: 1fr 1fr; gap: 14px; }
   #featured-products-grid .product-card { padding: 16px; }
   #featured-products-grid .product-img  { height: 160px; }
-  .cta-title-xl { font-size: 2.2rem !important; }
+  .cta-title-xl { font-size: 2.6rem !important; }
   .cta-icon-wrap { font-size: 4rem; }
 }
 @media (max-width:480px) {
@@ -1053,6 +1056,40 @@ img { display:block; max-width:100%; }
 @media (max-width:480px) {
   .whatsapp-float { width: 54px; height: 54px; font-size: 1.7rem; bottom: 20px; right: 20px; }
 }
+
+/* ============================================================
+   MAP SLIDER TABS
+   ============================================================ */
+.map-tab-nav {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+.map-tab-btn {
+  padding: 8px 20px;
+  border: 2px solid var(--red-primary);
+  background: transparent;
+  color: var(--red-primary);
+  font-family: var(--font-main);
+  font-weight: 600;
+  font-size: .88rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all .3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+}
+.map-tab-btn.active,
+.map-tab-btn:hover { background: var(--red-primary); color: #fff; }
+
+/* ============================================================
+   UTILITY
+   ============================================================ */
+.w-100 { width: 100%; }
 
 /* ============================================================
    SCROLL REVEAL GENÉRICO

@@ -1143,13 +1143,13 @@
     "id": 77,
     "numero": 77,
     "nombreOriginal": "Tambor Maximum",
-    "nombre": "Tambor Maximum Tecnología Automotriz",
+    "nombre": "Tambor Maximum Tecnología Automotriz 200 Litros",
     "descripcion": "",
     "image": "imgproductos/nuevos/prod_77.png",
-    "alt": "Tambor Maximum Tecnología Automotriz",
+    "alt": "Tambor Maximum Tecnología Automotriz 200 Litros",
     "status": "valid",
     "slug": "tambor-maximum-tecnologa-automotriz",
-    "category": "Otros",
+    "category": "Presentaciones",
     "featured": false,
     "orderPriority": 2,
     "pdf": null
@@ -1917,6 +1917,36 @@
     "category": "Accesorios",
     "featured": false,
     "orderPriority": 2,
+    "pdf": null
+  },
+  {
+    "id": 130,
+    "numero": 130,
+    "nombreOriginal": "Antifreeze & Coolant IBC 1000L",
+    "nombre": "Refrigerante Antifreeze & Coolant 50% IBC 1000 Litros",
+    "descripcion": "",
+    "image": "imgproductos/nuevos/prod_130.png",
+    "alt": "Refrigerante Antifreeze & Coolant 50% IBC 1000 Litros",
+    "status": "valid",
+    "slug": "refrigerante-antifreeze-coolant-50-ibc-1000-litros",
+    "category": "Presentaciones",
+    "featured": false,
+    "orderPriority": 1,
+    "pdf": null
+  },
+  {
+    "id": 131,
+    "numero": 131,
+    "nombreOriginal": "Antifreeze & Coolant Balde 5 Galones Negro",
+    "nombre": "Refrigerante Antifreeze & Coolant 50% Balde 5 Galones",
+    "descripcion": "",
+    "image": "imgproductos/nuevos/prod_131.png",
+    "alt": "Refrigerante Antifreeze & Coolant 50% Balde 5 Galones",
+    "status": "valid",
+    "slug": "refrigerante-antifreeze-coolant-50-balde-5-galones-negro",
+    "category": "Presentaciones",
+    "featured": false,
+    "orderPriority": 1,
     "pdf": null
   }
 ];

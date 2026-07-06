@@ -129,12 +129,12 @@
       <div class="tech-text">
         <div class="tech-brand-lockup">
           <img src="Barra Superior/Logo Badge Rojo.png" alt="MAXIMUM" loading="lazy">
+          <img src="Logo Bloque la marca/logosinfondo.png" alt="Tecnología Automotriz" class="tech-logo-inline">
         </div>
-        <img src="Logo Bloque la marca/logosinfondo.png" alt="Tecnología Automotriz" class="tech-logo-img">
-        <p>En <strong>MAXIMUM</strong>, desarrollamos y distribuimos insumos automotrices e industriales bajo los más estrictos estándares de calidad. Nuestro portafolio está diseñado para brindar mayor durabilidad, protección y máxima eficiencia en vehículos y maquinaria de alta exigencia.</p>
+        <p>En <strong>MAXIMUM</strong>, desarrollamos y distribuimos productos automotrices e industriales bajo los más estrictos estándares de calidad. Nuestro portafolio está diseñado para brindar mayor durabilidad, protección y máxima eficiencia en vehículos y maquinaria de alta exigencia.</p>
         <p>Nos enorgullece ser la elección de talleres y conductores que buscan una marca sólida, confiable y que respalde su inversión.</p>
         <ul class="tech-features">
-          <li><i class="fa-solid fa-caret-right text-red"></i> Insumos testeados en alta exigencia.</li>
+          <li><i class="fa-solid fa-caret-right text-red"></i> Productos testeados en alta exigencia.</li>
           <li><i class="fa-solid fa-caret-right text-red"></i> Larga duración y protección del motor.</li>
           <li><i class="fa-solid fa-caret-right text-red"></i> Variedad de presentaciones comerciales.</li>
         </ul>
@@ -142,10 +142,15 @@
       <div class="peru-map-wrapper">
         <div class="peru-map-header">
           <span class="peru-map-badge"><i class="fa-solid fa-location-dot"></i> Presencia Nacional</span>
-          <p class="peru-map-subtitle">Pasa el cursor sobre el mapa para ver nuestras zonas de cobertura</p>
+          <p class="peru-map-subtitle">Haz clic sobre una zona activa para ver distribuidores</p>
         </div>
         <div class="peru-map-container">
-          <div id="peru-map-container" style="width:100%;height:480px;"></div>
+          <div class="map-tab-nav">
+            <button class="map-tab-btn active" data-map="peru"><i class="fa-solid fa-map-location-dot"></i> Cobertura Perú</button>
+            <button class="map-tab-btn" data-map="world"><i class="fa-solid fa-globe"></i> Presencia Internacional</button>
+          </div>
+          <div id="peru-map-container" style="width:100%;height:450px;"></div>
+          <div id="world-map-container" style="width:100%;height:450px;display:none;"></div>
         </div>
         <div class="peru-map-legend">
           <span class="legend-item active-legend"><span class="legend-dot"></span> Zonas con presencia MAXIMUM</span>
@@ -177,7 +182,7 @@
         <!-- Cat 2: Grasas -->
         <a href="#productos" class="category-card reveal-on-scroll" onclick="document.querySelector('[data-filter=\'grasas\']').click()">
           <div class="cat-img-wrap">
-            <img src="Imagenes de Solucion completa maximun/Grasas Nueva.jpg" alt="Grasas Maximum" loading="lazy">
+            <img src="imgproductos/cat-grasas.png" alt="Grasas Maximum" loading="lazy">
           </div>
           <div class="cat-info">
             <h3 class="cat-title"><i class="fa-solid fa-jar cat-title-icon"></i> GRASAS</h3>
@@ -188,7 +193,7 @@
         <!-- Cat 3: Taller -->
         <a href="#productos" class="category-card reveal-on-scroll" onclick="document.querySelector('[data-filter=\'taller\']').click()">
           <div class="cat-img-wrap">
-            <img src="Imagenes de Solucion completa maximun/Taller Nueva.jpg" alt="Línea Taller Maximum" loading="lazy">
+            <img src="imgproductos/cat-taller.png" alt="Línea Taller Maximum" loading="lazy">
           </div>
           <div class="cat-info">
             <h3 class="cat-title"><i class="fa-solid fa-screwdriver-wrench cat-title-icon"></i> TALLER</h3>
@@ -199,7 +204,7 @@
         <!-- Cat 4: Car Care -->
         <a href="#productos" class="category-card reveal-on-scroll" onclick="document.querySelector('[data-filter=\'carcare\']').click()">
           <div class="cat-img-wrap">
-            <img src="Imagenes de Solucion completa maximun/Car Care Nueva.jpg" alt="Car Care Maximum" loading="lazy">
+            <img src="imgproductos/cat-carcare.png" alt="Car Care Maximum" loading="lazy">
           </div>
           <div class="cat-info">
             <h3 class="cat-title"><i class="fa-solid fa-spray-can-sparkles cat-title-icon"></i> CAR CARE</h3>
@@ -302,14 +307,10 @@
   <!-- ================= CTA DISTRIBUIDORES ================= -->
   <section id="distribuidores" class="cta-banner cta-banner-xl reveal-on-scroll">
     <div class="wide-container cta-inner-xl text-center">
-      <div class="cta-icon-wrap">
-        <i class="fa-solid fa-handshake-simple"></i>
-      </div>
-      <h2 class="cta-title-xl">¿BUSCAS SER DISTRIBUIDOR <img src="Barra Superior/Logo Badge Rojo.png" alt="MAXIMUM" class="brand-mark-img">?</h2>
+      <h2 class="cta-title-xl">¿QUIERES SER DISTRIBUIDOR <img src="Barra Superior/Logo Badge Rojo.png" alt="MAXIMUM" class="brand-mark-img" style="height:.85em;">?</h2>
       <p class="cta-desc-xl">ÚNETE A NUESTRA AMPLIA RED DE CENTROS DE SERVICIO, LUBRICENTROS Y TALLERES.<br>GRAN MARGEN DE RENTABILIDAD Y CALIDAD GARANTIZADA.</p>
       <div class="cta-buttons mt-40">
-        <a href="#contacto" class="btn btn-white btn-xl">Solicitar Información Comercial</a>
-        <a href="https://wa.me/51983152034" target="_blank" class="btn btn-dark btn-xl"><i class="fa-brands fa-whatsapp"></i> Chat Directo</a>
+        <a href="#contacto" class="btn btn-white btn-xl">Afiliarme ahora</a>
       </div>
     </div>
   </section>
@@ -460,38 +461,12 @@
     </div>
   </footer>
 
-  <!-- ================= MODAL DISTRIBUIDORES LIMA ================= -->
-  <div id="lima-distributors-modal" class="lima-modal-overlay" style="display:none;">
+  <!-- ================= MODAL DISTRIBUIDORES (GENÉRICO POR PROVINCIA) ================= -->
+  <div id="province-modal" class="lima-modal-overlay" style="display:none;">
     <div class="lima-modal-box">
-      <button id="lima-modal-close" class="lima-modal-close" aria-label="Cerrar"><i class="fa-solid fa-xmark"></i></button>
-      <h3 class="lima-modal-title">Distribuidores en Lima</h3>
-      <ul id="lima-distributors-list" class="lima-distributors-list">
-        <!-- TODO: el cliente enviará la lista real de distribuidores de Lima (nombre, dirección, teléfono) — reemplazar este placeholder -->
-        <li>
-          <i class="fa-solid fa-store"></i>
-          <div>
-            <p class="dist-name">Nombre del distribuidor (próximamente)</p>
-            <p class="dist-meta">Dirección por confirmar</p>
-            <p class="dist-meta">Teléfono por confirmar</p>
-          </div>
-        </li>
-        <li>
-          <i class="fa-solid fa-store"></i>
-          <div>
-            <p class="dist-name">Nombre del distribuidor (próximamente)</p>
-            <p class="dist-meta">Dirección por confirmar</p>
-            <p class="dist-meta">Teléfono por confirmar</p>
-          </div>
-        </li>
-        <li>
-          <i class="fa-solid fa-store"></i>
-          <div>
-            <p class="dist-name">Nombre del distribuidor (próximamente)</p>
-            <p class="dist-meta">Dirección por confirmar</p>
-            <p class="dist-meta">Teléfono por confirmar</p>
-          </div>
-        </li>
-      </ul>
+      <button id="province-modal-close" class="lima-modal-close" aria-label="Cerrar"><i class="fa-solid fa-xmark"></i></button>
+      <h3 class="lima-modal-title" id="province-modal-title">Distribuidores</h3>
+      <ul id="province-modal-list" class="lima-distributors-list"></ul>
     </div>
   </div>
 
@@ -501,6 +476,7 @@
   <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
   <script src="https://cdn.amcharts.com/lib/5/map.js"></script>
   <script src="https://cdn.amcharts.com/lib/5/geodata/peruLow.js"></script>
+  <script src="https://cdn.amcharts.com/lib/5/geodata/worldLow.js"></script>
   <script src="products.js"></script>
   <script src="main.js"></script>
 </body>
