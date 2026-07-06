@@ -69,7 +69,7 @@
     "alt": "Agua Químicamente Pura Desionizada",
     "status": "hidden",
     "slug": "agua-qumicamente-pura-desionizada",
-    "category": "Agua Pura",
+    "category": "Refrigerantes",
     "featured": false,
     "orderPriority": 1,
     "pdf": null
@@ -369,7 +369,7 @@
     "alt": "Agua Químicamente Pura Desionizada y Desmineralizada",
     "status": "hidden",
     "slug": "agua-qumicamente-pura-desionizada-y-desmineralizada",
-    "category": "Agua Pura",
+    "category": "Refrigerantes",
     "featured": false,
     "orderPriority": 2,
     "pdf": null
@@ -924,7 +924,7 @@
     "alt": "Agua Químicamente Pura desionizada y desmineralizada 1 Galón / 5 Litros",
     "status": "valid",
     "slug": "agua-qumicamente-pura-desionizada-y-desmineralizada-1-galn-5-litros",
-    "category": "Agua Pura",
+    "category": "Refrigerantes",
     "featured": false,
     "orderPriority": 2,
     "pdf": null
@@ -954,7 +954,7 @@
     "alt": "Agua Químicamente Pura AQP-1QG 1 Cuarto de Galón",
     "status": "valid",
     "slug": "agua-qumicamente-pura-aqp-1qg-1-cuarto-de-galn",
-    "category": "Agua Pura",
+    "category": "Refrigerantes",
     "featured": false,
     "orderPriority": 2,
     "pdf": null
@@ -1299,7 +1299,7 @@
     "alt": "Agua Químicamente Pura Maximum 5 Litros",
     "status": "hidden",
     "slug": "agua-qumicamente-pura-maximum-5-litros",
-    "category": "Agua Pura",
+    "category": "Refrigerantes",
     "featured": false,
     "orderPriority": 2,
     "pdf": null
@@ -1434,7 +1434,7 @@
     "alt": "Agua Químicamente Pura Maximum 1 Qt",
     "status": "valid",
     "slug": "agua-qumicamente-pura-maximum-1-qt",
-    "category": "Agua Pura",
+    "category": "Refrigerantes",
     "featured": false,
     "orderPriority": 2,
     "pdf": null
@@ -1494,7 +1494,7 @@
     "alt": "Agua Químicamente Pura AQP-1QG 1/4 de Galón",
     "status": "hidden",
     "slug": "agua-qumicamente-pura-aqp-1qg-14-de-galn",
-    "category": "Agua Pura",
+    "category": "Refrigerantes",
     "featured": false,
     "orderPriority": 2,
     "pdf": null
@@ -1539,7 +1539,7 @@
     "alt": "Plumillas Traseras Maximum",
     "status": "valid",
     "slug": "plumillas-traseras-maximum",
-    "category": "Accesorios",
+    "category": "Carcare",
     "featured": true,
     "orderPriority": 2,
     "pdf": null
@@ -1599,7 +1599,7 @@
     "alt": "Repelente de Agua para Parabrisas",
     "status": "valid",
     "slug": "repelente-de-agua-para-parabrisas",
-    "category": "Agua Pura",
+    "category": "Refrigerantes",
     "featured": false,
     "orderPriority": 2,
     "pdf": null
@@ -1659,7 +1659,7 @@
     "alt": "Agua Químicamente Pura AQP 1 Galón",
     "status": "hidden",
     "slug": "agua-qumicamente-pura-aqp-1-galn",
-    "category": "Agua Pura",
+    "category": "Refrigerantes",
     "featured": false,
     "orderPriority": 2,
     "pdf": null
@@ -1704,7 +1704,7 @@
     "alt": "Agua Desionizada y Desmineralizada para Baterías y Radiadores",
     "status": "hidden",
     "slug": "agua-desionizada-y-desmineralizada-para-bateras-y-radiadores",
-    "category": "Agua Pura",
+    "category": "Refrigerantes",
     "featured": false,
     "orderPriority": 2,
     "pdf": null
@@ -1764,7 +1764,7 @@
     "alt": "Agua Químicamente Pura para Baterías, Radiadores y Uso Industrial",
     "status": "hidden",
     "slug": "agua-qumicamente-pura-para-bateras-radiadores-y-uso-industrial",
-    "category": "Agua Pura",
+    "category": "Refrigerantes",
     "featured": false,
     "orderPriority": 2,
     "pdf": null
