@@ -274,21 +274,42 @@ document.addEventListener('DOMContentLoaded', () => {
 // ─── Distributor data per province ──────────────────────────────────────────
 const PROVINCE_DISTRIBUTORS = {
   'PE-LIM': [
-    { name: 'MAXIMUM Lima', address: 'Jr. Bartolomé Herrera 695, Lince', phone: '+51 983 152 034' }
+    { name: 'DISTRIB & NEGOCIACIONES DEXARI', contact: 'Javier Serra', phone: '+51 958 561 546' }
   ],
-  'PE-PIU': [{ name: 'Distribuidor MAXIMUM Piura',         address: 'Por confirmar', phone: 'Por confirmar' }],
-  'PE-LAM': [{ name: 'Distribuidor MAXIMUM Chiclayo',       address: 'Por confirmar', phone: 'Por confirmar' }],
-  'PE-LAL': [{ name: 'Distribuidor MAXIMUM Trujillo',       address: 'Por confirmar', phone: 'Por confirmar' }],
-  'PE-ARE': [{ name: 'Distribuidor MAXIMUM Arequipa',       address: 'Por confirmar', phone: 'Por confirmar' }],
-  'PE-CUS': [{ name: 'Distribuidor MAXIMUM Cusco',          address: 'Por confirmar', phone: 'Por confirmar' }],
-  'PE-PUN': [{ name: 'Distribuidor MAXIMUM Puno',           address: 'Por confirmar', phone: 'Por confirmar' }],
-  'PE-APU': [{ name: 'Distribuidor MAXIMUM Apurímac',       address: 'Por confirmar', phone: 'Por confirmar' }],
-  'PE-MDD': [{ name: 'Distribuidor MAXIMUM Madre de Dios',  address: 'Por confirmar', phone: 'Por confirmar' }],
-  'PE-LOR': [{ name: 'Distribuidor MAXIMUM Loreto',         address: 'Por confirmar', phone: 'Por confirmar' }],
-  'PE-MOQ': [{ name: 'Distribuidor MAXIMUM Moquegua',       address: 'Por confirmar', phone: 'Por confirmar' }],
-  'PE-TAC': [{ name: 'Distribuidor MAXIMUM Tacna',          address: 'Por confirmar', phone: 'Por confirmar' }],
-  'PE-CAJ': [{ name: 'Distribuidor MAXIMUM Cajamarca',      address: 'Por confirmar', phone: 'Por confirmar' }],
-  'PE-TUM': [{ name: 'Distribuidor MAXIMUM Tumbes',         address: 'Por confirmar', phone: 'Por confirmar' }],
+  'PE-PIU': [
+    { name: 'MECCANO', contact: 'Ernesto Prieto / Iván Prieto / Ana Prieto', phone: '+51 923 414 701 / +51 989 565 004' }
+  ],
+  'PE-LAM': [
+    { name: 'MECCANO', contact: 'Ernesto Prieto / Iván Prieto / Ana Prieto', phone: '+51 923 414 701 / +51 989 565 004' }
+  ],
+  'PE-LAL': [
+    { name: 'CORPORACIÓN JIREH OIL S.A.C.', contact: 'Mónica Atoche', phone: '+51 959 601 848' }
+  ],
+  'PE-ARE': [
+    { name: 'LUBRISUR DISTRIBUCIONES SCRL', contact: 'Evelyn', phone: '+51 959 376 442' },
+    { name: 'M&C', contact: 'Carlos / Juan Carlos', phone: '+51 959 002 767 / +51 977 343 322' }
+  ],
+  'PE-CUS': [
+    { name: 'INVERSIONES 2BH SRL', contact: 'Boris Olivera / Benjamín Leiva', phone: '+51 941 414 181 / +51 923 393 741' }
+  ],
+  'PE-APU': [
+    { name: 'INVERSIONES 2BH SRL', contact: 'Boris Olivera / Benjamín Leiva', phone: '+51 941 414 181 / +51 923 393 741' }
+  ],
+  'PE-MDD': [
+    { name: 'INVERSIONES 2BH SRL', contact: 'Boris Olivera / Benjamín Leiva', phone: '+51 941 414 181 / +51 923 393 741' }
+  ],
+  'PE-PUN': [{ name: 'Distribuidor MAXIMUM Puno',      phone: 'Por confirmar' }],
+  'PE-LOR': [{ name: 'Distribuidor MAXIMUM Loreto',    phone: 'Por confirmar' }],
+  'PE-MOQ': [{ name: 'Distribuidor MAXIMUM Moquegua',  phone: 'Por confirmar' }],
+  'PE-TAC': [{ name: 'Distribuidor MAXIMUM Tacna',     phone: 'Por confirmar' }],
+  'PE-CAJ': [{ name: 'Distribuidor MAXIMUM Cajamarca', phone: 'Por confirmar' }],
+  'PE-TUM': [{ name: 'Distribuidor MAXIMUM Tumbes',    phone: 'Por confirmar' }],
+};
+
+const COUNTRY_DISTRIBUTORS = {
+  'BO': [
+    { name: 'LIMACHI CHAMBI LOURDES (8M)', contact: 'Darwin Ticona', address: 'La Paz, Bolivia', phone: '+591 75 319 212' }
+  ],
 };
 
 function openProvinceModal(id, deptName) {
@@ -297,15 +318,16 @@ function openProvinceModal(id, deptName) {
   const list  = document.getElementById('province-modal-list');
   if (!modal || !title || !list) return;
 
-  const distributors = PROVINCE_DISTRIBUTORS[id] || [];
+  const distributors = PROVINCE_DISTRIBUTORS[id] || COUNTRY_DISTRIBUTORS[id] || [];
   title.textContent = `Distribuidores en ${deptName}`;
   list.innerHTML = distributors.map(d => `
     <li>
       <i class="fa-solid fa-store"></i>
       <div>
         <p class="dist-name">${d.name}</p>
-        <p class="dist-meta">${d.address}</p>
-        <p class="dist-meta">${d.phone}</p>
+        ${d.contact ? `<p class="dist-meta"><i class="fa-solid fa-user" style="font-size:.75em;opacity:.65;margin-right:5px;"></i>${d.contact}</p>` : ''}
+        ${d.address ? `<p class="dist-meta"><i class="fa-solid fa-location-dot" style="font-size:.75em;opacity:.65;margin-right:5px;"></i>${d.address}</p>` : ''}
+        <p class="dist-meta"><i class="fa-solid fa-phone" style="font-size:.75em;opacity:.65;margin-right:5px;"></i>${d.phone}</p>
       </div>
     </li>`).join('');
 
@@ -451,6 +473,19 @@ function initWorldMap() {
     return GRAY;
   });
 
+  polygonSeries.mapPolygons.template.adapters.add('tooltipText', (_text, target) => {
+    const id = target.dataItem && target.dataItem.get('id');
+    if (id === peruId || (activeCountries.has(id) && COUNTRY_DISTRIBUTORS[id])) {
+      return '{name} — clic para ver distribuidores';
+    }
+    return '{name}';
+  });
+
+  polygonSeries.mapPolygons.template.adapters.add('cursorOverStyle', (_style, target) => {
+    const id = target.dataItem && target.dataItem.get('id');
+    return (id === peruId || (activeCountries.has(id) && COUNTRY_DISTRIBUTORS[id])) ? 'pointer' : 'default';
+  });
+
   polygonSeries.mapPolygons.template.events.on('pointerover', ev => {
     const id = ev.target.dataItem && ev.target.dataItem.get('id');
     if (id === peruId || activeCountries.has(id)) {
@@ -459,6 +494,12 @@ function initWorldMap() {
   });
   polygonSeries.mapPolygons.template.events.on('pointerout', ev => {
     ev.target.set('fillOpacity', 1);
+  });
+
+  polygonSeries.mapPolygons.template.events.on('click', ev => {
+    const id   = ev.target.dataItem && ev.target.dataItem.get('id');
+    const name = ev.target.dataItem && ev.target.dataItem.get('name');
+    if (COUNTRY_DISTRIBUTORS[id]) openProvinceModal(id, name);
   });
 
   chart.appear(800, 100);
