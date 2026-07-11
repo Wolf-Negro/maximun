@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const sortValue     = sortSelect.value;
 
     const categoryMap = {
-      taller:          ['químicos de taller', 'accesorios', 'frenos', 'agua pura', 'grasas'],
+      taller:          ['químicos de taller', 'accesorios', 'frenos', 'agua pura'],
       otros:           ['otros'],
       presentaciones:  ['presentaciones'],
     };
@@ -155,6 +155,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const fixedFilters = [
       { label: 'Refrigerantes',  filter: 'refrigerantes' },
       { label: 'Taller',         filter: 'taller' },
+      { label: 'Grasas',         filter: 'grasas' },
       { label: 'Car Care',       filter: 'carcare' },
       { label: 'Presentaciones', filter: 'presentaciones' },
       { label: 'Otros',          filter: 'otros' },
@@ -436,7 +437,7 @@ function initWorldMap() {
   const GRAY = am5.color(0xD8DDE6);
 
   // PE = Perú (rojo), BO/EC/CO = presencia internacional (dorado)
-  const activeCountries  = new Set(['BO', 'EC', 'CO']);
+  const activeCountries  = new Set(['BO', 'EC', 'CO', 'ES', 'FR', 'PT', 'CN', 'US']);
   const peruId = 'PE';
 
   const root = am5.Root.new('world-map-container');
