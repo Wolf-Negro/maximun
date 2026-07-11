@@ -56,7 +56,7 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "silicona-premium-trion-343c",
     "category": "Químicos de Taller",
     "featured": false,
-    "orderPriority": 1,
+    "orderPriority": 8,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA Tecnica SILICONA PARA EMPAQUETADURA TRION MAXIMUM_17.pdf"
   },
   {
@@ -86,7 +86,7 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "grasa-de-cadena-multipropsito-con-lithium-grease",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 3,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA MULTIPROPOSITO (5).pdf"
   },
   {
@@ -101,7 +101,7 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "grasa-gralimax-complejo-de-litio-nlgi-3-ep3",
     "category": "Grasas",
     "featured": true,
-    "orderPriority": 2,
+    "orderPriority": 1,
     "pdf": null
   },
   {
@@ -264,9 +264,9 @@ window.MAXIMUM_PRODUCTS = [
     "alt": "Nano Coating Protección Total",
     "status": "valid",
     "slug": "nano-coating-proteccin-total",
-    "category": "Otros",
+    "category": "Carcare",
     "featured": false,
-    "orderPriority": 1,
+    "orderPriority": 12,
     "pdf": null
   },
   {
@@ -311,7 +311,7 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "shampoo-para-auto-high-eficiency-1-lt",
     "category": "Carcare",
     "featured": false,
-    "orderPriority": 1,
+    "orderPriority": 10,
     "pdf": null
   },
   {
@@ -356,7 +356,7 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "removedor-de-rayones-car-wax-scratch-out",
     "category": "Carcare",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 7,
     "pdf": null
   },
   {
@@ -416,7 +416,7 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "grasa-gralimax-de-litio-ep2-con-molibdeno-y-grafito-200c",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 1,
+    "orderPriority": 30,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA GRAFITO (6).pdf"
   },
   {
@@ -521,7 +521,7 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "grasa-gralimax-de-litio-ep2-nlgi-2-multipropsito-200c",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 30,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA MULTIPROPOSITO (5).pdf"
   },
   {
@@ -566,7 +566,7 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "shampoo-super-concentrado-brillo-cermico-5-galones",
     "category": "Carcare",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 16,
     "pdf": null
   },
   {
@@ -641,7 +641,7 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "grasa-gralimax-de-litio-h3-260c",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 30,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA H3(7).pdf"
   },
   {
@@ -701,7 +701,7 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "grasa-gralimax-de-litio-ep2-con-molibdeno-y-grafito-200c",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 30,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA GRAFITO (6).pdf"
   },
   {
@@ -791,7 +791,7 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "renovador-de-plstico-y-cuero-plastic-leather-renewer",
     "category": "Carcare",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 14,
     "pdf": null
   },
   {
@@ -896,7 +896,7 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "grasa-gralimax-de-litio-ep2-nlgi2-200c",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 30,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA MULTIPROPOSITO (5).pdf"
   },
   {
@@ -986,7 +986,7 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "lquido-de-frenos-stop-dot51-ultra-354-ml",
     "category": "Frenos",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 12,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA LIQUIDO DE FRENOS (11).pdf"
   },
   {
@@ -1031,7 +1031,7 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "limpiador-de-inyectores-injector-cleaner-gasolina",
     "category": "Químicos de Taller",
     "featured": false,
-    "orderPriority": 1,
+    "orderPriority": 4,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA COMPLETA INYECTORES3.pdf"
   },
   {
@@ -1061,7 +1061,7 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "grasa-gralimax-de-litio-h3-260c",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 30,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA H3(7).pdf"
   },
   {
@@ -1121,7 +1121,7 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "grasa-gralimax-de-litio-h3-260c",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 30,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA H3(7).pdf"
   },
   {
@@ -1181,7 +1181,7 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "grasa-gralimax-de-litio-multipropsito-200c",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 30,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA MULTIPROPOSITO (5).pdf"
   },
   {
@@ -1196,7 +1196,7 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "grasa-gralimax-de-litio-multipropsito-200c",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 30,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA MULTIPROPOSITO (5).pdf"
   },
   {
@@ -1211,7 +1211,7 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "grasa-gralimax-de-litio-h3-260c",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 30,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA H3(7).pdf"
   },
   {
@@ -1226,7 +1226,7 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "grasa-gralimax-de-litio-multipropsito-200c",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 30,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA MULTIPROPOSITO (5).pdf"
   },
   {
@@ -1314,9 +1314,9 @@ window.MAXIMUM_PRODUCTS = [
     "alt": "Espuma Limpiadora Multipropósito Foam Cleaner 600 ml",
     "status": "valid",
     "slug": "espuma-limpiadora-multipropsito-foam-cleaner-600-ml",
-    "category": "Químicos de Taller",
+    "category": "Carcare",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 13,
     "pdf": null
   },
   {
@@ -1331,7 +1331,7 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "silicona-para-empaquetadura-grey-force-343c-85-gr",
     "category": "Químicos de Taller",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 13,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA SILICONA PARA EMPAQUETADURA, GREY FORCE - ULTRA BLACK. (6)"
   },
   {
@@ -1346,7 +1346,7 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "silicona-para-empaquetadura-ultra-black-343c-85-gr",
     "category": "Químicos de Taller",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 14,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA SILICONA PARA EMPAQUETADURA, GREY FORCE - ULTRA BLACK. (6)"
   },
   {
@@ -1361,7 +1361,7 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "lquido-de-frenos-dot4-ultra-230c-354-ml",
     "category": "Frenos",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 11,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA LIQUIDO DE FRENOS (11).pdf"
   },
   {
@@ -1376,7 +1376,7 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "limpiacontactos-electrnicos-estado-zero-aroma-limn",
     "category": "Químicos de Taller",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 10,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE LIMPIACONTACTOS ESTADO ZERO(8).pdf"
   },
   {
@@ -1406,7 +1406,7 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "limpia-parabrisas-kristal-clean-1-galn",
     "category": "Otros",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 5,
     "pdf": null
   },
   {
@@ -1421,7 +1421,7 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "limpia-parabrisas-kristal-clean-1-qt",
     "category": "Otros",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 6,
     "pdf": null
   },
   {
@@ -1451,7 +1451,7 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "limpiavidrios-kristal-home-650-ml",
     "category": "Otros",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 4,
     "pdf": null
   },
   {
@@ -1466,7 +1466,7 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "shampoo-sper-concentrado-brillo-cermico-350-ml",
     "category": "Carcare",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 15,
     "pdf": null
   },
   {
@@ -1541,7 +1541,7 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "plumillas-traseras-maximum",
     "category": "Carcare",
     "featured": true,
-    "orderPriority": 2,
+    "orderPriority": 3,
     "pdf": null
   },
   {
@@ -1571,7 +1571,7 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "aceite-aflojatodo-mx-40d-anti-rust-oil",
     "category": "Químicos de Taller",
     "featured": true,
-    "orderPriority": 2,
+    "orderPriority": 9,
     "pdf": null
   },
   {
@@ -1599,9 +1599,9 @@ window.MAXIMUM_PRODUCTS = [
     "alt": "Repelente de Agua para Parabrisas",
     "status": "valid",
     "slug": "repelente-de-agua-para-parabrisas",
-    "category": "Refrigerantes",
+    "category": "Carcare",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 8,
     "pdf": null
   },
   {
@@ -1616,7 +1616,7 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "renovador-de-llantas-tyre-shine-500-ml",
     "category": "Carcare",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 11,
     "pdf": null
   },
   {
@@ -1629,9 +1629,9 @@ window.MAXIMUM_PRODUCTS = [
     "alt": "Engine Surface Cleaner Desengrasante para Motor 395 ml",
     "status": "valid",
     "slug": "engine-surface-cleaner-desengrasante-para-motor-395-ml",
-    "category": "Grasas",
+    "category": "Químicos de Taller",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 6,
     "pdf": null
   },
   {
@@ -1674,9 +1674,9 @@ window.MAXIMUM_PRODUCTS = [
     "alt": "Spray Antiempañante para Vidrios y Espejos",
     "status": "valid",
     "slug": "spray-antiempaante-para-vidrios-y-espejos",
-    "category": "Otros",
+    "category": "Carcare",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 9,
     "pdf": null
   },
   {
@@ -1736,7 +1736,7 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "brake-cleaner-limpiador-profesional-para-sistema-de-frenos-500-ml",
     "category": "Frenos",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 15,
     "pdf": null
   },
   {
@@ -1781,7 +1781,7 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "siliconax-auto-brillo-silicon-restaurador-285-gr",
     "category": "Carcare",
     "featured": true,
-    "orderPriority": 2,
+    "orderPriority": 18,
     "pdf": null
   },
   {
@@ -1796,7 +1796,7 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "bouquet-ash-ambientador-organico-46-gr",
     "category": "Carcare",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 17,
     "pdf": null
   },
   {
@@ -1811,7 +1811,7 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "catalytic-system-ultra-clean-s300-300-ml",
     "category": "Químicos de Taller",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 7,
     "pdf": null
   },
   {
@@ -1826,7 +1826,7 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "engine-flush-advanced-f300-300-ml",
     "category": "Químicos de Taller",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 5,
     "pdf": null
   },
   {
@@ -1841,7 +1841,7 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "extreme-under-coating-ga500-blindaje-automotriz",
     "category": "Químicos de Taller",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 16,
     "pdf": null
   },
   {
@@ -1856,7 +1856,7 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "spray-zinc-oxid-free-400-ml",
     "category": "Químicos de Taller",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 17,
     "pdf": null
   },
   {
@@ -1871,7 +1871,7 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "siliconax-excelencia-premium-350-ml",
     "category": "Carcare",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 1,
     "pdf": null
   },
   {
@@ -1886,7 +1886,7 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "brake-fluid-liquid-tester-ht662",
     "category": "Accesorios",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 20,
     "pdf": null
   },
   {
@@ -1901,7 +1901,7 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "brake-fluid-liquid-tester-digital",
     "category": "Accesorios",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 21,
     "pdf": null
   },
   {
@@ -1916,7 +1916,7 @@ window.MAXIMUM_PRODUCTS = [
     "slug": "kit-profesional-diagnostico-sistema-refrigeracion",
     "category": "Accesorios",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 22,
     "pdf": null
   },
   {

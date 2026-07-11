@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const sortValue     = sortSelect.value;
 
     const categoryMap = {
-      taller:          ['químicos de taller', 'accesorios', 'frenos', 'agua pura'],
+      taller:          ['químicos de taller', 'accesorios', 'frenos', 'agua pura', 'grasas'],
       otros:           ['otros'],
       presentaciones:  ['presentaciones'],
     };
@@ -154,9 +154,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const fixedFilters = [
       { label: 'Refrigerantes',  filter: 'refrigerantes' },
-      { label: 'Grasas',         filter: 'grasas' },
-      { label: 'Car Care',       filter: 'carcare' },
       { label: 'Taller',         filter: 'taller' },
+      { label: 'Car Care',       filter: 'carcare' },
       { label: 'Presentaciones', filter: 'presentaciones' },
       { label: 'Otros',          filter: 'otros' },
     ];
