@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
       <div class="product-info">
         <span class="product-cat">${p.category === 'Carcare' ? 'Car Care' : p.category === 'Químicos de Taller' ? 'Taller' : p.category}</span>
         <h4 class="product-name">${p.nombre}</h4>
-        <p class="product-size">${p.descripcion ? p.descripcion.substring(0, 60) + (p.descripcion.length > 60 ? '...' : '') : 'Calidad MAXIMUM'}</p>
+        <p class="product-size">Calidad MAXIMUM</p>
         ${downloadHtml}
       </div>
     `;
