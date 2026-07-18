@@ -776,6 +776,10 @@ img { display:block; max-width:100%; }
 .method-item i { font-size:1.5rem; color:var(--black-base); margin-top:3px; }
 .method-item h5 { font-size:1.05rem; font-weight:700; color:var(--black-base); margin-bottom:3px; }
 .method-item p  { color:#555; font-size:.92rem; }
+.method-item--link { border-radius:10px; padding:10px 14px; margin-left:-14px; transition:background .2s; }
+.method-item--link:hover { background:rgba(200,30,30,.06); }
+.method-item--link:hover .fa-map-location-dot { color:var(--red-primary); }
+.maps-badge { display:inline-flex; align-items:center; gap:5px; margin-top:6px; font-size:.78rem; font-weight:600; color:var(--red-primary); letter-spacing:.3px; }
 
 .contact-form {
   background:#fff; padding:40px; border-radius:8px;
