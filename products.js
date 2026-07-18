@@ -2473,4 +2473,44 @@
     "descripcion": "",
     "pdf": ""
   }
+,
+  {
+    "id": 170,
+    "nombre": "Envase Compacto – 1/4 Galón",
+    "image": "imgproductos/nuevos/envase-compacto-cuarto-galon-2.png",
+    "status": "valid",
+    "category": "Presentaciones",
+    "featured": false,
+    "orderPriority": 286,
+    "alt": "Envase Compacto 1/4 Galón Maximum variante",
+    "slug": "envase-compacto-cuarto-galon-2",
+    "descripcion": "",
+    "pdf": ""
+  },
+  {
+    "id": 171,
+    "nombre": "Envase Performance – 1 Galón",
+    "image": "imgproductos/nuevos/envase-performance-1galon-2.jpg",
+    "status": "valid",
+    "category": "Presentaciones",
+    "featured": false,
+    "orderPriority": 291,
+    "alt": "Envase Performance 1 Galón Maximum variante",
+    "slug": "envase-performance-1galon-2",
+    "descripcion": "",
+    "pdf": ""
+  },
+  {
+    "id": 172,
+    "nombre": "Refrigerante Maximum Motor Cool HD OAT 55/45 Rojo – 5 Galones",
+    "image": "imgproductos/nuevos/motorcoolhd-rojo-5gal-presentacion.jpg",
+    "status": "valid",
+    "category": "Presentaciones",
+    "featured": false,
+    "orderPriority": 295,
+    "alt": "Refrigerante Maximum Motor Cool HD Rojo 5 Galones",
+    "slug": "motorcoolhd-rojo-5gal-presentacion",
+    "descripcion": "",
+    "pdf": ""
+  }
 ];
