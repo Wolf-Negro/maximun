@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
     card.innerHTML = `
       ${tagHtml}
       <div class="product-img">
-        <img src="${p.image}" alt="${p.alt}" loading="lazy">
+        <img src="${p.image}" alt="${p.alt}" loading="lazy"${p.imgZoom ? ' class="img-zoomed"' : ''}>
       </div>
       <div class="product-info">
         <span class="product-cat">${p.category === 'Carcare' ? 'Car Care' : p.category}</span>

@@ -116,7 +116,7 @@
     "slug": "refrigerante-xtrem-50-para-motos",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 260,
+    "orderPriority": 260, "imgZoom": true,
     "pdf": null
   },
   {
@@ -251,7 +251,7 @@
     "slug": "refrigerante-para-radiador-ice-blue-para-motos",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 270,
+    "orderPriority": 270, "imgZoom": true,
     "pdf": "FICHAS TECNICAS MAXIMUM/ice blue ficha completa.pdf"
   },
   {
@@ -491,7 +491,7 @@
     "slug": "refrigerante-motor-cool-60-para-gnvglp-1-qt",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 100,
+    "orderPriority": 100, "imgZoom": true,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE 60_ MAXIMUM (4).pdf"
   },
   {
@@ -1151,7 +1151,7 @@
     "slug": "tambor-maximum-tecnologa-automotriz",
     "category": "Presentaciones",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 275,
     "pdf": null
   },
   {
@@ -1406,7 +1406,7 @@
     "slug": "limpia-parabrisas-kristal-clean-1-galn",
     "category": "Carcare",
     "featured": false,
-    "orderPriority": 550,
+    "orderPriority": 550, "imgZoom": true,
     "pdf": null
   },
   {
@@ -1436,7 +1436,7 @@
     "slug": "agua-qumicamente-pura-maximum-1-qt",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 250,
+    "orderPriority": 250, "imgZoom": true,
     "pdf": null
   },
   {
@@ -1496,7 +1496,7 @@
     "slug": "agua-qumicamente-pura-aqp-1qg-14-de-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 250, "imgZoom": true,
     "pdf": null
   },
   {
