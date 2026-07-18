@@ -2128,5 +2128,44 @@
     "featured": false,
     "orderPriority": 320,
     "pdf": null
+  },
+  {
+    "id": 144,
+    "nombre": "Siliconax Auto Brillo Limón 285 g",
+    "descripcion": "Silicon restaurador y protector multi superficies. Tecnología Surface Guard. 285 g.",
+    "image": "imgproductos/nuevos/siliconax-autobrillo-limon-285g.jpg",
+    "alt": "Siliconax Auto Brillo Limón 285 g",
+    "status": "valid",
+    "slug": "siliconax-autobrillo-limon-285g",
+    "category": "Carcare",
+    "featured": false,
+    "orderPriority": 322,
+    "pdf": null
+  },
+  {
+    "id": 145,
+    "nombre": "Siliconax Auto Brillo Frutal 285 g",
+    "descripcion": "Silicon restaurador y protector multi superficies. Tecnología Surface Guard. 285 g.",
+    "image": "imgproductos/nuevos/siliconax-autobrillo-frutal-285g.jpg",
+    "alt": "Siliconax Auto Brillo Frutal 285 g",
+    "status": "valid",
+    "slug": "siliconax-autobrillo-frutal-285g",
+    "category": "Carcare",
+    "featured": false,
+    "orderPriority": 324,
+    "pdf": null
+  },
+  {
+    "id": 146,
+    "nombre": "Siliconax Auto Brillo Océano 285 g",
+    "descripcion": "Silicon restaurador y protector multi superficies. Tecnología Surface Guard. 285 g.",
+    "image": "imgproductos/nuevos/siliconax-autobrillo-oceano-285g.jpg",
+    "alt": "Siliconax Auto Brillo Océano 285 g",
+    "status": "valid",
+    "slug": "siliconax-autobrillo-oceano-285g",
+    "category": "Carcare",
+    "featured": false,
+    "orderPriority": 326,
+    "pdf": null
   }
 ];
