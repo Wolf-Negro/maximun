@@ -298,10 +298,10 @@ const PROVINCE_DISTRIBUTORS = {
   'PE-MDD': [
     { name: 'INVERSIONES 2BH SRL', contact: 'Boris Olivera / Benjamín Leiva', phone: '+51 941 414 181 / +51 923 393 741' }
   ],
-  'PE-PUN': [{ name: 'Distribuidor MAXIMUM Puno',      phone: 'Por confirmar' }],
+  'PE-PUN': [{ name: 'LUBRISUR DISTRIBUCIONES SCRL', contact: 'Evelyn', phone: '+51 959 376 442' }],
   'PE-LOR': [{ name: 'Distribuidor MAXIMUM Loreto',    phone: 'Por confirmar' }],
-  'PE-MOQ': [{ name: 'Distribuidor MAXIMUM Moquegua',  phone: 'Por confirmar' }],
-  'PE-TAC': [{ name: 'Distribuidor MAXIMUM Tacna',     phone: 'Por confirmar' }],
+  'PE-MOQ': [{ name: 'LUBRISUR DISTRIBUCIONES SCRL', contact: 'Evelyn', phone: '+51 959 376 442' }],
+  'PE-TAC': [{ name: 'LUBRISUR DISTRIBUCIONES SCRL', contact: 'Evelyn', phone: '+51 959 376 442' }],
   'PE-CAJ': [{ name: 'Distribuidor MAXIMUM Cajamarca', phone: 'Por confirmar' }],
   'PE-TUM': [{ name: 'Distribuidor MAXIMUM Tumbes',    phone: 'Por confirmar' }],
 };

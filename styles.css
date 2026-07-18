@@ -382,7 +382,7 @@ img { display:block; max-width:100%; }
   color:var(--red-primary); font-weight:800; text-transform:uppercase;
   font-size:1.7rem; letter-spacing:1.5px;
 }
-.dist-bar-desc { color:#fff; font-size:1.5rem; font-weight:700; }
+.dist-bar-desc { color:#fff; font-size:2rem; font-weight:800; letter-spacing:1px; }
 @keyframes dist-marquee {
   0%   { transform:translateX(0); }
   100% { transform:translateX(-50%); }
@@ -841,11 +841,12 @@ img { display:block; max-width:100%; }
    ============================================================ */
 @media (max-width:1200px) {
   .wide-container { padding:0 30px; }
-  .header-inner   { padding:0 30px; }
+  .header-inner   { padding:0 30px; gap:36px; }
   .header-logo-img { height: 65px; }
-  .desktop-nav ul { gap: 32px; }
-  .header-actions { gap: 20px; }
+  .desktop-nav ul { gap: 28px; }
+  .header-actions { gap: 14px; }
   .header-btn { padding: 8px 14px; font-size: .72rem; }
+  .header-social { display:none; }      /* oculta iconos sociales — liberan espacio */
   .hero-slider-wrap { aspect-ratio:16/7; }
   .tech-title  { font-size:2.6rem; }
   .section-title { font-size:2.4rem; }
@@ -853,14 +854,20 @@ img { display:block; max-width:100%; }
   .products-grid { grid-template-columns:repeat(3,1fr); }
 }
 
-@media (max-width:992px) {
+/* ── Menú hamburguesa activo a partir de 1100px ── */
+@media (max-width:1100px) {
   :root { --nav-height: 80px; }
-  .header-logo-img { height: 42px; }
-  .wide-container { padding:0 24px; }
-  .header-inner   { padding:0 24px; }
+  .header-logo-img { height: 52px; }
+  .header-inner   { padding:0 28px; gap:16px; }
   .desktop-nav    { display:none; }
   .hidden-mobile  { display:none !important; }
   .mobile-menu-btn { display:block; }
+}
+
+@media (max-width:992px) {
+  .header-logo-img { height: 42px; }
+  .wide-container { padding:0 24px; }
+  .header-inner   { padding:0 24px; }
   .hero-slider-wrap { aspect-ratio:16/7.5; }
   .tech-grid  { grid-template-columns:1fr; gap:40px; }
   .tech-title { font-size:2.2rem; }
@@ -890,8 +897,8 @@ img { display:block; max-width:100%; }
   .product-name  { font-size:.95rem; }
   .features-grid { grid-template-columns:1fr; }
   .footer-grid   { grid-template-columns:1fr; }
-  .dist-bar-label { font-size:1.3rem; }
-  .dist-bar-desc  { font-size:1.15rem; }
+  .dist-bar-label { font-size:1.4rem; }
+  .dist-bar-desc  { font-size:1.5rem; }
   .dist-bar-marquee-item { padding:0 48px; gap:12px; }
   .dist-bar-marquee-wrap { padding:16px 0; }
   .space-between { flex-direction:column; align-items:flex-start; gap:20px; }

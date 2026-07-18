@@ -26,7 +26,7 @@
     "slug": "refrigerante-motor-cool-hd-55-para-vehculos-europeos",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 1,
+    "orderPriority": 3,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA COMPLETA DE 55_ NOAT - NITRITO MAXIMUM 3.pdf"
   },
   {
@@ -56,7 +56,7 @@
     "slug": "silicona-premium-trion-343c",
     "category": "Químicos de Taller",
     "featured": false,
-    "orderPriority": 8,
+    "orderPriority": 4,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA Tecnica SILICONA PARA EMPAQUETADURA TRION MAXIMUM_17.pdf"
   },
   {
@@ -86,7 +86,7 @@
     "slug": "grasa-de-cadena-multipropsito-con-lithium-grease",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 3,
+    "orderPriority": 5,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA MULTIPROPOSITO (5).pdf"
   },
   {
@@ -116,7 +116,7 @@
     "slug": "refrigerante-xtrem-50-para-motos",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 27,
     "pdf": null
   },
   {
@@ -161,7 +161,7 @@
     "slug": "refrigerante-antifreeze-coolant-33-verde",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 15,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE 33_ MAXIMUM_1.pdf"
   },
   {
@@ -206,7 +206,7 @@
     "slug": "refrigerante-antifreeze-coolant-33-rojo",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 12,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE 33_ MAXIMUM_1.pdf"
   },
   {
@@ -251,7 +251,7 @@
     "slug": "refrigerante-para-radiador-ice-blue-para-motos",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 1,
+    "orderPriority": 28,
     "pdf": "FICHAS TECNICAS MAXIMUM/ice blue ficha completa.pdf"
   },
   {
@@ -266,7 +266,7 @@
     "slug": "nano-coating-proteccin-total",
     "category": "Carcare",
     "featured": false,
-    "orderPriority": 12,
+    "orderPriority": 7,
     "pdf": null
   },
   {
@@ -296,7 +296,7 @@
     "slug": "refrigerante-motor-cool-hd-disel-55",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 9,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA COMPLETA DE 55_ NOAT - NITRITO MAXIMUM 3.pdf"
   },
   {
@@ -311,7 +311,7 @@
     "slug": "shampoo-para-auto-high-eficiency-1-lt",
     "category": "Carcare",
     "featured": false,
-    "orderPriority": 10,
+    "orderPriority": 11,
     "pdf": null
   },
   {
@@ -341,7 +341,7 @@
     "slug": "refrigerante-para-radiador-ice-blue-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 19,
     "pdf": "FICHAS TECNICAS MAXIMUM/ice blue ficha completa.pdf"
   },
   {
@@ -356,7 +356,7 @@
     "slug": "removedor-de-rayones-car-wax-scratch-out",
     "category": "Carcare",
     "featured": false,
-    "orderPriority": 7,
+    "orderPriority": 15,
     "pdf": null
   },
   {
@@ -401,7 +401,7 @@
     "slug": "refrigerante-antifreeze-coolant-50-rojo",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 13,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA COMPLETA DE 50_  11.pdf"
   },
   {
@@ -416,7 +416,7 @@
     "slug": "grasa-gralimax-de-litio-ep2-con-molibdeno-y-grafito-200c",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 30,
+    "orderPriority": 3,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA GRAFITO (6).pdf"
   },
   {
@@ -431,7 +431,7 @@
     "slug": "refrigerante-motor-cool-hd-vehculos-europeos-violet-55",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 4,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA COMPLETA DE 55_ NOAT - NITRITO MAXIMUM 3.pdf"
   },
   {
@@ -476,7 +476,7 @@
     "slug": "refrigerante-para-radiador-ice-green-taxi-fresh-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 18,
     "pdf": "FICHAS TECNICAS MAXIMUM/ice blue ficha completa.pdf"
   },
   {
@@ -491,7 +491,7 @@
     "slug": "refrigerante-motor-cool-60-para-gnvglp-1-qt",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 11,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE 60_ MAXIMUM (4).pdf"
   },
   {
@@ -506,7 +506,7 @@
     "slug": "refrigerante-motor-hd-cool-heavy-duty-vehculos-multimarca-amarillo-55",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 8,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA COMPLETA DE 55_ OEM , 2026.pdf"
   },
   {
@@ -521,7 +521,7 @@
     "slug": "grasa-gralimax-de-litio-ep2-nlgi-2-multipropsito-200c",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 30,
+    "orderPriority": 4,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA MULTIPROPOSITO (5).pdf"
   },
   {
@@ -536,7 +536,7 @@
     "slug": "refrigerante-motor-cool-60-para-gnvglp-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 11,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE 60_ MAXIMUM (4).pdf"
   },
   {
@@ -566,7 +566,7 @@
     "slug": "shampoo-super-concentrado-brillo-cermico-5-galones",
     "category": "Carcare",
     "featured": false,
-    "orderPriority": 16,
+    "orderPriority": 13,
     "pdf": null
   },
   {
@@ -596,7 +596,7 @@
     "slug": "refrigerante-para-radiador-ice-orange-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 23,
     "pdf": "FICHAS TECNICAS MAXIMUM/ice blue ficha completa.pdf"
   },
   {
@@ -626,7 +626,7 @@
     "slug": "refrigerante-motor-hd-cool-heavy-duty-vehculos-europeos-pink-55",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 1,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA COMPLETA DE 55_ NOAT - NITRITO MAXIMUM 3.pdf"
   },
   {
@@ -641,7 +641,7 @@
     "slug": "grasa-gralimax-de-litio-h3-260c",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 30,
+    "orderPriority": 2,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA H3(7).pdf"
   },
   {
@@ -656,7 +656,7 @@
     "slug": "refrigerante-antifreeze-coolant-50-verde-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 16,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA COMPLETA DE 50_  11.pdf"
   },
   {
@@ -686,7 +686,7 @@
     "slug": "refrigerante-para-radiador-ice-dark-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 21,
     "pdf": "FICHAS TECNICAS MAXIMUM/ice blue ficha completa.pdf"
   },
   {
@@ -716,7 +716,7 @@
     "slug": "refrigerante-para-radiador-ice-violet-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 22,
     "pdf": "FICHAS TECNICAS MAXIMUM/ice blue ficha completa.pdf"
   },
   {
@@ -731,7 +731,7 @@
     "slug": "refrigerante-antifreeze-coolant-50-verde-balde-5-galones",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 13,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA COMPLETA DE 50_  11.pdf"
   },
   {
@@ -746,7 +746,7 @@
     "slug": "refrigerante-motor-hd-cool-heavy-duty-vehculos-americanos-orange-55",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 7,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA COMPLETA DE 55_ OEM , 2026.pdf"
   },
   {
@@ -761,7 +761,7 @@
     "slug": "limpiador-de-carburador-carbu-chock-cleaner-aroma-a-limn",
     "category": "Químicos de Taller",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 1,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA LIMPIADOR DE CARBURADOR (12).pdf"
   },
   {
@@ -776,7 +776,7 @@
     "slug": "refrigerante-antifreeze-coolant-17-verde-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 14,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE 17_ MAXIMUM_1.pdf"
   },
   {
@@ -791,7 +791,7 @@
     "slug": "renovador-de-plstico-y-cuero-plastic-leather-renewer",
     "category": "Carcare",
     "featured": false,
-    "orderPriority": 14,
+    "orderPriority": 17,
     "pdf": null
   },
   {
@@ -821,7 +821,7 @@
     "slug": "refrigerante-concentrado-ega964-etilenglicol-aditivado-rojo-reflex",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 25,
     "pdf": null
   },
   {
@@ -851,7 +851,7 @@
     "slug": "refrigerante-motor-hd-cool-heavy-duty-vehculos-asiticos-green-55",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 6,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA COMPLETA DE 55_ OEM , 2026.pdf"
   },
   {
@@ -881,7 +881,7 @@
     "slug": "refrigerante-para-radiador-ice-pink-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 20,
     "pdf": "FICHAS TECNICAS MAXIMUM/ice blue ficha completa.pdf"
   },
   {
@@ -896,7 +896,7 @@
     "slug": "grasa-gralimax-de-litio-ep2-nlgi2-200c",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 30,
+    "orderPriority": 4,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA MULTIPROPOSITO (5).pdf"
   },
   {
@@ -926,7 +926,7 @@
     "slug": "agua-qumicamente-pura-desionizada-y-desmineralizada-1-galn-5-litros",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 26,
     "pdf": null
   },
   {
@@ -941,7 +941,7 @@
     "slug": "refrigerante-para-radiador-ice-blue-5-galones",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 19,
     "pdf": "FICHAS TECNICAS MAXIMUM/ice blue ficha completa.pdf"
   },
   {
@@ -956,7 +956,7 @@
     "slug": "agua-qumicamente-pura-aqp-1qg-1-cuarto-de-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 26,
     "pdf": null
   },
   {
@@ -971,7 +971,7 @@
     "slug": "refrigerante-para-radiador-ice-yellow-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 24,
     "pdf": "FICHAS TECNICAS MAXIMUM/ice blue ficha completa.pdf"
   },
   {
@@ -986,7 +986,7 @@
     "slug": "lquido-de-frenos-stop-dot51-ultra-354-ml",
     "category": "Frenos",
     "featured": false,
-    "orderPriority": 12,
+    "orderPriority": 15,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA LIQUIDO DE FRENOS (11).pdf"
   },
   {
@@ -1001,7 +1001,7 @@
     "slug": "refrigerante-motor-hd-cool-heavy-duty-vehculos-multimarca-rojo-55",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 5,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA COMPLETA DE 55_ OEM , 2026.pdf"
   },
   {
@@ -1016,7 +1016,7 @@
     "slug": "refrigerante-motor-cool-glpgnv-60-5-galones",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 11,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE 60_ MAXIMUM (4).pdf"
   },
   {
@@ -1031,7 +1031,7 @@
     "slug": "limpiador-de-inyectores-injector-cleaner-gasolina",
     "category": "Químicos de Taller",
     "featured": false,
-    "orderPriority": 4,
+    "orderPriority": 13,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA COMPLETA INYECTORES3.pdf"
   },
   {
@@ -1106,7 +1106,7 @@
     "slug": "refrigerante-para-radiador-ice-red-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 17,
     "pdf": "FICHAS TECNICAS MAXIMUM/ice blue ficha completa.pdf"
   },
   {
@@ -1121,7 +1121,7 @@
     "slug": "grasa-gralimax-de-litio-h3-260c",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 30,
+    "orderPriority": 2,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA H3(7).pdf"
   },
   {
@@ -1166,7 +1166,7 @@
     "slug": "refrigerante-motor-hd-cool-heavy-duty-diesel-55-5-galones",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 10,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA COMPLETA DE 55_ NOAT - NITRITO MAXIMUM 3.pdf"
   },
   {
@@ -1196,7 +1196,7 @@
     "slug": "grasa-gralimax-de-litio-multipropsito-200c",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 30,
+    "orderPriority": 4,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA MULTIPROPOSITO (5).pdf"
   },
   {
@@ -1226,7 +1226,7 @@
     "slug": "grasa-gralimax-de-litio-multipropsito-200c",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 30,
+    "orderPriority": 4,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA MULTIPROPOSITO (5).pdf"
   },
   {
@@ -1316,7 +1316,7 @@
     "slug": "espuma-limpiadora-multipropsito-foam-cleaner-600-ml",
     "category": "Carcare",
     "featured": false,
-    "orderPriority": 13,
+    "orderPriority": 9,
     "pdf": null
   },
   {
@@ -1331,7 +1331,7 @@
     "slug": "silicona-para-empaquetadura-grey-force-343c-85-gr",
     "category": "Químicos de Taller",
     "featured": false,
-    "orderPriority": 13,
+    "orderPriority": 5,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA SILICONA PARA EMPAQUETADURA, GREY FORCE - ULTRA BLACK. (6)"
   },
   {
@@ -1346,7 +1346,7 @@
     "slug": "silicona-para-empaquetadura-ultra-black-343c-85-gr",
     "category": "Químicos de Taller",
     "featured": false,
-    "orderPriority": 14,
+    "orderPriority": 6,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA SILICONA PARA EMPAQUETADURA, GREY FORCE - ULTRA BLACK. (6)"
   },
   {
@@ -1361,7 +1361,7 @@
     "slug": "lquido-de-frenos-dot4-ultra-230c-354-ml",
     "category": "Frenos",
     "featured": false,
-    "orderPriority": 11,
+    "orderPriority": 14,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA LIQUIDO DE FRENOS (11).pdf"
   },
   {
@@ -1376,7 +1376,7 @@
     "slug": "limpiacontactos-electrnicos-estado-zero-aroma-limn",
     "category": "Químicos de Taller",
     "featured": false,
-    "orderPriority": 10,
+    "orderPriority": 3,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE LIMPIACONTACTOS ESTADO ZERO(8).pdf"
   },
   {
@@ -1404,7 +1404,7 @@
     "alt": "Limpia Parabrisas Kristal Clean 1 Galón",
     "status": "valid",
     "slug": "limpia-parabrisas-kristal-clean-1-galn",
-    "category": "Otros",
+    "category": "Carcare",
     "featured": false,
     "orderPriority": 5,
     "pdf": null
@@ -1419,7 +1419,7 @@
     "alt": "Limpia Parabrisas Kristal Clean 1 Qt",
     "status": "valid",
     "slug": "limpia-parabrisas-kristal-clean-1-qt",
-    "category": "Otros",
+    "category": "Carcare",
     "featured": false,
     "orderPriority": 6,
     "pdf": null
@@ -1436,7 +1436,7 @@
     "slug": "agua-qumicamente-pura-maximum-1-qt",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 26,
     "pdf": null
   },
   {
@@ -1449,7 +1449,7 @@
     "alt": "Limpiavidrios Kristal Home 650 ml",
     "status": "valid",
     "slug": "limpiavidrios-kristal-home-650-ml",
-    "category": "Otros",
+    "category": "Carcare",
     "featured": false,
     "orderPriority": 4,
     "pdf": null
@@ -1466,7 +1466,7 @@
     "slug": "shampoo-sper-concentrado-brillo-cermico-350-ml",
     "category": "Carcare",
     "featured": false,
-    "orderPriority": 15,
+    "orderPriority": 12,
     "pdf": null
   },
   {
@@ -1511,7 +1511,7 @@
     "slug": "refrigerante-anticongelante-antifreeze-coolant-50-1-qt",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 13,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA COMPLETA DE 50_  11.pdf"
   },
   {
@@ -1541,7 +1541,7 @@
     "slug": "plumillas-traseras-maximum",
     "category": "Carcare",
     "featured": true,
-    "orderPriority": 3,
+    "orderPriority": 10,
     "pdf": null
   },
   {
@@ -1571,7 +1571,7 @@
     "slug": "aceite-aflojatodo-mx-40d-anti-rust-oil",
     "category": "Químicos de Taller",
     "featured": true,
-    "orderPriority": 9,
+    "orderPriority": 2,
     "pdf": null
   },
   {
@@ -1586,7 +1586,7 @@
     "slug": "motor-cool-refrigerante-y-anticongelante-60-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 2,
+    "orderPriority": 11,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE 60_ MAXIMUM (4).pdf"
   },
   {
@@ -1601,7 +1601,7 @@
     "slug": "repelente-de-agua-para-parabrisas",
     "category": "Carcare",
     "featured": false,
-    "orderPriority": 8,
+    "orderPriority": 16,
     "pdf": null
   },
   {
@@ -1616,7 +1616,7 @@
     "slug": "renovador-de-llantas-tyre-shine-500-ml",
     "category": "Carcare",
     "featured": false,
-    "orderPriority": 11,
+    "orderPriority": 8,
     "pdf": null
   },
   {
@@ -1631,7 +1631,7 @@
     "slug": "engine-surface-cleaner-desengrasante-para-motor-395-ml",
     "category": "Químicos de Taller",
     "featured": false,
-    "orderPriority": 6,
+    "orderPriority": 8,
     "pdf": null
   },
   {
@@ -1676,7 +1676,7 @@
     "slug": "spray-antiempaante-para-vidrios-y-espejos",
     "category": "Carcare",
     "featured": false,
-    "orderPriority": 9,
+    "orderPriority": 14,
     "pdf": null
   },
   {
@@ -1736,7 +1736,7 @@
     "slug": "brake-cleaner-limpiador-profesional-para-sistema-de-frenos-500-ml",
     "category": "Frenos",
     "featured": false,
-    "orderPriority": 15,
+    "orderPriority": 11,
     "pdf": null
   },
   {
@@ -1781,7 +1781,7 @@
     "slug": "siliconax-auto-brillo-silicon-restaurador-285-gr",
     "category": "Carcare",
     "featured": true,
-    "orderPriority": 18,
+    "orderPriority": 3,
     "pdf": null
   },
   {
@@ -1796,7 +1796,7 @@
     "slug": "bouquet-ash-ambientador-organico-46-gr",
     "category": "Carcare",
     "featured": false,
-    "orderPriority": 17,
+    "orderPriority": 1,
     "pdf": null
   },
   {
@@ -1811,7 +1811,7 @@
     "slug": "catalytic-system-ultra-clean-s300-300-ml",
     "category": "Químicos de Taller",
     "featured": false,
-    "orderPriority": 7,
+    "orderPriority": 9,
     "pdf": null
   },
   {
@@ -1826,7 +1826,7 @@
     "slug": "engine-flush-advanced-f300-300-ml",
     "category": "Químicos de Taller",
     "featured": false,
-    "orderPriority": 5,
+    "orderPriority": 7,
     "pdf": null
   },
   {
@@ -1841,7 +1841,7 @@
     "slug": "extreme-under-coating-ga500-blindaje-automotriz",
     "category": "Químicos de Taller",
     "featured": false,
-    "orderPriority": 16,
+    "orderPriority": 12,
     "pdf": null
   },
   {
@@ -1856,7 +1856,7 @@
     "slug": "spray-zinc-oxid-free-400-ml",
     "category": "Químicos de Taller",
     "featured": false,
-    "orderPriority": 17,
+    "orderPriority": 10,
     "pdf": null
   },
   {
@@ -1871,7 +1871,7 @@
     "slug": "siliconax-excelencia-premium-350-ml",
     "category": "Carcare",
     "featured": false,
-    "orderPriority": 1,
+    "orderPriority": 2,
     "pdf": null
   },
   {
@@ -1884,7 +1884,7 @@
     "alt": "Brake Fluid Liquid Tester HT662 Probador de Líquido de Frenos",
     "status": "valid",
     "slug": "brake-fluid-liquid-tester-ht662",
-    "category": "Accesorios",
+    "category": "Otros",
     "featured": false,
     "orderPriority": 20,
     "pdf": null
@@ -1899,7 +1899,7 @@
     "alt": "Brake Fluid Liquid Tester Digital Probador de Líquido de Frenos",
     "status": "valid",
     "slug": "brake-fluid-liquid-tester-digital",
-    "category": "Accesorios",
+    "category": "Otros",
     "featured": false,
     "orderPriority": 21,
     "pdf": null
@@ -1914,7 +1914,7 @@
     "alt": "Kit Profesional de Diagnóstico para Sistema de Refrigeración",
     "status": "valid",
     "slug": "kit-profesional-diagnostico-sistema-refrigeracion",
-    "category": "Accesorios",
+    "category": "Otros",
     "featured": false,
     "orderPriority": 22,
     "pdf": null
@@ -1931,7 +1931,7 @@
     "slug": "refrigerante-antifreeze-coolant-50-ibc-1000-litros",
     "category": "Presentaciones",
     "featured": false,
-    "orderPriority": 1,
+    "orderPriority": 13,
     "pdf": null
   },
   {
@@ -1946,7 +1946,7 @@
     "slug": "refrigerante-antifreeze-coolant-50-balde-5-galones-negro",
     "category": "Presentaciones",
     "featured": false,
-    "orderPriority": 1,
+    "orderPriority": 13,
     "pdf": null
   },
   {
