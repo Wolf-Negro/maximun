@@ -2423,7 +2423,7 @@
   {
     "id": 166,
     "nombre": "Grasa de Complejo de Litio Multipropósito Maximum Gralimax EP3",
-    "image": "imgproductos/nuevos/grasa-gralimax-ep3.png",
+    "image": "imgproductos/nuevos/grasa-gralimax-ep3-v2.jpg",
     "status": "valid",
     "category": "Grasas",
     "featured": false,
