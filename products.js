@@ -487,7 +487,7 @@
     "descripcion": "",
     "image": "imgproductos/nuevos/prod_33.png",
     "alt": "Refrigerante Maximum Motor Cool 60/40 Rojo Reflex para Vehículos GLP/GNV – 1 Litro",
-    "status": "valid",
+    "status": "hidden",
     "slug": "refrigerante-motor-cool-60-para-gnvglp-1-qt",
     "category": "Refrigerantes",
     "featured": false,
