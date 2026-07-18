@@ -935,7 +935,7 @@
     "nombreOriginal": "Ice Blue 5 Galones",
     "nombre": "Refrigerante para Radiador Maximum ICE Industrial No Concentrado – 5 Galones",
     "descripcion": "",
-    "image": "imgproductos/nuevos/prod_63.jpg",
+    "image": "imgproductos/nuevos/ice-industrial-no-concentrado-5gal.jpg",
     "alt": "Refrigerante para Radiador Maximum ICE Industrial No Concentrado – 5 Galones",
     "status": "valid",
     "slug": "refrigerante-para-radiador-ice-blue-5-galones",
