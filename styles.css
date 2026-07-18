@@ -734,13 +734,17 @@ img { display:block; max-width:100%; }
   line-height: 1.05;
 }
 .cta-desc-xl {
-  font-size: 1.25rem !important;
+  font-size: clamp(0.78rem, 1.35vw, 1.15rem) !important;
   font-weight: 800 !important;
-  max-width: 1000px;
+  max-width: 100%;
   margin: 0 auto;
   opacity: 0.95;
-  line-height: 1.6;
+  line-height: 1.7;
   letter-spacing: 0.3px;
+}
+.cta-line {
+  display: block;
+  white-space: nowrap;
 }
 .btn-xl {
   padding: 18px 56px !important;
