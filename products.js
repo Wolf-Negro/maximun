@@ -1340,7 +1340,7 @@
     "nombreOriginal": "Ultra Black",
     "nombre": "Silicona Negra para Empaquetadura Maximum Ultra Black – 85 g",
     "descripcion": "",
-    "image": "imgproductos/nuevos/taller_ultra_black.png",
+    "image": "imgproductos/nuevos/taller-ultra-black-85g.png",
     "alt": "Silicona Negra para Empaquetadura Maximum Ultra Black – 85 g",
     "status": "valid",
     "slug": "silicona-para-empaquetadura-ultra-black-343c-85-gr",
