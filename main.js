@@ -40,11 +40,6 @@ document.addEventListener('DOMContentLoaded', () => {
     card.className = 'product-card reveal-on-scroll';
     card.setAttribute('data-category', p.category.toLowerCase());
 
-    let tagHtml = '';
-    if (p.featured) {
-      tagHtml = '<div class="product-tag premium">PREMIUM</div>';
-    }
-
     // Ficha técnica SOLO para Refrigerantes
     let downloadHtml = '';
     if (p.category.toLowerCase() === 'refrigerantes') {
@@ -66,7 +61,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     card.innerHTML = `
-      ${tagHtml}
       <div class="product-img lb-trigger" data-img="${p.image}" data-name="${p.nombre}">
         <img src="${p.image}" alt="${p.alt}" loading="lazy"${p.imgZoom ? ' class="img-zoomed"' : ''}>
       </div>
