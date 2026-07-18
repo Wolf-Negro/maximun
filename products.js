@@ -2204,7 +2204,7 @@
     "slug": "siliconax-autobrillo-limon-285g",
     "category": "Carcare",
     "featured": false,
-    "orderPriority": 322,
+    "orderPriority": 311,
     "pdf": null
   },
   {
@@ -2217,7 +2217,7 @@
     "slug": "siliconax-autobrillo-frutal-285g",
     "category": "Carcare",
     "featured": false,
-    "orderPriority": 324,
+    "orderPriority": 312,
     "pdf": null
   },
   {
@@ -2230,7 +2230,7 @@
     "slug": "siliconax-autobrillo-oceano-285g",
     "category": "Carcare",
     "featured": false,
-    "orderPriority": 326,
+    "orderPriority": 313,
     "pdf": null
   }
 ];
