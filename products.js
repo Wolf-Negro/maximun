@@ -2489,13 +2489,13 @@
   },
   {
     "id": 171,
-    "nombre": "Envase Performance – 1 Galón",
+    "nombre": "Envase doble Aza deluxe – 1 Galón",
     "image": "imgproductos/nuevos/envase-performance-1galon-2.jpg",
     "status": "valid",
     "category": "Presentaciones",
     "featured": false,
     "orderPriority": 291,
-    "alt": "Envase Performance 1 Galón",
+    "alt": "Envase doble Aza deluxe 1 Galón",
     "slug": "envase-performance-1galon-2",
     "descripcion": "",
     "pdf": ""
