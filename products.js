@@ -82,7 +82,7 @@
     "descripcion": "",
     "image": "imgproductos/nuevos/grasa_cadena_spray.png",
     "alt": "Grasa de Cadena Multipropósito con Lithium Grease",
-    "status": "valid",
+    "status": "hidden",
     "slug": "grasa-de-cadena-multipropsito-con-lithium-grease",
     "category": "Grasas",
     "featured": false,
