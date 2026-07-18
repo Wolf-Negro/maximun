@@ -69,8 +69,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     card.innerHTML = `
       ${tagHtml}
-      <div class="product-img">
+      <div class="product-img lb-trigger" data-img="${p.image}" data-name="${p.nombre}">
         <img src="${p.image}" alt="${p.alt}" loading="lazy"${p.imgZoom ? ' class="img-zoomed"' : ''}>
+        <span class="zoom-hint"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
       </div>
       <div class="product-info">
         <span class="product-cat">${p.category === 'Carcare' ? 'Car Care' : p.category === 'Químicos de Taller' ? 'Taller' : p.category}</span>
@@ -269,6 +270,34 @@ document.addEventListener('DOMContentLoaded', () => {
   if (document.getElementById('peru-map-container') && typeof am5 !== 'undefined') {
     initPeruMap();
   }
+
+  // ── Lightbox ──
+  const lbOverlay = document.getElementById('lightbox-overlay');
+  const lbImg     = document.getElementById('lightbox-img');
+  const lbName    = document.getElementById('lightbox-name');
+  const lbClose   = document.getElementById('lightbox-close');
+
+  function openLightbox(src, name) {
+    lbImg.src = src;
+    lbImg.alt = name;
+    lbName.textContent = name;
+    lbOverlay.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeLightbox() {
+    lbOverlay.classList.remove('active');
+    document.body.style.overflow = '';
+  }
+
+  document.addEventListener('click', e => {
+    const trigger = e.target.closest('.lb-trigger');
+    if (trigger) openLightbox(trigger.dataset.img, trigger.dataset.name);
+  });
+
+  lbClose.addEventListener('click', closeLightbox);
+  lbOverlay.addEventListener('click', e => { if (e.target === lbOverlay) closeLightbox(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
 });
 
 // ─── Distributor data per province ──────────────────────────────────────────
