@@ -116,7 +116,7 @@
     "slug": "refrigerante-xtrem-50-para-motos",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 260, "imgZoom": true,
+    "orderPriority": 185, "imgZoom": true,
     "pdf": null
   },
   {
@@ -161,7 +161,7 @@
     "slug": "refrigerante-antifreeze-coolant-33-verde",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 140,
+    "orderPriority": 118,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE 33_ MAXIMUM_1.pdf"
   },
   {
@@ -206,7 +206,7 @@
     "slug": "refrigerante-antifreeze-coolant-33-rojo",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 110,
+    "orderPriority": 115,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE 33_ MAXIMUM_1.pdf"
   },
   {
@@ -251,7 +251,7 @@
     "slug": "refrigerante-para-radiador-ice-blue-para-motos",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 270, "imgZoom": true,
+    "orderPriority": 190, "imgZoom": true,
     "pdf": "FICHAS TECNICAS MAXIMUM/ice blue ficha completa.pdf"
   },
   {
@@ -296,7 +296,7 @@
     "slug": "refrigerante-motor-cool-hd-disel-55",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 90,
+    "orderPriority": 85,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA COMPLETA DE 55_ NOAT - NITRITO MAXIMUM 3.pdf"
   },
   {
@@ -341,7 +341,7 @@
     "slug": "refrigerante-para-radiador-ice-blue-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 180,
+    "orderPriority": 160,
     "pdf": "FICHAS TECNICAS MAXIMUM/ice blue ficha completa.pdf"
   },
   {
@@ -401,7 +401,7 @@
     "slug": "refrigerante-antifreeze-coolant-50-rojo",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 120,
+    "orderPriority": 130,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA COMPLETA DE 50_  11.pdf"
   },
   {
@@ -476,7 +476,7 @@
     "slug": "refrigerante-para-radiador-ice-green-taxi-fresh-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 170,
+    "orderPriority": 155,
     "pdf": "FICHAS TECNICAS MAXIMUM/ice blue ficha completa.pdf"
   },
   {
@@ -536,7 +536,7 @@
     "slug": "refrigerante-motor-cool-60-para-gnvglp-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 100,
+    "orderPriority": 95,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE 60_ MAXIMUM (4).pdf"
   },
   {
@@ -596,7 +596,7 @@
     "slug": "refrigerante-para-radiador-ice-orange-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 220,
+    "orderPriority": 178,
     "pdf": "FICHAS TECNICAS MAXIMUM/ice blue ficha completa.pdf"
   },
   {
@@ -656,7 +656,7 @@
     "slug": "refrigerante-antifreeze-coolant-50-verde-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 150,
+    "orderPriority": 133,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA COMPLETA DE 50_  11.pdf"
   },
   {
@@ -686,7 +686,7 @@
     "slug": "refrigerante-para-radiador-ice-dark-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 200,
+    "orderPriority": 170,
     "pdf": "FICHAS TECNICAS MAXIMUM/ice blue ficha completa.pdf"
   },
   {
@@ -716,7 +716,7 @@
     "slug": "refrigerante-para-radiador-ice-violet-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 210,
+    "orderPriority": 174,
     "pdf": "FICHAS TECNICAS MAXIMUM/ice blue ficha completa.pdf"
   },
   {
@@ -776,7 +776,7 @@
     "slug": "refrigerante-antifreeze-coolant-17-verde-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 130,
+    "orderPriority": 105,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE 17_ MAXIMUM_1.pdf"
   },
   {
@@ -821,7 +821,7 @@
     "slug": "refrigerante-concentrado-ega964-etilenglicol-aditivado-rojo-reflex",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 240,
+    "orderPriority": 145,
     "pdf": null
   },
   {
@@ -881,7 +881,7 @@
     "slug": "refrigerante-para-radiador-ice-pink-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 190,
+    "orderPriority": 166,
     "pdf": "FICHAS TECNICAS MAXIMUM/ice blue ficha completa.pdf"
   },
   {
@@ -926,7 +926,7 @@
     "slug": "agua-qumicamente-pura-desionizada-y-desmineralizada-1-galn-5-litros",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 250,
+    "orderPriority": 203,
     "pdf": null
   },
   {
@@ -941,7 +941,7 @@
     "slug": "refrigerante-para-radiador-ice-blue-5-galones",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 180,
+    "orderPriority": 163,
     "pdf": "FICHAS TECNICAS MAXIMUM/ice blue ficha completa.pdf"
   },
   {
@@ -956,7 +956,7 @@
     "slug": "agua-qumicamente-pura-aqp-1qg-1-cuarto-de-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 250,
+    "orderPriority": 195,
     "pdf": null
   },
   {
@@ -971,7 +971,7 @@
     "slug": "refrigerante-para-radiador-ice-yellow-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 230,
+    "orderPriority": 182,
     "pdf": "FICHAS TECNICAS MAXIMUM/ice blue ficha completa.pdf"
   },
   {
@@ -1106,7 +1106,7 @@
     "slug": "refrigerante-para-radiador-ice-red-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 160,
+    "orderPriority": 150,
     "pdf": "FICHAS TECNICAS MAXIMUM/ice blue ficha completa.pdf"
   },
   {
@@ -1586,7 +1586,7 @@
     "slug": "motor-cool-refrigerante-y-anticongelante-60-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 100,
+    "orderPriority": 97,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE 60_ MAXIMUM (4).pdf"
   },
   {
@@ -1790,7 +1790,7 @@
     "nombreOriginal": "Bouquet ASH",
     "nombre": "Aromatizante Maximum Bouquet Ash 100% Orgánico",
     "descripcion": "",
-    "image": "imgproductos/nuevos/carcare_bouquet_ash.png",
+    "image": "imgproductos/nuevos/carcare_bouquet_ash_v2.png",
     "alt": "Aromatizante Maximum Bouquet Ash 100% Orgánico",
     "status": "valid",
     "slug": "bouquet-ash-ambientador-organico-46-gr",
@@ -2139,7 +2139,7 @@
     "slug": "antifreeze-coolant-17-verde-reflex-1qt",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 112,
+    "orderPriority": 108,
     "pdf": null
   },
   {
@@ -2152,7 +2152,7 @@
     "slug": "antifreeze-coolant-33-verde-reflex-1qt",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 114,
+    "orderPriority": 124,
     "pdf": null
   },
   {
@@ -2165,7 +2165,7 @@
     "slug": "antifreeze-coolant-33-rojo-reflex-1qt",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 116,
+    "orderPriority": 121,
     "pdf": null
   },
   {
@@ -2178,7 +2178,7 @@
     "slug": "antifreeze-coolant-50-verde-reflex-1qt",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 118,
+    "orderPriority": 139,
     "pdf": null
   },
   {
@@ -2191,7 +2191,7 @@
     "slug": "antifreeze-coolant-50-rojo-reflex-1qt",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 119,
+    "orderPriority": 136,
     "pdf": null
   },
   {
@@ -2323,7 +2323,7 @@
     "slug": "agua-pura-desionizada-1litro",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 660,
+    "orderPriority": 199,
     "pdf": null
   },
   {
@@ -2336,7 +2336,7 @@
     "slug": "agua-pura-desionizada-5litros",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 662,
+    "orderPriority": 207,
     "pdf": null
   },
   {
