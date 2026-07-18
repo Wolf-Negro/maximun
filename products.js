@@ -1795,7 +1795,7 @@
     "status": "valid",
     "slug": "bouquet-ash-ambientador-organico-46-gr",
     "category": "Carcare",
-    "featured": false,
+    "featured": true,
     "orderPriority": 310,
     "pdf": null
   },
