@@ -1565,7 +1565,7 @@
     "nombreOriginal": "MX-40D Anti Rust Oil",
     "nombre": "Aflojatodo Ultra Penetrante Maximum – 450 ML",
     "descripcion": "",
-    "image": "imgproductos/nuevos/taller-aflojatodo-450ml.png",
+    "image": "imgproductos/nuevos/taller-aflojatodo-450ml-v2.jpg",
     "alt": "Aflojatodo Ultra Penetrante Maximum – 450 ML",
     "status": "valid",
     "slug": "aceite-aflojatodo-mx-40d-anti-rust-oil",
