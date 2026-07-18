@@ -43,8 +43,6 @@ document.addEventListener('DOMContentLoaded', () => {
     let tagHtml = '';
     if (p.featured) {
       tagHtml = '<div class="product-tag premium">PREMIUM</div>';
-    } else if (p.nombre.toLowerCase().includes('alta temp') || p.nombre.toLowerCase().includes('extreme')) {
-      tagHtml = '<div class="product-tag highlight">HOT</div>';
     }
 
     // Ficha técnica SOLO para Refrigerantes
@@ -71,7 +69,6 @@ document.addEventListener('DOMContentLoaded', () => {
       ${tagHtml}
       <div class="product-img lb-trigger" data-img="${p.image}" data-name="${p.nombre}">
         <img src="${p.image}" alt="${p.alt}" loading="lazy"${p.imgZoom ? ' class="img-zoomed"' : ''}>
-        <span class="zoom-hint"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
       </div>
       <div class="product-info">
         <span class="product-cat">${p.category === 'Carcare' ? 'Car Care' : p.category === 'Químicos de Taller' ? 'Taller' : p.category}</span>
