@@ -1777,7 +1777,7 @@
     "descripcion": "",
     "image": "imgproductos/nuevos/carcare_siliconax_pack.jpg",
     "alt": "SILICONAX Auto Brillo Silicon Restaurador y Protector 285 gr",
-    "status": "valid",
+    "status": "hidden",
     "slug": "siliconax-auto-brillo-silicon-restaurador-285-gr",
     "category": "Carcare",
     "featured": true,
