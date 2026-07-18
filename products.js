@@ -517,7 +517,7 @@
     "descripcion": "",
     "image": "imgproductos/nuevos/grasa-gralimax-ep2-amarilla-1kg.png",
     "alt": "Grasa de Litio Multipropósito Maximum Gralimax EP2 Amarilla 200°C – 1 kg",
-    "status": "valid",
+    "status": "hidden",
     "slug": "grasa-gralimax-de-litio-ep2-nlgi-2-multipropsito-200c",
     "category": "Grasas",
     "featured": false,
