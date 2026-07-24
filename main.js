@@ -153,10 +153,10 @@ document.addEventListener('DOMContentLoaded', () => {
       { label: 'Otros',          filter: 'otros' },
     ];
 
-    if (filtersContainer && filtersContainer.children.length === 1) {
-      fixedFilters.forEach(({ label, filter }) => {
+    if (filtersContainer && filtersContainer.children.length === 0) {
+      fixedFilters.forEach(({ label, filter }, i) => {
         const btn = document.createElement('button');
-        btn.className = 'filter-btn';
+        btn.className = 'filter-btn' + (i === 0 ? ' active' : '');
         btn.setAttribute('data-filter', filter);
         btn.innerText = label;
         filtersContainer.appendChild(btn);
