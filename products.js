@@ -311,7 +311,7 @@
     "slug": "shampoo-para-auto-high-eficiency-1-lt",
     "category": "Carcare",
     "featured": false,
-    "orderPriority": 610,
+    "orderPriority": 612,
     "pdf": null
   },
   {
@@ -566,7 +566,7 @@
     "slug": "shampoo-super-concentrado-brillo-cermico-5-galones",
     "category": "Carcare",
     "featured": false,
-    "orderPriority": 630,
+    "orderPriority": 620,
     "pdf": null
   },
   {
@@ -641,7 +641,7 @@
     "slug": "grasa-gralimax-de-litio-h3-260c",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 380,
+    "orderPriority": 381,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA H3(7).pdf"
   },
   {
@@ -1121,7 +1121,7 @@
     "slug": "grasa-gralimax-de-litio-h3-260c",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 380,
+    "orderPriority": 382,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA H3(7).pdf"
   },
   {
@@ -1196,7 +1196,7 @@
     "slug": "grasa-gralimax-de-litio-multipropsito-200c",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 400,
+    "orderPriority": 401,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA MULTIPROPOSITO (5).pdf"
   },
   {
@@ -1226,7 +1226,7 @@
     "slug": "grasa-gralimax-de-litio-multipropsito-200c",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 400,
+    "orderPriority": 402,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA MULTIPROPOSITO (5).pdf"
   },
   {
@@ -1406,7 +1406,7 @@
     "slug": "limpia-parabrisas-kristal-clean-1-galn",
     "category": "Carcare",
     "featured": false,
-    "orderPriority": 550, "imgZoom": true,
+    "orderPriority": 552, "imgZoom": true,
     "pdf": null
   },
   {
@@ -1421,7 +1421,7 @@
     "slug": "limpia-parabrisas-kristal-clean-1-qt",
     "category": "Carcare",
     "featured": false,
-    "orderPriority": 560,
+    "orderPriority": 548,
     "pdf": null
   },
   {
@@ -1466,7 +1466,7 @@
     "slug": "shampoo-sper-concentrado-brillo-cermico-350-ml",
     "category": "Carcare",
     "featured": false,
-    "orderPriority": 620,
+    "orderPriority": 608,
     "pdf": null
   },
   {
@@ -1931,7 +1931,7 @@
     "slug": "refrigerante-antifreeze-coolant-50-ibc-1000-litros",
     "category": "Presentaciones",
     "featured": false,
-    "orderPriority": 120,
+    "orderPriority": 118,
     "pdf": null
   },
   {
@@ -1946,7 +1946,7 @@
     "slug": "refrigerante-antifreeze-coolant-50-balde-5-galones-negro",
     "category": "Presentaciones",
     "featured": false,
-    "orderPriority": 120,
+    "orderPriority": 115,
     "pdf": null
   },
   {
@@ -2349,7 +2349,7 @@
     "slug": "shampoo-high-efficiency-5litros",
     "category": "Carcare",
     "featured": false,
-    "orderPriority": 613,
+    "orderPriority": 616,
     "pdf": null
   }
 ,
