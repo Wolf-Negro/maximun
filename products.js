@@ -116,7 +116,7 @@
     "slug": "refrigerante-xtrem-50-para-motos",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 185, "imgZoom": true,
+    "orderPriority": 180, "imgZoom": true,
     "pdf": null
   },
   {
@@ -251,7 +251,7 @@
     "slug": "refrigerante-para-radiador-ice-blue-para-motos",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 190, "imgZoom": true,
+    "orderPriority": 185, "imgZoom": true,
     "pdf": "FICHAS TECNICAS MAXIMUM/ice blue ficha completa.pdf"
   },
   {
@@ -341,7 +341,7 @@
     "slug": "refrigerante-para-radiador-ice-blue-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 160,
+    "orderPriority": 145,
     "pdf": "FICHAS TECNICAS MAXIMUM/ice blue ficha completa.pdf"
   },
   {
@@ -401,7 +401,7 @@
     "slug": "refrigerante-antifreeze-coolant-50-rojo",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 130,
+    "orderPriority": 121,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA COMPLETA DE 50_  11.pdf"
   },
   {
@@ -476,7 +476,7 @@
     "slug": "refrigerante-para-radiador-ice-green-taxi-fresh-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 155,
+    "orderPriority": 140,
     "pdf": "FICHAS TECNICAS MAXIMUM/ice blue ficha completa.pdf"
   },
   {
@@ -596,7 +596,7 @@
     "slug": "refrigerante-para-radiador-ice-orange-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 178,
+    "orderPriority": 170,
     "pdf": "FICHAS TECNICAS MAXIMUM/ice blue ficha completa.pdf"
   },
   {
@@ -656,7 +656,7 @@
     "slug": "refrigerante-antifreeze-coolant-50-verde-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 133,
+    "orderPriority": 124,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA COMPLETA DE 50_  11.pdf"
   },
   {
@@ -686,7 +686,7 @@
     "slug": "refrigerante-para-radiador-ice-dark-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 170,
+    "orderPriority": 160,
     "pdf": "FICHAS TECNICAS MAXIMUM/ice blue ficha completa.pdf"
   },
   {
@@ -716,7 +716,7 @@
     "slug": "refrigerante-para-radiador-ice-violet-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 174,
+    "orderPriority": 165,
     "pdf": "FICHAS TECNICAS MAXIMUM/ice blue ficha completa.pdf"
   },
   {
@@ -731,7 +731,7 @@
     "slug": "refrigerante-antifreeze-coolant-50-verde-balde-5-galones",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 120,
+    "orderPriority": 126,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA COMPLETA DE 50_  11.pdf"
   },
   {
@@ -821,7 +821,7 @@
     "slug": "refrigerante-concentrado-ega964-etilenglicol-aditivado-rojo-reflex",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 145,
+    "orderPriority": 130,
     "pdf": null
   },
   {
@@ -881,7 +881,7 @@
     "slug": "refrigerante-para-radiador-ice-pink-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 166,
+    "orderPriority": 155,
     "pdf": "FICHAS TECNICAS MAXIMUM/ice blue ficha completa.pdf"
   },
   {
@@ -926,7 +926,7 @@
     "slug": "agua-qumicamente-pura-desionizada-y-desmineralizada-1-galn-5-litros",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 203,
+    "orderPriority": 200,
     "pdf": null
   },
   {
@@ -941,7 +941,7 @@
     "slug": "refrigerante-para-radiador-ice-blue-5-galones",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 163,
+    "orderPriority": 150,
     "pdf": "FICHAS TECNICAS MAXIMUM/ice blue ficha completa.pdf"
   },
   {
@@ -956,7 +956,7 @@
     "slug": "agua-qumicamente-pura-aqp-1qg-1-cuarto-de-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 195,
+    "orderPriority": 190,
     "pdf": null
   },
   {
@@ -971,7 +971,7 @@
     "slug": "refrigerante-para-radiador-ice-yellow-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 182,
+    "orderPriority": 175,
     "pdf": "FICHAS TECNICAS MAXIMUM/ice blue ficha completa.pdf"
   },
   {
@@ -1016,7 +1016,7 @@
     "slug": "refrigerante-motor-cool-glpgnv-60-5-galones",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 100,
+    "orderPriority": 96,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE 60_ MAXIMUM (4).pdf"
   },
   {
@@ -1106,7 +1106,7 @@
     "slug": "refrigerante-para-radiador-ice-red-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 150,
+    "orderPriority": 135,
     "pdf": "FICHAS TECNICAS MAXIMUM/ice blue ficha completa.pdf"
   },
   {
@@ -1586,7 +1586,7 @@
     "slug": "motor-cool-refrigerante-y-anticongelante-60-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 97,
+    "orderPriority": 98,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE 60_ MAXIMUM (4).pdf"
   },
   {
@@ -2152,7 +2152,7 @@
     "slug": "antifreeze-coolant-33-verde-reflex-1qt",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 124,
+    "orderPriority": 119,
     "pdf": null
   },
   {
@@ -2165,7 +2165,7 @@
     "slug": "antifreeze-coolant-33-rojo-reflex-1qt",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 121,
+    "orderPriority": 116,
     "pdf": null
   },
   {
@@ -2178,7 +2178,7 @@
     "slug": "antifreeze-coolant-50-verde-reflex-1qt",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 139,
+    "orderPriority": 125,
     "pdf": null
   },
   {
@@ -2191,7 +2191,7 @@
     "slug": "antifreeze-coolant-50-rojo-reflex-1qt",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 136,
+    "orderPriority": 122,
     "pdf": null
   },
   {
@@ -2270,7 +2270,7 @@
     "slug": "antifreeze-coolant-oat-33-verde-reflex-5gal",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 115,
+    "orderPriority": 120,
     "pdf": null
   },
   {
@@ -2283,7 +2283,7 @@
     "slug": "antifreeze-coolant-oat-50-rojo-reflex-5gal",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 121,
+    "orderPriority": 123,
     "pdf": null
   },
   {
@@ -2296,7 +2296,7 @@
     "slug": "motorcoolhd-oat-55-45-rojo-5gal",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 85,
+    "orderPriority": 55,
     "pdf": null
   },
   {
@@ -2309,7 +2309,7 @@
     "slug": "motorcool-60-40-rojo-reflex-glpgnv-1litro",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 101,
+    "orderPriority": 97,
     "pdf": null
   }
 ,
@@ -2323,7 +2323,7 @@
     "slug": "agua-pura-desionizada-1litro",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 199,
+    "orderPriority": 195,
     "pdf": null
   },
   {
@@ -2336,7 +2336,7 @@
     "slug": "agua-pura-desionizada-5litros",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 207,
+    "orderPriority": 205,
     "pdf": null
   },
   {
