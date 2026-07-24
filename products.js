@@ -1790,7 +1790,7 @@
     "nombreOriginal": "Bouquet ASH",
     "nombre": "Aromatizante Maximum Bouquet Ash 100% Orgánico – 46 GR",
     "descripcion": "46 GR",
-    "image": "imgproductos/nuevos/carcare_bouquet_ash_v4.png",
+    "image": "imgproductos/nuevos/carcare_bouquet_ash_v5.png",
     "alt": "Aromatizante Maximum Bouquet Ash 100% Orgánico – 46 GR",
     "status": "valid",
     "slug": "bouquet-ash-ambientador-organico-46-gr",
