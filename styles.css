@@ -143,10 +143,9 @@ img { display:block; max-width:100%; }
   position:sticky; top:0; width:100%;
   height:var(--nav-height); background:var(--red-primary);
   box-shadow:0 2px 12px rgba(0,0,0,.45); z-index:1000;
-  transition:height .35s ease, box-shadow .35s ease;
+  transition:box-shadow .35s ease;
 }
 #main-header.header-scrolled {
-  height:calc(var(--nav-height) * 0.78);
   box-shadow:0 6px 32px rgba(0,0,0,.7);
 }
 #main-header.header-scrolled .header-logo-img {
