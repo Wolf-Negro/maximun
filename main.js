@@ -67,6 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
       <div class="product-info">
         <span class="product-cat">${p.category === 'Carcare' ? 'Car Care' : p.category === 'Químicos de Taller' ? 'Taller' : p.category}</span>
         <h4 class="product-name">${p.nombre}</h4>
+        ${p.descripcion ? `<p class="product-desc">${p.descripcion}</p>` : ''}
         <p class="product-size">Calidad MAXIMUM</p>
         ${downloadHtml}
       </div>
