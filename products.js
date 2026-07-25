@@ -1790,7 +1790,7 @@
     "nombreOriginal": "Bouquet ASH",
     "nombre": "Aromatizante Maximum Bouquet Ash 100% Orgánico – 46 GR",
     "descripcion": "ULTRA BLACK, NEW CAR, CHERRY PLUS, COCO INTENSE, LIMA-LIMÓN, FRESH PLUS, EUCALIPTO PERUANO, MADERA DE MENTA, TUTIFRUTTI, NARANJA-MANDARINA, MELÓN, CHICLE, GREEN APPLE, LOLLIPOP",
-    "image": "imgproductos/nuevos/carcare_bouquet_ash_v6.jpeg",
+    "image": "imgproductos/nuevos/carcare_bouquet_ash_v7.jpeg",
     "alt": "Aromatizante Maximum Bouquet Ash 100% Orgánico – 46 GR",
     "status": "valid",
     "slug": "bouquet-ash-ambientador-organico-46-gr",
@@ -2132,7 +2132,7 @@
   {
     "id": 147,
     "nombre": "Refrigerante Maximum Antifreeze & Coolant OAT 17% Verde Reflex – 1 Litro",
-    "descripcion": "Refrigerante y anticongelante OAT. Listo para usar, no agregar agua. Verde Reflex fluorescente. 1 Qt.",
+    "descripcion": "",
     "image": "imgproductos/nuevos/antifreeze-17-verde-reflex-1qt.png",
     "alt": "Refrigerante Maximum Antifreeze & Coolant OAT 17% Verde Reflex – 1 Litro",
     "status": "valid",
@@ -2145,7 +2145,7 @@
   {
     "id": 148,
     "nombre": "Refrigerante Maximum Antifreeze & Coolant OAT 33% Verde Reflex – 1 Litro",
-    "descripcion": "Refrigerante y anticongelante OAT. Listo para usar, no agregar agua. Verde Reflex fluorescente. 1 Qt.",
+    "descripcion": "",
     "image": "imgproductos/nuevos/antifreeze-33-verde-reflex-1qt.png",
     "alt": "Refrigerante Maximum Antifreeze & Coolant OAT 33% Verde Reflex – 1 Litro",
     "status": "valid",
@@ -2158,7 +2158,7 @@
   {
     "id": 149,
     "nombre": "Refrigerante Maximum Antifreeze & Coolant OAT 33% Rojo Reflex – 1 Litro",
-    "descripcion": "Refrigerante y anticongelante OAT. Listo para usar, no agregar agua. Rojo Reflex fluorescente. 1 Qt.",
+    "descripcion": "",
     "image": "imgproductos/nuevos/antifreeze-33-rojo-reflex-1qt.png",
     "alt": "Refrigerante Maximum Antifreeze & Coolant OAT 33% Rojo Reflex – 1 Litro",
     "status": "valid",
@@ -2171,7 +2171,7 @@
   {
     "id": 150,
     "nombre": "Refrigerante Maximum Antifreeze & Coolant OAT 50% Verde Reflex – 1 Litro",
-    "descripcion": "Refrigerante y anticongelante OAT. Listo para usar, no agregar agua. Verde Reflex fluorescente. 1 Qt.",
+    "descripcion": "",
     "image": "imgproductos/nuevos/antifreeze-50-verde-reflex-1qt.png",
     "alt": "Refrigerante Maximum Antifreeze & Coolant OAT 50% Verde Reflex – 1 Litro",
     "status": "valid",
@@ -2184,7 +2184,7 @@
   {
     "id": 151,
     "nombre": "Refrigerante Maximum Antifreeze & Coolant OAT 50% Rojo Reflex – 1 Litro",
-    "descripcion": "Refrigerante y anticongelante OAT. Listo para usar, no agregar agua. Rojo Reflex fluorescente. 1 Qt.",
+    "descripcion": "",
     "image": "imgproductos/nuevos/antifreeze-50-rojo-reflex-1qt.png",
     "alt": "Refrigerante Maximum Antifreeze & Coolant OAT 50% Rojo Reflex – 1 Litro",
     "status": "valid",
@@ -2197,7 +2197,7 @@
   {
     "id": 144,
     "nombre": "Silicona Líquida Multisuperficies Maximum Siliconax Limón – 285 GR",
-    "descripcion": "Silicon restaurador y protector multi superficies. Tecnología Surface Guard. 285 g.",
+    "descripcion": "",
     "image": "imgproductos/nuevos/siliconax-autobrillo-limon-285g.jpg",
     "alt": "Silicona Líquida Multisuperficies Maximum Siliconax Limón – 285 GR",
     "status": "valid",
@@ -2210,7 +2210,7 @@
   {
     "id": 145,
     "nombre": "Silicona Líquida Multisuperficies Maximum Siliconax Océano – 285 GR",
-    "descripcion": "Silicon restaurador y protector multi superficies. Tecnología Surface Guard. 285 g.",
+    "descripcion": "",
     "image": "imgproductos/nuevos/siliconax-autobrillo-frutal-285g.jpg",
     "alt": "Silicona Líquida Multisuperficies Maximum Siliconax Océano – 285 GR",
     "status": "valid",
@@ -2223,7 +2223,7 @@
   {
     "id": 146,
     "nombre": "Silicona Líquida Multisuperficies Maximum Siliconax Frutal – 285 GR",
-    "descripcion": "Silicon restaurador y protector multi superficies. Tecnología Surface Guard. 285 g.",
+    "descripcion": "",
     "image": "imgproductos/nuevos/siliconax-autobrillo-oceano-285g.jpg",
     "alt": "Silicona Líquida Multisuperficies Maximum Siliconax Frutal – 285 GR",
     "status": "valid",
@@ -2237,7 +2237,7 @@
   {
     "id": 152,
     "nombre": "Refrigerante Maximum Antifreeze & Coolant OAT 17% Verde Reflex – 5 Galones",
-    "descripcion": "Refrigerante y anticongelante OAT. Verde Reflex fluorescente. 5 Galones.",
+    "descripcion": "",
     "image": "imgproductos/nuevos/antifreeze-17-verde-reflex-5gal.png",
     "alt": "Refrigerante Maximum Antifreeze & Coolant OAT 17% Verde Reflex – 5 Galones",
     "status": "valid",
@@ -2250,7 +2250,7 @@
   {
     "id": 153,
     "nombre": "Refrigerante Maximum Antifreeze & Coolant OAT 33% Rojo Reflex – 5 Galones",
-    "descripcion": "Refrigerante y anticongelante OAT. Rojo Reflex fluorescente. 5 Galones.",
+    "descripcion": "",
     "image": "imgproductos/nuevos/antifreeze-33-rojo-reflex-5gal.png",
     "alt": "Refrigerante Maximum Antifreeze & Coolant OAT 33% Rojo Reflex – 5 Galones",
     "status": "valid",
@@ -2263,7 +2263,7 @@
   {
     "id": 154,
     "nombre": "Refrigerante Maximum Antifreeze & Coolant OAT 33% Verde Reflex – 5 Galones",
-    "descripcion": "Refrigerante y anticongelante OAT. Verde Reflex fluorescente. 5 Galones.",
+    "descripcion": "",
     "image": "imgproductos/nuevos/antifreeze-33-verde-reflex-5gal.png",
     "alt": "Refrigerante Maximum Antifreeze & Coolant OAT 33% Verde Reflex – 5 Galones",
     "status": "valid",
@@ -2276,7 +2276,7 @@
   {
     "id": 155,
     "nombre": "Refrigerante Maximum Antifreeze & Coolant OAT 50% Rojo Reflex – 5 Galones",
-    "descripcion": "Refrigerante y anticongelante OAT. Rojo Reflex fluorescente. 5 Galones.",
+    "descripcion": "",
     "image": "imgproductos/nuevos/antifreeze-50-rojo-reflex-5gal.png",
     "alt": "Refrigerante Maximum Antifreeze & Coolant OAT 50% Rojo Reflex – 5 Galones",
     "status": "valid",
@@ -2289,7 +2289,7 @@
   {
     "id": 156,
     "nombre": "Refrigerante Maximum Motor Cool HD OAT 55/45 Rojo – 5 Galones",
-    "descripcion": "Refrigerante Motor Cool HD Heavy Duty en presentación 5 Galones.",
+    "descripcion": "",
     "image": "imgproductos/nuevos/motorcoolhd-rojo-5gal.png",
     "alt": "Refrigerante Maximum Motor Cool HD OAT 55/45 Rojo – 5 Galones",
     "status": "valid",
@@ -2302,7 +2302,7 @@
   {
     "id": 157,
     "nombre": "Refrigerante Maximum Motor Cool 60/40 Rojo Reflex para Vehículos GLP/GNV – 1 Litro",
-    "descripcion": "Refrigerante Motor Cool GLP/GNV en presentación 1 Litro. Rojo Reflex fluorescente.",
+    "descripcion": "",
     "image": "imgproductos/nuevos/motorcool-glpgnv-rojo-1litro.png",
     "alt": "Refrigerante Maximum Motor Cool 60/40 Rojo Reflex para Vehículos GLP/GNV – 1 Litro",
     "status": "valid",
@@ -2316,7 +2316,7 @@
   {
     "id": 158,
     "nombre": "Agua Químicamente Pura Maximum Desionizada y Desmineralizada – 1 LT",
-    "descripcion": "Agua pura desionizada y desmineralizada. Presentación 1 Litro.",
+    "descripcion": "",
     "image": "imgproductos/nuevos/agua-pura-1litro-v2.jpeg",
     "alt": "Agua Químicamente Pura Maximum Desionizada y Desmineralizada – 1 LT",
     "status": "valid",
@@ -2329,7 +2329,7 @@
   {
     "id": 159,
     "nombre": "Agua Químicamente Pura Maximum Desionizada y Desmineralizada – 5 LT",
-    "descripcion": "Agua pura desionizada y desmineralizada. Presentación 5 Litros.",
+    "descripcion": "",
     "image": "imgproductos/nuevos/agua-pura-5litros-v2.jpeg",
     "alt": "Agua Químicamente Pura Maximum Desionizada y Desmineralizada – 5 LT",
     "status": "valid",
@@ -2342,7 +2342,7 @@
   {
     "id": 160,
     "nombre": "Shampoo con Cera Maximum High Efficiency – 5 Litros",
-    "descripcion": "Shampoo con cera de alta eficiencia para lavado profesional. 5 Litros.",
+    "descripcion": "",
     "image": "imgproductos/nuevos/shampoo-high-efficiency-5litros.png",
     "alt": "Shampoo con Cera Maximum High Efficiency – 5 Litros",
     "status": "valid",
