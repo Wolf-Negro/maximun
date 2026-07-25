@@ -1790,7 +1790,7 @@
     "nombreOriginal": "Bouquet ASH",
     "nombre": "Aromatizante Maximum Bouquet Ash 100% Orgánico – 46 GR",
     "descripcion": "ULTRA BLACK, NEW CAR, CHERRY PLUS, COCO INTENSE, LIMA-LIMÓN, FRESH PLUS, EUCALIPTO PERUANO, MADERA DE MENTA, TUTIFRUTTI, NARANJA-MANDARINA, MELÓN, CHICLE, GREEN APPLE, LOLLIPOP",
-    "image": "imgproductos/nuevos/carcare_bouquet_ash_v7.jpeg",
+    "image": "imgproductos/nuevos/carcare_bouquet_ash_v6.jpeg",
     "alt": "Aromatizante Maximum Bouquet Ash 100% Orgánico – 46 GR",
     "status": "valid",
     "slug": "bouquet-ash-ambientador-organico-46-gr",
