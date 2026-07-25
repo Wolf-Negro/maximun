@@ -1196,7 +1196,7 @@
     "slug": "grasa-gralimax-de-litio-multipropsito-200c",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 401,
+    "orderPriority": 402,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA MULTIPROPOSITO (5).pdf"
   },
   {
@@ -1226,7 +1226,7 @@
     "slug": "grasa-gralimax-de-litio-multipropsito-200c",
     "category": "Grasas",
     "featured": false,
-    "orderPriority": 402,
+    "orderPriority": 401,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE GRASA MULTIPROPOSITO (5).pdf"
   },
   {
@@ -1789,8 +1789,8 @@
     "numero": 121,
     "nombreOriginal": "Bouquet ASH",
     "nombre": "Aromatizante Maximum Bouquet Ash 100% Orgánico – 46 GR",
-    "descripcion": "46 GR",
-    "image": "imgproductos/nuevos/carcare_bouquet_ash_v5.png",
+    "descripcion": "ULTRA BLACK, NEW CAR, CHERRY PLUS, COCO INTENSE, LIMA-LIMÓN, FRESH PLUS, EUCALIPTO PERUANO, MADERA DE MENTA, TUTIFRUTTI, NARANJA-MANDARINA, MELÓN, CHICLE, GREEN APPLE, LOLLIPOP",
+    "image": "imgproductos/nuevos/carcare_bouquet_ash_v6.jpeg",
     "alt": "Aromatizante Maximum Bouquet Ash 100% Orgánico – 46 GR",
     "status": "valid",
     "slug": "bouquet-ash-ambientador-organico-46-gr",
