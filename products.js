@@ -1942,7 +1942,7 @@
     "descripcion": "",
     "image": "imgproductos/nuevos/balde-heavy-duty-5gal.png",
     "alt": "Balde Heavy Duty – 5 Galones",
-    "status": "valid",
+    "status": "hidden",
     "slug": "refrigerante-antifreeze-coolant-50-balde-5-galones-negro",
     "category": "Presentaciones",
     "featured": false,
