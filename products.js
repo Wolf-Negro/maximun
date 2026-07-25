@@ -161,7 +161,7 @@
     "slug": "refrigerante-antifreeze-coolant-33-verde",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 118,
+    "orderPriority": 119,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE 33_ MAXIMUM_1.pdf"
   },
   {
@@ -206,7 +206,7 @@
     "slug": "refrigerante-antifreeze-coolant-33-rojo",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 115,
+    "orderPriority": 116,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE 33_ MAXIMUM_1.pdf"
   },
   {
@@ -401,7 +401,7 @@
     "slug": "refrigerante-antifreeze-coolant-50-rojo",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 121,
+    "orderPriority": 122,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA COMPLETA DE 50_  11.pdf"
   },
   {
@@ -536,7 +536,7 @@
     "slug": "refrigerante-motor-cool-60-para-gnvglp-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 95,
+    "orderPriority": 96,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE 60_ MAXIMUM (4).pdf"
   },
   {
@@ -656,7 +656,7 @@
     "slug": "refrigerante-antifreeze-coolant-50-verde-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 124,
+    "orderPriority": 125,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA COMPLETA DE 50_  11.pdf"
   },
   {
@@ -776,7 +776,7 @@
     "slug": "refrigerante-antifreeze-coolant-17-verde-1-galn",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 105,
+    "orderPriority": 108,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE 17_ MAXIMUM_1.pdf"
   },
   {
@@ -1016,7 +1016,7 @@
     "slug": "refrigerante-motor-cool-glpgnv-60-5-galones",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 96,
+    "orderPriority": 97,
     "pdf": "FICHAS TECNICAS MAXIMUM/FICHA TECNICA DE 60_ MAXIMUM (4).pdf"
   },
   {
@@ -2139,7 +2139,7 @@
     "slug": "antifreeze-coolant-17-verde-reflex-1qt",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 108,
+    "orderPriority": 105,
     "pdf": null
   },
   {
@@ -2152,7 +2152,7 @@
     "slug": "antifreeze-coolant-33-verde-reflex-1qt",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 119,
+    "orderPriority": 118,
     "pdf": null
   },
   {
@@ -2165,7 +2165,7 @@
     "slug": "antifreeze-coolant-33-rojo-reflex-1qt",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 116,
+    "orderPriority": 115,
     "pdf": null
   },
   {
@@ -2178,7 +2178,7 @@
     "slug": "antifreeze-coolant-50-verde-reflex-1qt",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 125,
+    "orderPriority": 124,
     "pdf": null
   },
   {
@@ -2191,7 +2191,7 @@
     "slug": "antifreeze-coolant-50-rojo-reflex-1qt",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 122,
+    "orderPriority": 121,
     "pdf": null
   },
   {
@@ -2309,7 +2309,7 @@
     "slug": "motorcool-60-40-rojo-reflex-glpgnv-1litro",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 97,
+    "orderPriority": 95,
     "pdf": null
   }
 ,
