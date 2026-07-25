@@ -725,7 +725,7 @@
     "nombreOriginal": "Antifreeze & Coolant 50% Balde",
     "nombre": "Balde Heavy Duty – 5 Galones",
     "descripcion": "",
-    "image": "imgproductos/nuevos/balde-heavy-duty-5gal.png",
+    "image": "imgproductos/nuevos/balde-heavy-duty-5gal-v2.png",
     "alt": "Balde Heavy Duty – 5 Galones",
     "status": "valid",
     "slug": "refrigerante-antifreeze-coolant-50-verde-balde-5-galones",
