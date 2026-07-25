@@ -1151,7 +1151,7 @@
     "slug": "tambor-maximum-tecnologa-automotriz",
     "category": "Presentaciones",
     "featured": false,
-    "orderPriority": 275,
+    "orderPriority": 293,
     "pdf": null
   },
   {
@@ -1931,7 +1931,7 @@
     "slug": "refrigerante-antifreeze-coolant-50-ibc-1000-litros",
     "category": "Presentaciones",
     "featured": false,
-    "orderPriority": 118,
+    "orderPriority": 294,
     "pdf": null
   },
   {
@@ -1946,7 +1946,7 @@
     "slug": "refrigerante-antifreeze-coolant-50-balde-5-galones-negro",
     "category": "Presentaciones",
     "featured": false,
-    "orderPriority": 115,
+    "orderPriority": 292,
     "pdf": null
   },
   {
