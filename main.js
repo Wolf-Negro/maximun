@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const categoryMap = {
       taller:          ['químicos de taller', 'accesorios', 'frenos', 'agua pura'],
-      otros:           ['otros'],
+      'linea-tester':  ['línea tester'],
       presentaciones:  ['presentaciones'],
     };
 
@@ -150,7 +150,7 @@ document.addEventListener('DOMContentLoaded', () => {
       { label: 'Grasas',         filter: 'grasas' },
       { label: 'Car Care',       filter: 'carcare' },
       { label: 'Presentaciones', filter: 'presentaciones' },
-      { label: 'Otros',          filter: 'otros' },
+      { label: 'Línea Tester',   filter: 'linea-tester' },
     ];
 
     if (filtersContainer && filtersContainer.children.length === 0) {
