@@ -294,7 +294,8 @@ document.addEventListener('DOMContentLoaded', () => {
 // ─── Distributor data per province ──────────────────────────────────────────
 const PROVINCE_DISTRIBUTORS = {
   'PE-LIM': [
-    { name: 'DISTRIB & NEGOCIACIONES DEXARI', contact: 'Javier Serra', phone: '+51 958 561 546' }
+    { name: 'DISTRIB & NEGOCIACIONES DEXARI', contact: 'Javier Serra', phone: '+51 958 561 546' },
+    { name: 'SUMICONP', phone: '+51 933 237 769' }
   ],
   'PE-PIU': [
     { name: 'MECCANO', contact: 'Ernesto Prieto / Iván Prieto / Ana Prieto', phone: '+51 923 414 701 / +51 989 565 004' }
@@ -457,7 +458,7 @@ function initWorldMap() {
   const GRAY = am5.color(0xD8DDE6);
 
   // PE = Perú (rojo), BO/EC/CO = presencia internacional (dorado)
-  const activeCountries  = new Set(['BO', 'EC', 'CO', 'ES', 'FR', 'PT', 'CN', 'US']);
+  const activeCountries  = new Set(['BO', 'EC', 'CO', 'ES', 'FR', 'PT', 'CN', 'US', 'UY']);
   const peruId = 'PE';
 
   const root = am5.Root.new('world-map-container');
