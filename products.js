@@ -2395,15 +2395,15 @@
 ,
   {
     "id": 164,
-    "nombre": "Envase Compacto – 1/4 Galón",
-    "image": "imgproductos/nuevos/envase-compacto-cuarto-galon.png",
+    "nombre": "Envase Compacto 1/4 Galón – Gris Sólido / Blanco Translúcido",
+    "image": "imgproductos/nuevos/envase-compacto-cuartogalon-t1.jpeg",
     "status": "valid",
     "category": "Presentaciones",
     "featured": false,
     "orderPriority": 285,
-    "alt": "Envase Compacto 1/4 Galón",
+    "alt": "Envase Compacto 1/4 Galón Gris Sólido Blanco Translúcido",
     "slug": "envase-compacto-cuarto-galon",
-    "descripcion": "",
+    "descripcion": "Gris Sólido – Blanco Translúcido",
     "pdf": ""
   },
   {
@@ -2434,7 +2434,7 @@
     "pdf": ""
   },
   {
-    "id": 172,
+    "id": 174,
     "nombre": "Grasa de Complejo de Litio Multipropósito Maximum Gralimax HP3 Azul – Balde 2 KG",
     "image": "imgproductos/nuevos/grasa-gralimax-hp3-azul.jpeg",
     "status": "valid",
@@ -2504,7 +2504,7 @@
     "id": 170,
     "nombre": "Envase Compacto – 1/4 Galón",
     "image": "imgproductos/nuevos/envase-compacto-cuarto-galon-2.png",
-    "status": "valid",
+    "status": "hidden",
     "category": "Presentaciones",
     "featured": false,
     "orderPriority": 286,
