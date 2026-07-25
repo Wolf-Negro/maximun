@@ -941,7 +941,7 @@
     "slug": "refrigerante-para-radiador-ice-blue-5-galones",
     "category": "Refrigerantes",
     "featured": false,
-    "orderPriority": 150,
+    "orderPriority": 178,
     "pdf": "FICHAS TECNICAS MAXIMUM/ice blue ficha completa.pdf"
   },
   {
